@@ -46,6 +46,9 @@ public class MarkIndirect {
     }
 
     public CAS process(CAS mainCas) {
+        // first, remove all annotations of this type that are already in the document
+        mainCas = Util.removeAllAnnotationsOfType(mainCas, "de.idsma.rw.rule.RuleIndirect");
+
         // Sentence annotation
         Type sentType = mainCas.getTypeSystem().getType("de.idsma.rw.Sentence");
         // STWWord annotation

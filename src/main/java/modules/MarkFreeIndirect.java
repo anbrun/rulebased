@@ -21,7 +21,7 @@ public class MarkFreeIndirect {
     private Set<String> puncSpec = new HashSet<String>();
 
     public MarkFreeIndirect() throws IOException, URISyntaxException{
-        this.debug = true;
+        this.debug = false;
         this.useAdvIndicator = true;
         this.limit = 2;
         this.fiWords = Util.readWordlistFromURL(Util.getFiWordsList());
@@ -29,6 +29,9 @@ public class MarkFreeIndirect {
     }
 
     public CAS process(CAS mainCas) {
+        // first, remove all annotations of this type that are already in the document
+        mainCas = Util.removeAllAnnotationsOfType(mainCas, "de.idsma.rw.rule.RuleFreeIndirect");
+
         // Sentence annotation
         Type sentType = mainCas.getTypeSystem().getType("de.idsma.rw.Sentence");
         // CabToken annotation

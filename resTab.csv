@@ -1,40 +1,24 @@
 Nr	Sent	score	fi	punc	adv	itj	other	blocked
-0	»Hansei ...	0	0	0	0	0	0	true
-1	»Lisl!«	0	0	1	0	0	0	true
-2	– Dableib'n!	2	0	1	0	0	0	true
-3	Die Wabn ist ein einschichtigs Häuslweib, das sich mit einer                         Stuben voller kleiner Kinderwar, einer alten Geiß und etlichen Kinihasen                         rechtschaffen durchschlägt durch dies armselige Erdenleben, indes ihr                         Lehrschneider draußen im Lothringischen einem Häuflein gefallener                         Landsturmleute treue Kameradschaft hält – irgendwo in einer fremden                         Grabstatt drin.	3	0	0	3	0	0	true
-4	Sepp ...«	0	0	0	0	0	0	true
-5	»Gelt's Good.«	0	0	0	0	0	0	true
-6	– D' Hauptsach kimmt – d' Osteroar!«	0	0	1	0	0	0	true
-7	Auf dem Tisch steht nun die Schüssel mit den                         Nudeln und Krapfen, und die Mägde bringen dazu den Kaffee.	1	0	0	1	0	0	false
-8	Grad hockt sie hinten in der Schupfe auf einem niedern Schemel –                         die Lehrschneiderwabn – und melkt ihre Armeleutkuh; drin in der Stube balgen                         sich die Buben mit den Maidln, eins schreit in der Wiegen und ein anderes                         auf dem Boden, – da kommt die Reiserin zur Tür herein.	3	0	0	3	0	0	true
-9	Die Reiserin stellt mit leerem Blick die Schüssel ihres Girg                         zurück auf den Tisch – blickt unsicher über die versammelten Leute hin – und                         sieht die drei Franzosen bei der Tür stehen.	0	0	0	0	0	0	true
-10	»Nandl!«	0	0	1	0	0	0	true
-11	Nun stehen zehn Schüsseln auf dem Tisch, und die Bäuerin beginnt                         – so wie sie es gewohnt seit langer Zeit – die Verteilung, jedem sein                         »Gelegtes« in der Schüssel darreichend, die von jeher für ihn bestimmt ist;                         dem mit einer gemalten Blume eine – dem anderen mit einem Spruch darauf –                         diesem eine blaue oder rote – dem anderen wieder eine weiße.	4	0	0	4	0	0	true
-12	Der alte Reiser besprengt den Schinken mit Weihbrunn,  verbrennt geweihten Palm, streut die Asche                         über den Tisch und sagt: »Alsdann, eßt's und seid's gern da; insa Herr is aa                         wieder da.«	5	0	0	5	0	0	true
-13	Wortlos, zaudernd schier steht sie still; ihr                         leerer Blick irrt scheu und fremd über das kleine Häuflein Elend hin, – dann                         tritt sie rasch an den Tisch und leert ihr Fürtuch aus.	1	0	0	1	0	0	true
-14	»Ja so«, murmelt sie; »es is ja Kriag.« –	2	2	0	2	0	0	true
-15	Die Stalldirn sagt ihr Dankwort.	0	0	0	0	0	0	false
-16	»Vater!«	0	0	1	0	0	0	true
-17	Und dann kommt die Reiserin mit den Eierschüsseln.	1	0	0	1	0	0	false
-18	Da am Tisch stehen die Eier der Reiserbuben.	1	0	0	1	0	0	false
-19	Und dann kommt der Ochsenbub daran – und danach das                         Gänsdirndl.	1	0	0	1	0	0	true
-20	Die Reiserin reicht ihrem alten Schwiegervater als erstem sein                         Gelegtes.	0	0	0	0	0	0	false
-21	Die Stallmagd und das Gänsdirndl helfen ihr beim Tragen, indes                         die Franzosen schweigend ihre Kaffeesuppe auslöffeln und danach vom Tisch                         aufstehen.	1	0	0	1	0	0	false
-22	Drei Franzosen.	0	0	0	0	0	0	false
-23	Und dann hat die Reiserin noch drei Schüsseln vor sich stehen –                         drei bemalte – die von ihren drei Reiserbuben.	2	0	0	2	0	0	true
-24	»Reiser!«	0	0	1	0	0	0	true
-25	Da sagt der Alte; »He da!	7	0	1	2	1	0	true
-26	– Drei Schüsseln.	0	0	0	0	0	0	true
-27	Wie vordem die Perlen am Rosenkranz, so fielen gleichmäßig alter                         Gewohnheit nach die Namen eines jeden im Haus.	2	0	0	2	0	0	false
-28	Stumpfsinnig betrachtet der Bauer seine Ostergabe.	0	0	0	0	0	0	false
-29	Schamberle!	2	0	1	0	0	0	false
-30	– Die Hand zuckt ihr ...	0	0	0	0	0	0	true
-31	Und jetzt hebt die Reiserin eine von den                         bemalten Schüsseln – und sagt mit singender Stimme, so wie sie es tat Jahr                         um Jahr, so lang sie denken konnte als das Eheweib des Reiserbauern – sagt:                         »Girgei ...«	3	1	0	3	0	0	true
-32	»Michl!«	0	0	1	0	0	0	true
-33	Alfons!	2	0	1	0	0	0	false
-34	Dann greift sie nach dem Körblein mit                         den siebenundzwanzig Eiern von heut, gibt's den Gefangenen mit weggewandten                         Augen hin und sagt: »Da ... teilt's es enk.«	3	1	0	3	0	0	true
-35	Erschrecken malt sich auf allen Gesichtern.	0	0	0	0	0	0	false
-36	Der Oberknecht bedankt sich: »Gelt's Good, Reiserin!«	0	0	1	0	0	0	true
-37	Goliat!	2	0	1	0	0	0	false
-38	Und nimmt danach die Schüsseln                         ihrer gefallenen Söhne in die Schürze und eilt hinaus, hinunter in die Hütte                         der Lehrschneiderwabn.	0	0	0	0	0	0	false
+0	Und doch legte er damit bereits den Beweis ab, daß seine Lehrzeit trotz der                         verlornen Jahre seiner Jugend beendigt war.	2	0	0	2	0	0	false
+1	Für sein erstes Bild, eine Überschwemmung, welche noch in dem idealen Stile                         der ältern Münchener Schule komponirt war, erhielt er einen von der ungarischen                         Regierung ausgesetzten Preis, und dieselbe Auszeichnung wurde ihm noch zweimal für zwei aus dem ungarischen Volksleben herausgegriffene Genrebilder, die                         „Schmückung einer Braut" und die „Einladung zur Hochzeit," zu teil.	3	0	0	3	0	0	true
+2	Keine falsche Sentimentalität, kein unwahres Pathos,                         nichts Komödiantenhaftes.	0	0	0	0	0	0	false
+3	In dem elenden Kerker eines ungarischen Städtchens sitzt der                         Verurteilte an einem Tische, auf welchem seine Mahlzeit, vielleicht seine letzte,                         und zwei brennende Kerzen stehen.	1	0	0	1	0	0	false
+4	Zu einem systematischen Akademiestudinm kam Munkacsy in                         Pest nicht.	0	0	0	0	0	0	false
+5	Wir meinen die Lehrzeit im                         eigentlichen Sinne des Wortes als die Zeit des Strebens nach technischer Ge- 	2	1	0	0	0	0	true
+6	Dadurch                         gewann er die Mittel, sich in Düsseldorf weiterzubilden, wohin ihn besonders                         der Ruf von Kraus und Vautier zog.	1	0	0	1	0	0	false
+7	Dazu kamen der tiefe Ernst der Empfindung, welcher                         die ganze Komposition durchdrang, und der ungewöhnliche, fremdartige Stoff, und                         so fehlte es dem Bilde schon in Düsseldorf nicht an einem großen Erfolge.	4	1	0	2	0	0	false
+8	Er starrt in finsterm Brüten vor sich hin,                         während sein Weib und seine Kinder hinter ihm wehklagen.	0	0	0	0	0	0	false
+9	Er malte auf eigne Hand Bilder, und als er sich dadurch eine                         kleine Summe erworben hatte, ging er nach Wien zu Rahl, der damals viele                         Schüler um sich versammelte und der auch Thans Lehrer gewesen war.	2	0	0	2	0	0	false
+10	wandtheit und nach originalem Ausdruck.	0	0	0	0	0	0	false
+11	Nach ihrem Vorbilde wollte er das                         wenig gekannte Volksleben seiner Heimat schildern, und nach einigen Versuchen                         fand er auch ein sehr dankbares Motiv.	2	0	0	2	0	0	false
+12	Sechs Jahre lang blieb er bei diesem Handwerk.	0	0	0	0	0	0	false
+13	Von der Gasse                         sind Männer und Frauen in den halbdunkeln Raum geströmt und mustern den                         armen Sünder mit neugierigen oder ängstlichen Blicken.	0	0	0	0	0	0	false
+14	Bald                         nach Munkacsys Ankunft in Wien starb Rahl, und da kein andrer Meister den                         jungen Ungarn an Wien fesselte und er auch keine Aufnahme in die Akademie                         fand, so setzte er seinen Wanderstab weiter und ging nach München.	4	0	0	4	0	0	false
+15	Der wahre Künstler lernt, wenn er                         nicht frühzeitig zum Manieristen werden will, bekanntlich niemals aus, und auch                         Munkacsy hat in den anderthalb Jahrzehnten, welche seit der Vollendung jenes                         Bildes verflossen sind, noch mehrere Wandlungen durchgemacht.	4	0	0	4	0	0	false
+16	Das ungarische Gesetz gestattet es,                         daß ein zum Tode Verurteilter vor seiner Hinrichtung von Angehörigen, Verwandten und Bekannten besucht werden darf.	0	0	0	0	0	0	false
+17	Dann                         besserte sich die Lage seines Onkels wieder, und Munkacsy durfte seiner Neigung                         zur Kunst folgen.	2	0	0	2	0	0	false
+18	Munkacsy war erst                         fünfundzwanzig Jahre alt, als er diese „Letzten Tage eines Verurteilten" vollendete.	1	0	0	1	0	0	true
+19	Hier                         gelang es ihm nicht nur, in die Malklasse der Akademie aufgenommen zu werden,                         sondern er fand auch bei dem Kriegsmaler Franz Adam wirksame Förderung.	5	1	0	3	0	0	false
+20	Was jene Szene aus dem Kerker auszeichnete, war vor allen Dingen die                         ergreifende Charakteristik, die sich bei aller Energie in den Grenzen der Wahrheit und Natürlichkeit hielt.	0	0	0	0	0	0	false
+21	Einen solchen Moment stellte                         Munkacsy dar.	0	0	0	0	0	0	false
+22	Er begann seine künstlerische Laufbahn bei einem Maler                         namens Szamozy in Gyula und ging dann, nachdem er durch einige Proben                         seine Begabung bewiesen hatte, nach Pest, wo er zwar nicht die Akademie besuchte, aber doch von den damals maßgebenden Künstlern Than und Ligeti                         unterwiesen wurde.	5	0	0	5	0	0	false

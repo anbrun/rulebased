@@ -20,6 +20,8 @@ public class MarkFrame {
     Set<AnnotationFS> toRemove = new HashSet<>();
 
     public CAS process(CAS mainCas) {
+        // first, remove all annotations of this type that are already in the document
+        mainCas = Util.removeAllAnnotationsOfType(mainCas, "de.idsma.rw.rule.RuleFrame");
         // toRemove needs to be empty whenever a process task starts
         // otherwise there will be problems when processing multiple documents
         toRemove = new HashSet<>();
@@ -114,7 +116,7 @@ public class MarkFrame {
 
         List<AnnotationFS> tokBefore = CasUtil.selectPreceding(mainCas, cabTokenType,
                 stwWord, 2);
-        System.out.println("Tok before: " + tokBefore);
+        //System.out.println("Tok before: " + tokBefore);
         boolean matchFound = false;
         if (tokBefore.size() == 2) {
             // 1) " , sagte

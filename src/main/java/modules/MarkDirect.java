@@ -9,30 +9,37 @@ import org.apache.uima.fit.util.CasUtil;
 import java.util.*;
 
 public class MarkDirect {
-    public static String openingQuot = "»";
-    public static String closingQuot = "«";
+    public static String[] openingQuot = {"»", "“", "‘", "›", "„"};
+    public static String[] closingQuot = {"«", "”", "’", "‹", "\""};
     boolean debug = true;
+    List<String> open;
+    List<String> close;
+
+
+    public MarkDirect() {
+        open = Arrays.asList(MarkDirect.openingQuot);
+        close = Arrays.asList(MarkDirect.closingQuot);
+    }
 
     public CAS process(CAS mainCas) {
         // CabTokens
         Type cabTokenType = mainCas.getTypeSystem().getType("de.idsma.rw.CabToken");
         Iterator<AnnotationFS> tokiter = CasUtil.iterator(mainCas, cabTokenType);
-
         AnnotationFS quotStart = null;
         while (tokiter.hasNext()) {
             AnnotationFS tok = tokiter.next();
             if (debug) {
-                System.out.println("currTok: " + tok.getCoveredText());
+                //System.out.println("currTok: " + tok.getCoveredText());
             }
 
-            if (tok.getCoveredText().equals(MarkDirect.openingQuot)) {
+            if (this.open.contains(tok.getCoveredText())) {
                 quotStart = tok;
                 if (debug) {
                     System.out.println("Opening Quote found: " + tok.getCoveredText() + " at " + tok.getBegin());
                 }
             }
             else {
-                if (tok.getCoveredText().equals(MarkDirect.closingQuot)) {
+                if (this.close.contains(tok.getCoveredText())) {
                     if (debug) {
                         System.out.println("Closing Quote found: " + tok.getCoveredText() + " at " + tok.getBegin());
                     }

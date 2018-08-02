@@ -49,6 +49,9 @@ public class MarkSTWWords {
 
 
     public CAS process(CAS mainCas){
+        // first, remove all annotations of this type that are already in the document
+        mainCas = Util.removeAllAnnotationsOfType(mainCas, "de.idsma.rw.rule.StwWord");
+
         // get the CabToken annotation
         Type cabTokType = mainCas.getTypeSystem().getType("de.idsma.rw.CabToken");
         AnnotationIndex<AnnotationFS> cabTokTypeIndex = mainCas.getAnnotationIndex(cabTokType);

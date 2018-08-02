@@ -1,5 +1,9 @@
 package util;
 
+import org.apache.uima.cas.CAS;
+import org.apache.uima.cas.Type;
+import org.apache.uima.cas.text.AnnotationFS;
+import org.apache.uima.cas.text.AnnotationIndex;
 import org.apache.uima.fit.factory.TypeSystemDescriptionFactory;
 import org.apache.uima.resource.metadata.TypeSystemDescription;
 
@@ -8,12 +12,30 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.*;
 import java.io.File;
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 import org.apache.commons.io.FileUtils;
 
 public class Util {
+
+    public static CAS removeAllAnnotationsOfType(CAS mainCas, String typeName) {
+        Type myType = mainCas.getTypeSystem().getType(typeName);
+        // remove sent and text annotations if they exist already
+        // (must create a list first, because uima does not allow removing annos
+        // while iterating over the annotation index)
+        AnnotationIndex<AnnotationFS> myTypeIndex = mainCas.getAnnotationIndex(myType);
+        List<AnnotationFS> myList = new ArrayList<>();
+        for (AnnotationFS anno : myTypeIndex) {
+            myList.add(anno);
+        }
+        for (AnnotationFS anno : myList) {
+            mainCas.removeFsFromIndexes(anno);
+        }
+        return mainCas;
+    }
 
 
     public static TypeSystemDescription getStandardTypesystem(){
