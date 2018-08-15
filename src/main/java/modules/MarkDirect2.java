@@ -106,7 +106,7 @@ public class MarkDirect2 {
         text = this.annotateQuotPattern(MarkDirect2.quote_english, text, mainCas);
         text = this.annotateQuotPattern(MarkDirect2.quote_english_single, text, mainCas);
         text = this.annotateQuotPattern(MarkDirect2.quote_german_bottom_english_end, text, mainCas);
-        System.out.println(text);
+        //System.out.println(text);
 
         return mainCas;
     }

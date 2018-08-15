@@ -14,6 +14,7 @@ import java.net.URISyntaxException;
 
 import util.Util;
 import modules.*;
+import java.util.*;
 
 public class Main {
 
@@ -33,9 +34,11 @@ public class Main {
 //        MarkFreeIndirect markFreeIndirect = new MarkFreeIndirect();
 //        MarkDirect markDirect = new MarkDirect();
 //        MarkFrame markFrame = new MarkFrame();
+        ExtractNounGenitive extractNounGenitive = new ExtractNounGenitive();
 
         MarkDirect2 markDirect2 = new MarkDirect2();
 
+        List<String> ngens = new ArrayList<>();
         for (File f : inFolder.listFiles()) {
             if (!f.getName().endsWith(".xmi"))
                 continue;
@@ -48,19 +51,22 @@ public class Main {
             //mainCas = markFrame.process(mainCas);
             //mainCas = markIndirect.process(mainCas);
             //mainCas = markFreeIndirect.process(mainCas);
-            mainCas = markDirect2.process(mainCas);
+            //mainCas = markDirect2.process(mainCas);
+            ngens.addAll(extractNounGenitive.extract(mainCas));
+
 
             FileOutputStream outStream = new FileOutputStream(new File(outFolder + "/" + f.getName()));
             XmiCasSerializer.serialize(mainCas, outStream);
         }
+        System.out.println(ngens);
     }
 
     public static void main(String[] args) {
-        //String infolder = "E:\\Git_RW\\myrepo\\7_final\\final\\alle_metaclean_preproc";
-        //String outfolder = "E:\\Git_RW\\myrepo\\7_final\\final\\alle_rulebased_newdirect";
-
         String infolder = "E:\\Git_RW\\myrepo\\7_final\\final\\test_preproc";
-        String outfolder = "E:\\Git_RW\\myrepo\\7_final\\final\\test_rulebased";
+        String outfolder = "E:\\Git_RW\\myrepo\\7_final\\final\\test_preproc_bla";
+
+        //String infolder = "E:\\Git_RW\\myrepo\\7_final\\final\\test_preproc";
+        //String outfolder = "E:\\Git_RW\\myrepo\\7_final\\final\\test_rulebased";
 
         Main main = new Main();
         try {
