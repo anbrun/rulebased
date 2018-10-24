@@ -29,11 +29,12 @@ public class Main {
         }
 
         // initialize the rule-based components that should be used
-//        MarkSTWWords markSTWWords = new MarkSTWWords();
-//        MarkIndirect markIndirect = new MarkIndirect();
-//        MarkFreeIndirect markFreeIndirect = new MarkFreeIndirect();
-//        MarkDirect markDirect = new MarkDirect();
-//        MarkFrame markFrame = new MarkFrame();
+        MarkSTWWords markSTWWords = new MarkSTWWords();
+        MarkIndirect markIndirect = new MarkIndirect();
+        MarkFreeIndirect markFreeIndirect = new MarkFreeIndirect();
+        MarkDirect markDirect = new MarkDirect();
+        MarkFrame markFrame = new MarkFrame();
+        MarkFreeIndirectIndicators markFreeIndirectIndicators = new MarkFreeIndirectIndicators();
         ExtractNounGenitive extractNounGenitive = new ExtractNounGenitive();
 
         MarkDirect2 markDirect2 = new MarkDirect2();
@@ -47,11 +48,12 @@ public class Main {
             // will remove any annotation that is not part of the RWTypesystem
             XmiCasDeserializer.deserialize(new FileInputStream(f), mainCas, true);
 
-            //mainCas = markSTWWords.process(mainCas);
-            //mainCas = markFrame.process(mainCas);
+            mainCas = markSTWWords.process(mainCas);
+            mainCas = markFrame.process(mainCas);
             //mainCas = markIndirect.process(mainCas);
-            //mainCas = markFreeIndirect.process(mainCas);
-            //mainCas = markDirect2.process(mainCas);
+            mainCas = markFreeIndirect.process(mainCas);
+            mainCas = markDirect2.process(mainCas);
+            mainCas = markFreeIndirectIndicators.process(mainCas);
             ngens.addAll(extractNounGenitive.extract(mainCas));
 
 
@@ -62,8 +64,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        String infolder = "E:\\Git_RW\\myrepo\\7_final\\final\\test_preproc";
-        String outfolder = "E:\\Git_RW\\myrepo\\7_final\\final\\test_preproc_bla";
+        String infolder = "C:\\Users\\Tu.IDS-DOM\\Desktop\\luebbe\\xmi_preprocessed";
+        String outfolder = "C:\\Users\\Tu.IDS-DOM\\Desktop\\luebbe\\xmi_annotated";
 
         //String infolder = "E:\\Git_RW\\myrepo\\7_final\\final\\test_preproc";
         //String outfolder = "E:\\Git_RW\\myrepo\\7_final\\final\\test_rulebased";
