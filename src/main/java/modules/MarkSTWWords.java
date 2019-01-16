@@ -17,6 +17,7 @@ public class MarkSTWWords {
     private Boolean debug;
     private File fileSTWWords;
     private int penaltyLevel;
+    String tokenKind = "no_cab";
 
 
     // collection of stwwords
@@ -32,7 +33,7 @@ public class MarkSTWWords {
     public MarkSTWWords() throws IOException, URISyntaxException {
         this.debug = false;
         this.fileSTWWords = Util.getSTWWordList();
-        this.penaltyLevel = 5;
+        this.penaltyLevel = 1;
 
         System.out.println("FILE; " + this.fileSTWWords.getAbsolutePath());
         readWordList();
@@ -57,6 +58,11 @@ public class MarkSTWWords {
         AnnotationIndex<AnnotationFS> cabTokTypeIndex = mainCas.getAnnotationIndex(cabTokType);
         Feature cabLemma = cabTokType.getFeatureByBaseName("Lemma");
 
+        // get the Token annotation
+        Type tokenType = mainCas.getTypeSystem().getType("de.idsma.rw.preprocessing.Token");
+        AnnotationIndex<AnnotationFS> tokTypeIndex = mainCas.getAnnotationIndex(tokenType);
+        Feature lemmaFeat = tokenType.getFeatureByBaseName("Lemma");
+
         // get the STWWord annotation
         Type stwwType = mainCas.getTypeSystem().getType("de.idsma.rw.rule.StwWord");
         Feature stwwLemma =  stwwType.getFeatureByBaseName("Lemma");
@@ -64,26 +70,49 @@ public class MarkSTWWords {
         Feature stwwMedium = stwwType.getFeatureByBaseName("Medium");
         Feature stwwMarker = stwwType.getFeatureByBaseName("Marker");
 
-
-        for (AnnotationFS tok : cabTokTypeIndex) {
+        if (tokenKind.equals("cab")){
+            for (AnnotationFS tok : cabTokTypeIndex) {
 
 //            if (this.debug) {
 //                System.out.println("Curr Token: '" + tok.getCoveredText() + "' Lemma: '"
 //                        +  tok.getFeatureValueAsString(cabLemma) + "'");
 //            }
-            String lemmaVal = tok.getFeatureValueAsString(cabLemma);
-            if (stwWords.contains(lemmaVal)) {
-                int pos = stwWords.indexOf(lemmaVal);
-                AnnotationFS stwwAnno = mainCas.createAnnotation(stwwType, tok.getBegin(), tok.getEnd());
-                stwwAnno.setFeatureValueFromString(stwwPenalty, this.stwWordsPenalty.get(pos).toString());
-                stwwAnno.setFeatureValueFromString(stwwMedium, this.stwWordsCat.get(pos));
-                stwwAnno.setFeatureValueFromString(stwwMarker, this.stwWordsMark.get(pos));
-                mainCas.addFsToIndexes(stwwAnno);
+                String lemmaVal = tok.getFeatureValueAsString(cabLemma);
+                if (stwWords.contains(lemmaVal)) {
+                    int pos = stwWords.indexOf(lemmaVal);
+                    AnnotationFS stwwAnno = mainCas.createAnnotation(stwwType, tok.getBegin(), tok.getEnd());
+                    stwwAnno.setFeatureValueFromString(stwwPenalty, this.stwWordsPenalty.get(pos).toString());
+                    stwwAnno.setFeatureValueFromString(stwwMedium, this.stwWordsCat.get(pos));
+                    stwwAnno.setFeatureValueFromString(stwwMarker, this.stwWordsMark.get(pos));
+                    mainCas.addFsToIndexes(stwwAnno);
 
-                if (this.debug) {
-                    System.out.println("This Token: " + tok.getCoveredText() + " was annotated");
+                    if (this.debug) {
+                        System.out.println("This Token: " + tok.getCoveredText() + " was annotated");
+                    }
+
                 }
+            }
+        }else if (tokenKind.equals("no_cab")){
+            for (AnnotationFS tok : tokTypeIndex) {
 
+//            if (this.debug) {
+//                System.out.println("Curr Token: '" + tok.getCoveredText() + "' Lemma: '"
+//                        +  tok.getFeatureValueAsString(cabLemma) + "'");
+//            }
+                String lemmaVal = tok.getFeatureValueAsString(lemmaFeat);
+                if (stwWords.contains(lemmaVal)) {
+                    int pos = stwWords.indexOf(lemmaVal);
+                    AnnotationFS stwwAnno = mainCas.createAnnotation(stwwType, tok.getBegin(), tok.getEnd());
+                    stwwAnno.setFeatureValueFromString(stwwPenalty, this.stwWordsPenalty.get(pos).toString());
+                    stwwAnno.setFeatureValueFromString(stwwMedium, this.stwWordsCat.get(pos));
+                    stwwAnno.setFeatureValueFromString(stwwMarker, this.stwWordsMark.get(pos));
+                    mainCas.addFsToIndexes(stwwAnno);
+
+                    if (this.debug) {
+                        System.out.println("This Token: " + tok.getCoveredText() + " was annotated");
+                    }
+
+                }
             }
         }
         return mainCas;
