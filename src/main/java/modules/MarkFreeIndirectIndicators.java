@@ -34,7 +34,7 @@ public class MarkFreeIndirectIndicators {
 
     public CAS process(CAS mainCas) {
 
-        String tokenKind = "no_cab";
+        String tokenKind = "cab";
         // first, remove all annotations of this type that are already in the document
         //mainCas = Util.removeAllAnnotationsOfType(mainCas, "de.idsma.rw.Stwr");
 
@@ -277,7 +277,7 @@ public class MarkFreeIndirectIndicators {
                         }
 
                         if (firstPersonFlag == false) {
-                            if (punctuationCharList.contains(sentenceAnno.getCoveredText().charAt(sentenceAnno.getCoveredText().length() - 1))) {
+                            if (sentenceAnno.getCoveredText().length() > 1 && punctuationCharList.contains(sentenceAnno.getCoveredText().charAt(sentenceAnno.getCoveredText().length() - 1))) {
                                 if (!(CasUtil.selectPreceding(mainCas, dirType, sentenceAnno, 1).isEmpty() && CasUtil.selectFollowing(mainCas, dirType, sentenceAnno, 1).isEmpty())
                                         && (!(CasUtil.selectPreceding(mainCas, frameType, sentenceAnno, 1).isEmpty() && CasUtil.selectFollowing(mainCas, frameType, sentenceAnno, 1).isEmpty()))) {
                                     AnnotationFS freeIndirectIndicatorAnno = mainCas.createAnnotation(stwrType, sentenceAnno.getBegin(), sentenceAnno.getEnd());

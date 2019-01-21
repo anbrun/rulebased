@@ -109,13 +109,13 @@ public class MarkDirect2 {
         //this.occuranceCheck(mainCas.getDocumentText());
 
         String text = this.annotateQuotPattern(MarkDirect2.quote_switched_french, mainCas.getDocumentText(), mainCas);
-        //text = this.annotateQuotPattern(MarkDirect2.quote_switched_french_single, text, mainCas);
-        //text = this.annotateQuotPattern(MarkDirect2.quote_english, text, mainCas);
-        //text = this.annotateQuotPattern(MarkDirect2.quote_english_single, text, mainCas);
-        //text = this.annotateQuotPattern(MarkDirect2.quote_german_bottom_english_end, text, mainCas);
-        //text = this.annotateQuotPattern(MarkDirect2.quote_html_single, text, mainCas);
-        //text = this.annotateQuotPattern(MarkDirect2.quote_german, text, mainCas);
-        //text = this.annotateQuotPattern(MarkDirect2.quote_german_single, text, mainCas);
+        text = this.annotateQuotPattern(MarkDirect2.quote_switched_french_single, text, mainCas);
+        text = this.annotateQuotPattern(MarkDirect2.quote_english, text, mainCas);
+        text = this.annotateQuotPattern(MarkDirect2.quote_english_single, text, mainCas);
+        text = this.annotateQuotPattern(MarkDirect2.quote_german_bottom_english_end, text, mainCas);
+        text = this.annotateQuotPattern(MarkDirect2.quote_html_single, text, mainCas);
+        text = this.annotateQuotPattern(MarkDirect2.quote_german, text, mainCas);
+        text = this.annotateQuotPattern(MarkDirect2.quote_german_single, text, mainCas);
         //System.out.println(text);
 
         return mainCas;

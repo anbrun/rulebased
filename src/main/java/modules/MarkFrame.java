@@ -16,7 +16,7 @@ public class MarkFrame {
     private Boolean removeSTWWord = false;
     private Boolean debug = true;
     private int penaltyLevel = 5;
-    String tokenKind = "no_cab";
+    String tokenKind = "cab";
 
     Set<AnnotationFS> toRemove = new HashSet<>();
 
@@ -100,7 +100,7 @@ public class MarkFrame {
             String position = "start";
             //Tokens
             Type tokenType = mainCas.getTypeSystem().getType("de.idsma.rw.preprocessing.Token");
-            Feature ttPosFeat = tokenType.getFeatureByBaseName("TtPos");
+            Feature ttPosFeat = tokenType.getFeatureByBaseName("Pos");
 
             List<AnnotationFS> toklist = CasUtil.selectFollowing(mainCas, tokenType,
                     stwWord, 2);
@@ -167,7 +167,7 @@ public class MarkFrame {
         }else if (tokenKind.equals("no_cab")){
             String position = "end";
             Type tokenType = mainCas.getTypeSystem().getType("de.idsma.rw.preprocessing.Token");
-            Feature ttPosFeat = tokenType.getFeatureByBaseName("TtPos");
+            Feature ttPosFeat = tokenType.getFeatureByBaseName("Pos");
 
 
             List<AnnotationFS> tokBefore = CasUtil.selectPreceding(mainCas, tokenType,
@@ -240,7 +240,7 @@ public class MarkFrame {
             String position = "end";
 
             Type tokenType = mainCas.getTypeSystem().getType("de.idsma.rw.preprocessing.Token");
-            Feature ttPosFeat = tokenType.getFeatureByBaseName("TtPos");
+            Feature ttPosFeat = tokenType.getFeatureByBaseName("Pos");
 
 
             List<AnnotationFS> tokAfter = CasUtil.selectFollowing(mainCas, tokenType,
