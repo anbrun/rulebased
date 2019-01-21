@@ -1,24 +1,1046 @@
 Nr	Sent	score	fi	punc	adv	itj	other	blocked
-0	Und doch legte er damit bereits den Beweis ab, daß seine Lehrzeit trotz der                         verlornen Jahre seiner Jugend beendigt war.	2	0	0	2	0	0	false
-1	Für sein erstes Bild, eine Überschwemmung, welche noch in dem idealen Stile                         der ältern Münchener Schule komponirt war, erhielt er einen von der ungarischen                         Regierung ausgesetzten Preis, und dieselbe Auszeichnung wurde ihm noch zweimal für zwei aus dem ungarischen Volksleben herausgegriffene Genrebilder, die                         „Schmückung einer Braut" und die „Einladung zur Hochzeit," zu teil.	3	0	0	3	0	0	true
-2	Keine falsche Sentimentalität, kein unwahres Pathos,                         nichts Komödiantenhaftes.	0	0	0	0	0	0	false
-3	In dem elenden Kerker eines ungarischen Städtchens sitzt der                         Verurteilte an einem Tische, auf welchem seine Mahlzeit, vielleicht seine letzte,                         und zwei brennende Kerzen stehen.	1	0	0	1	0	0	false
-4	Zu einem systematischen Akademiestudinm kam Munkacsy in                         Pest nicht.	0	0	0	0	0	0	false
-5	Wir meinen die Lehrzeit im                         eigentlichen Sinne des Wortes als die Zeit des Strebens nach technischer Ge- 	2	1	0	0	0	0	true
-6	Dadurch                         gewann er die Mittel, sich in Düsseldorf weiterzubilden, wohin ihn besonders                         der Ruf von Kraus und Vautier zog.	1	0	0	1	0	0	false
-7	Dazu kamen der tiefe Ernst der Empfindung, welcher                         die ganze Komposition durchdrang, und der ungewöhnliche, fremdartige Stoff, und                         so fehlte es dem Bilde schon in Düsseldorf nicht an einem großen Erfolge.	4	1	0	2	0	0	false
-8	Er starrt in finsterm Brüten vor sich hin,                         während sein Weib und seine Kinder hinter ihm wehklagen.	0	0	0	0	0	0	false
-9	Er malte auf eigne Hand Bilder, und als er sich dadurch eine                         kleine Summe erworben hatte, ging er nach Wien zu Rahl, der damals viele                         Schüler um sich versammelte und der auch Thans Lehrer gewesen war.	2	0	0	2	0	0	false
-10	wandtheit und nach originalem Ausdruck.	0	0	0	0	0	0	false
-11	Nach ihrem Vorbilde wollte er das                         wenig gekannte Volksleben seiner Heimat schildern, und nach einigen Versuchen                         fand er auch ein sehr dankbares Motiv.	2	0	0	2	0	0	false
-12	Sechs Jahre lang blieb er bei diesem Handwerk.	0	0	0	0	0	0	false
-13	Von der Gasse                         sind Männer und Frauen in den halbdunkeln Raum geströmt und mustern den                         armen Sünder mit neugierigen oder ängstlichen Blicken.	0	0	0	0	0	0	false
-14	Bald                         nach Munkacsys Ankunft in Wien starb Rahl, und da kein andrer Meister den                         jungen Ungarn an Wien fesselte und er auch keine Aufnahme in die Akademie                         fand, so setzte er seinen Wanderstab weiter und ging nach München.	4	0	0	4	0	0	false
-15	Der wahre Künstler lernt, wenn er                         nicht frühzeitig zum Manieristen werden will, bekanntlich niemals aus, und auch                         Munkacsy hat in den anderthalb Jahrzehnten, welche seit der Vollendung jenes                         Bildes verflossen sind, noch mehrere Wandlungen durchgemacht.	4	0	0	4	0	0	false
-16	Das ungarische Gesetz gestattet es,                         daß ein zum Tode Verurteilter vor seiner Hinrichtung von Angehörigen, Verwandten und Bekannten besucht werden darf.	0	0	0	0	0	0	false
-17	Dann                         besserte sich die Lage seines Onkels wieder, und Munkacsy durfte seiner Neigung                         zur Kunst folgen.	2	0	0	2	0	0	false
-18	Munkacsy war erst                         fünfundzwanzig Jahre alt, als er diese „Letzten Tage eines Verurteilten" vollendete.	1	0	0	1	0	0	true
-19	Hier                         gelang es ihm nicht nur, in die Malklasse der Akademie aufgenommen zu werden,                         sondern er fand auch bei dem Kriegsmaler Franz Adam wirksame Förderung.	5	1	0	3	0	0	false
-20	Was jene Szene aus dem Kerker auszeichnete, war vor allen Dingen die                         ergreifende Charakteristik, die sich bei aller Energie in den Grenzen der Wahrheit und Natürlichkeit hielt.	0	0	0	0	0	0	false
-21	Einen solchen Moment stellte                         Munkacsy dar.	0	0	0	0	0	0	false
-22	Er begann seine künstlerische Laufbahn bei einem Maler                         namens Szamozy in Gyula und ging dann, nachdem er durch einige Proben                         seine Begabung bewiesen hatte, nach Pest, wo er zwar nicht die Akademie besuchte, aber doch von den damals maßgebenden Künstlern Than und Ligeti                         unterwiesen wurde.	5	0	0	5	0	0	false
+0	Aber fahr fort.« – Johannes erzählte nun, wie sie glücklich durch P. und über die Grenze gekommen.	1	0	0	1	0	0	true
+1	Friedrich stand vor ihr und hatte sie schon zweimal angeredet.	4	1	0	2	0	0	false
+2	sie war geschlossen.	0	0	0	0	0	0	false
+3	Auf der Hochzeit ging's lustig zu.	0	0	0	0	0	0	false
+4	Friedrichs Vater, der alte Hermann Mergel, war in seinem Junggesellenstande ein sogenannter ordentlicher Säufer, d.h. einer, der nur an Sonn- und Festtagen in der Rinne lag und die Woche hindurch so manierlich war wie ein anderer.	3	0	0	3	0	0	false
+5	So saß sie eine Weile, starr mit geklemmten Lippen, wie in völliger Geistesabwesenheit.	1	0	0	1	0	0	false
+6	– »Sonderbar!« lachte er, »so nah wart ihr einander!	3	0	2	1	0	0	true
+7	Friedrich stand unschlüssig; er hörte ein leises Geräusch; die Wolken verzogen sich, das Mondlicht fiel wieder auf die Kammertür:	1	0	0	1	0	0	false
+8	So war denn auch seine Bewerbung um ein recht hübsches und wohlhabendes Mädchen ihm nicht erschwert.	3	0	0	3	0	0	false
+9	Was willst du?« rief sie auffahrend.	0	0	1	0	0	0	true
+10	–	0	0	0	0	0	0	true
+11	Das war freilich ein großer Skandal und Ärger für Mergel, der allerdings Trostes bedurfte.	2	0	0	2	0	0	false
+12	– »Ich bringe Euch Geld,« sagte er, mehr erstaunt als erschreckt.	1	0	0	1	0	0	true
+13	– In Freiburg hatten sie sich von den Österreichern anwerben lassen; ihn hatte man nicht gewollt, aber Friedrich bestand darauf.	0	0	0	0	0	0	true
+14	»Was ist's?	2	0	1	0	0	0	true
+15	Von da an hatten sie sich als wandernde Handwerksbursche durchgebettelt bis Freiburg im Breisgau.	1	0	0	1	0	0	false
+16	Friedrich ging an diesem Morgen nicht zur Beichte.	0	0	0	0	0	0	false
+17	Mergel war gar nicht zu arg betrunken, und die Eltern der Braut gingen abends vergnügt heim; aber am nächsten Sonntage sah man die junge Frau schreiend und blutrünstig durchs Dorf zu den Ihrigen rennen, alle ihre guten Kleider und neues Hausgerät im Stich lassend.	3	0	0	3	0	0	false
+18	»Ich hatte meinen Brodsack bei mir,« sagte er, »und Friedrich ein Bündelchen; so glaubte man uns.«	1	0	0	1	0	0	true
+19	Wer zweifelt daran, daß Simon alles tat, seinen Adoptivsohn dieselben Wege zu leiten, die er selber ging?	3	0	1	1	0	0	false
+20	Die junge Frau blieb bei ihren Eltern, wo sie bald verkümmerte und starb.	1	0	0	1	0	0	false
+21	Wo?«	0	0	1	0	0	0	true
+22	»Den Winter über blieben wir in Freiburg,« fuhr er fort, »und es ging uns ziemlich gut; mir auch, weil Friedrich mich oft erinnerte und mir half, wenn ich etwas verkehrt machte.	4	0	0	4	0	0	true
+23	Der Eindruck, den dieser Vorfall auf Friedrich gemacht, erlosch leider nur zu bald.	3	0	0	3	0	0	false
+24	So war denn auch am Nachmittage keine Scheibe an seinem Hause mehr ganz, und man sah ihn noch bis spät in dieNacht vor der Türschwelle liegen, einen abgebrochenen Flaschenhals von Zeit zu Zeit zum Munde führend und sich Gesicht und Hände jämmerlich zerschneidend.	7	0	0	7	0	0	false
+25	So kam er unter den Train.	1	0	0	1	0	0	false
+26	– »Geld?	2	0	1	0	0	0	true
+27	Die Wirtschaft verfiel; fremde Mägde brachten Schimpf und Schaden; so verging Jahr auf Jahr.	1	0	0	1	0	0	false
+28	Friedrich hob sie auf.	0	0	0	0	0	0	false
+29	Ich kann nicht viel davon nachsagen, denn ich wurde gleich in der ersten Affaire gefangen und bin seitdem sechsundzwanzig Jahre in der türkischen Sklaverei gewesen!«	2	0	1	2	0	0	true
+30	Man darf nur sagen, er gewöhnte sich zu prunken, während seine Mutter darbte.	1	0	0	1	0	0	false
+31	Mergel war und blieb ein verlegener und zuletzt ziemlich armseliger Witwer, bis er mit einemmale wieder als Bräutigam auftrat.	4	0	0	4	0	0	false
+32	Und in Friedrich lagen Eigenschaften, die dies nur zu sehr erleichterten: Leichtsinn, Erregbarkeit, und vor allem ein grenzenloser Hochmut, der nicht immer den Schein verschmähte, und dann alles daran setzte, durch Wahrmachung des Usurpierten möglicher Beschämung zu entgehen.	4	0	0	4	0	0	false
+33	Ob nun den Mergel Reue quälte oder Scham, genug, er schien der Trostmittel immer bedürftiger und fing bald an, den gänzlich verkommenen Subjekten zugezählt zu werden.	4	0	0	4	0	0	false
+34	Im Frühling mußten wir marschieren, nach Ungarn, und im Herbst ging der Krieg mit den Türken los.	0	0	0	0	0	0	true
+35	Sie regte sich und die kleine Münze fiel klingend auf den Boden.	0	0	0	0	0	0	false
+36	Seine Natur war nicht unedel, aber er gewöhnte sich, die innere Schande der äußern vorzuziehen.	0	0	0	0	0	0	false
+37	Ich kann mir nun selber was verdienen.«	2	0	0	2	0	0	true
+38	Das ist doch schrecklich!« sagte Frau von S. – »Schlimm genug; die Türken halten uns Christen nicht besser als Hunde; das schlimmste war, daß meine Kräfte unter der harten Arbeit vergingen; ich ward auch älter und sollte noch immer tun wie vor Jahren.«	5	0	1	5	0	0	true
+39	Sie wurde scheu, saumselig, sogar unordentlich, und manche meinten, ihr Kopf habe gelitten.	1	0	0	1	0	0	false
+40	Margareth Semmler war eine brave, anständige Person, so in den Vierzigen, in ihrer Jugend eine Dorfschönheit und noch jetzt als sehr klug und wirtlich geachtet, dabei nicht unvermögend; und so mußte es jedem unbegreiflich sein, was sie zu diesem Schritte getrieben.	7	1	0	5	0	0	false
+41	Er schwieg eine Weile.	0	0	0	0	0	0	false
+42	– »Gott im Himmel!	2	0	1	0	0	0	true
+43	»Geld vom Ohm Simon, weil ich ihm habe arbeiten helfen.	0	0	0	0	0	0	true
+44	Diese unglückliche Wendung seines Charakters war indessen das Werk mehrerer Jahre, in denen man bemerkte, daß Margreth immer stiller über ihren Sohn ward und allmählich in einen Zustand der Verkommenheit versank, den man früher bei ihr für unmöglich gehalten hätte.	2	0	0	2	0	0	false
+45	War die Sache an und für sich unerwartet, so trug die Persönlichkeit der Braut noch dazu bei, die Verwunderung zu erhöhen.	2	0	0	2	0	0	false
+46	Er war äußerlich ordentlich, nüchtern, anscheinend treuherzig, aber listig, prahlerisch und oft roh, ein Mensch, an dem niemand Freude haben konnte, am wenigsten seine Mutter, und der dennoch durch seine gefürchtete Kühnheit und noch mehr gefürchtete Tücke ein gewisses Übergewicht im Dorfe erlangt hatte, das um so mehr anerkannt wurde, je mehr man sich bewußt war, ihn nicht zu kennen und nicht berechnen zu können, wessen er am Ende fähig sei.	8	0	0	8	0	0	false
+47	Am Abend vor der Hochzeit soll sie gesagt haben:	0	0	0	0	0	0	false
+48	– Von da kam ich auf ein holländisches Schiff.«	1	0	0	1	0	0	true
+49	– Nein, gib's den Armen.	2	1	0	0	0	0	true
+50	– »Geld vom Simon?	2	0	1	0	0	0	true
+51	Friedrich ward desto lauter; er versäumte keine Kirchweih oder Hochzeit, und da ein sehr empfindliches Ehrgefühl ihn die geheime Mißbilligung mancher nicht übersehen ließ, war er gleichsam immer unter Waffen, der öffentlichen Meinung nicht sowohl Trotz zu bieten, als sie den Weg zu leiten, der ihm gefiel.	5	0	0	5	0	0	false
+52	Wir glauben den Grund eben in dieser ihrer selbstbewußten Vollkommenheit zu finden.	3	1	0	1	0	0	true
+53	Wirf's fort, fort!	2	0	1	0	0	0	false
+54	»Ja,« sagte er dann, »es ging über Menschenkräfte und Menschengeduld; ich hielt es auch nicht aus.	2	1	0	2	0	0	true
+55	–––––––––––	0	0	0	0	0	0	true
+56	Der Erfolg zeigte leider, daß sie ihre Kräfte überschätzt hatte.	1	0	0	1	0	0	false
+57	– »Sie fischten mich auf, aus dem Bosporus,« versetzte Johannes.	0	0	0	0	0	0	true
+58	Wer weiß, ob wir bei dem Betteln vorbeikommen!«	0	0	1	0	0	0	true
+59	Vier Jahre waren verflossen; es war im Oktober; der milde Herbst von 1760, der alle Scheunen mit Korn und alle Keller mit Wein füllte, hatte seinen Reichtum auch über diesen Erdwinkel strömen lassen, und man sah mehr Betrunkene, hörte von mehr Schlägereien und dummen Streichen, als je.	2	0	0	2	0	0	false
+60	Nur ein Bursch im Dorfe, Wilm Hülsmeyer,wagte im Bewußtsein seiner Kraft und guter Verhältnisse ihm die Spitze zu bieten; und da er gewandter in Worten war, als Friedrich, und immer, wenn der Stachel saß, einen Scherz daraus zu machen wußte, so war dies der einzige, mit dem Friedrich ungern zusammentraf.	4	0	0	4	0	0	false
+61	»Eine Frau, die von ihrem Manne übel behandelt wird, ist dumm oder taugt nicht: wenn's mir schlecht geht, so sagt, es liege an mir.«	1	0	0	1	0	0	true
+62	Doch, nein, behalt's,« flüsterte sie kaum hörbar; »wir sind selber arm.	2	1	0	2	0	0	true
+63	– »Wie kamst du denn dahin?« fragte der Gutsherr.	1	0	1	1	0	0	true
+64	Auf dem Schiffe war es ihm nicht viel besser gegangen.	1	0	0	1	0	0	false
+65	– »Du wieder zu ihm?	3	0	1	1	0	0	true
+66	Da gab es im Dorfe eine tüchtige, solide Hochzeit, und die Gäste durften mehr erwarten, als eine verstimmte Geige, ein Glas Branntwein und was sie an guter Laune selber mitbrachten.	2	0	0	2	0	0	false
+67	Es hieß, an diesem Tage habe Mergel zuerst Hand an sie gelegt, obwohl das Bekenntnis nie über ihre Lippen kam.	2	0	0	2	0	0	false
+68	Anfangs imponierte sie ihrem Manne; er kam nicht nach Haus oder kroch in die Scheune, wenn er sich übernommen hatte; aber das Joch war zu drückend, um lange getragen zu werden, und bald sah man ihn oft genug quer über die Gasse ins Haus taumeln, hörte drinnen sein wüstes Lärmen und sah Margreth eilends Tür und Fenster schließen.	8	0	0	8	0	0	false
+69	– »Ich soll Montag wieder zum Ohm und ihm bei der Einsaat helfen.«	1	0	0	1	0	0	true
+70	Der Baron sah ihn befremdet an und hob den Finger warnend auf; aber Johannes erzählte weiter.	0	0	0	0	0	0	false
+71	Überall gab's Lustbarkeiten; der blaue Montag kam in Aufnahme, und wer ein paar Taler erübrigt hatte, wollte gleich eine Frau dazu, die ihm heute essen und morgen hungern helfen könne.	8	2	0	4	0	0	false
+72	An einem solchen Tage – keinem Sonntage mehr – sah man sie abends aus dem Hause stürzen, ohne Haube und Halstuch, das Haar wild um den Kopf hängend, sich im Garten neben ein Krautbeet niederwerfen und die Erde mit den Händen aufwühlen, dann ängstlich um sich schauen, rasch ein Bündel Kräuter brechen und damit langsam wieder dem Hause zugehen, aber nicht hinein, sondern in die Scheune.	5	0	0	5	0	0	true
+73	– Sie umfaßte ihr Kind mit Heftigkeit.	0	0	0	0	0	0	true
+74	Da viele Auswärtige erwartet wurden, wollte jeder gern die Ehre des Dorfes oben halten.	2	0	0	2	0	0	false
+75	Dennoch, obwohl unter einem Herzen voll Gram getragen, war Friedrich ein gesundes, hübsches Kind, das in der frischen Luft kräftig gedieh.	1	0	0	1	0	0	false
+76	– »Doch,« fügte sie hinzu, und ein Tränenstrom stürzte ihr plötzlich über die eingefallenen Wangen; »geh, er ist mein einziger Bruder, und die Verleumdung ist groß!	2	0	1	0	0	0	true
+77	Aber« – er schüttelte den Kopf – »ich bettelte mich lieber durch bis hieher.«	3	0	0	3	0	0	true
+78	Nein, nein, nimmermehr!«	1	2	1	1	0	0	true
+79	»Der Skorbut riß ein; wer nicht ganz elend war, mußte über Macht arbeiten, und das Schiffstau regierte ebenso streng wie die türkische Peitsche.	2	0	0	2	0	0	true
+80	Seit früh war alles auf den Beinen; vor jeder Tür wurden Kleider gelüftet, und B. glich den ganzen Tag einer Trödelbude.	0	0	0	0	0	0	false
+81	Das zweite Jahr dieser unglücklichen Ehe ward mit einem Sohne, man kann nicht sagen erfreut, denn Margreth soll sehr geweinthaben, als man ihr das Kind reichte.	1	0	0	1	0	0	false
+82	Endlich,« schloß er, »als wir nach Holland kamen, nach Amsterdam, ließ man mich frei, weil ich unbrauchbar war, und der Kaufmann, dem das Schiff gehörte, hatte auch Mitleiden mit mir und wollte mich zu seinem Pförtner machen.	2	0	0	2	0	0	true
+83	Auf der Tenne ward getanzt, das heißt, wer zwei Fuß Raum erobert hatte, drehte sich darauf immer rundum und suchte durch Jauchzen zu ersetzen, was an Bewegung fehlte.	2	0	0	2	0	0	false
+84	Friedrich stand in seinem neunten Jahre.	0	0	0	0	0	0	false
+85	Margreth legte das Gesicht an die Mauer und weinte laut.	0	0	0	0	0	0	false
+86	– Johannes seufzte tief: »O Herr, ich habe mein Leben zwischen Türken und Ketzern zubringen müssen, soll ich nicht wenigstens auf einem katholischen Kirchhofe liegen?«	1	0	1	1	0	0	true
+87	Es war sieben Uhr abends und alles in vollem Gange; Jubel und Gelächter an allen Enden, die niedern Stuben zum Ersticken angefüllt mit blauen, roten und gelben Gestalten, gleich Pfandställen, in denen eine zu große Herde eingepfercht ist.	2	0	0	2	0	0	false
+88	Der Vater hatte ihn sehr lieb, kam nie nach Hause, ohne ihm ein Stückchen Wecken oder dergleichen mitzubringen, und man meinte sogar, er sei seit der Geburt des Knaben ordentlicher geworden; wenigstens ward der Lärmen im Hause geringer.	4	0	0	4	0	0	false
+89	– »Das war dumm genug,« sagte der Gutsherr.	1	0	0	1	0	0	true
+90	Aber halt Gott vor Augen und vergiß das tägliche Gebet nicht!«	0	0	1	0	0	0	true
+91	Hermann war zu einer Hochzeit gegangen und hatte sich schon beizeiten auf den Weg gemacht, da das Brauthaus Dreiviertelmeilen entfernt lag.	4	1	0	2	0	0	false
+92	Aber so war ihr nie zumute gewesen; dennoch, nachdem sie einen Abend durchgeweint, eine Nacht durchwacht hatte, war sie dahin gekommen, zu denken, ihr Bruder Simon könne so gottlos nicht sein, der Knabe gehöre gewiß nicht ihm, Ähnlichkeiten wollen nichts beweisen.	6	0	0	6	0	0	false
+93	»Da, Johannes, nun geh und komm bald wieder.	4	0	0	4	0	0	true
+94	Als auch die Gutsherrschaft anlangte, saß er gerade hinter der Baßgeige und strich die tiefste Saite mit großer Kraft und vielem Anstand.	2	0	0	2	0	0	false
+95	Obgleich er versprochen hatte, abends wiederzukommen, rechnete Frau Mergel doch um so weniger darauf, da sich nach Sonnenuntergang dichtes Schneegestöber eingestellt hatte.	4	0	0	4	0	0	false
+96	Das Orchester war glänzend, die erste Geige als anerkannte Künstlerin prädominierend, die zweite und eine große Baßviole mit drei Saiten von Dilettanten ad libitum gestrichen; Branntwein und Kaffee im Überfluß, alle Gäste von Schweiß triefend; kurz, es war ein köstliches Fest.	0	0	0	0	0	0	false
+97	Es war um das Fest der heiligen drei Könige, eine harte, stürmische Winternacht.	0	0	0	0	0	0	false
+98	Der Gutsherr hatte seine Börse gezogen:	0	0	0	0	0	0	false
+99	Sie hatte manche harte Last getragen, ihres Mannes üble Behandlung, noch schwerer seinen Tod, und es war eine bittere Stunde, als die Witwe das letzte Stück Ackerland einem Gläubiger zur Nutznießung überlassen mußte und der Pflug vor ihrem Hause stillestand.	1	0	0	1	0	0	false
+100	Friedrich stolzierte umher wie ein Hahn, im neuen himmelblauen Rock, und machte sein Recht als erster Elegant geltend.	0	0	0	0	0	0	false
+101	Was glaubt man nicht gern, wenn man so wenig hat und durch Unglauben dies wenige verlieren soll!	4	0	1	2	0	0	false
+102	Du bist wohl noch sehr müde?«	3	1	1	3	0	0	true
+103	Friedrich reichte ihm den Bogen, gab durch eine stolze Kopfbewegung seinen Willen zu erkennen und trat zu den Tanzenden.	0	0	0	0	0	0	false
+104	Friedrich stand neben ihr, schon halb entkleidet und horchte auf das Geheul des Windes und das Klappen der Bodenfenster.	3	1	0	1	0	0	false
+105	– »Sehr müde,« versetzte Johannes; »und,« er deutete auf seine Stirn, »meine Gedanken sind zuweilen so kurios, ich kann nicht recht sagen, wie es so ist.«	4	0	0	4	0	0	true
+106	Du mußt mir das alles noch ausführlicher erzählen; heute ging es etwas konfus durcheinander.	5	1	0	3	0	0	true
+107	Hatte sie doch selbst vor vierzig Jahren ein Schwesterchen verloren, das genau dem fremden Hechelkrämer glich.	2	0	0	2	0	0	false
+108	Johannes!« rief er gebieterisch, und heran trat sein Schützling von dem Tanzplatze, wo er auch seine ungelenken Beine zu schlenkern und eins zu jauchzen versucht hatte.	1	0	1	1	0	0	true
+109	Gegen zehn Uhr schürte sie die Asche am Herde zusammen und machte sich zum Schlafengehen bereit.	0	0	0	0	0	0	false
+110	Der beliebte Tanz ward gespielt und Friedrich machte Sätze vor den Augen seiner Herrschaft, daß die Kühe an der Tenne die Hörner zurückzogen und Kettengeklirr und Gebrumm an ihren Ständern herlief.	0	0	0	0	0	0	false
+111	– »Nein, Kind, morgen.«	1	2	0	1	0	0	true
+112	Jetzt geh.	3	1	0	1	0	0	false
+113	Der Knabe war seitdem wieverwandelt, das träumerische Wesen gänzlich von ihm gewichen, er trat fest auf, fing an, sein Äußeres zu beachten und bald in den Ruf eines hübschen, gewandten Burschen zu kommen.	1	0	0	1	0	0	false
+114	Von dieser Zeit an war Friedrich selten mehr zu Hause.	1	0	0	1	0	0	false
+115	»Nun lustig, Musikanten: den Papen van Istrup!« –	1	0	1	1	0	0	true
+116	»Mutter, kommt der Vater heute nicht?« fragte er.	1	1	1	1	0	0	true
+117	Simon schien alle wärmern Gefühle, deren er fähig war, dem Schwestersohn zugewendet zu haben; wenigstens vermißte er ihn sehr und ließ nicht nach mit Botschaften, wenn ein häusliches Geschäft ihn auf einige Zeit bei der Mutter hielt.	3	0	0	3	0	0	false
+118	– »Ich weiß schon,« sagte der Baron, »von alter Zeit her.	1	1	0	1	0	0	true
+119	»Jetzt ist es gut!« sagte er endlich und trat schweißtriefend an den Kredenztisch; »die gnädigen Herrschaften sollen leben und alle die hochadeligen Prinzen und Prinzessinnen, und wer's nicht mittrinkt, den will ich an die Ohren schlagen, daß er die Engel singen hört!« –	2	1	2	2	0	0	true
+120	er hat's doch versprochen.«	1	0	0	1	0	0	true
+121	Herr von S. hatte das innigste Mitleiden mit dem armen Schelm; bis zum folgenden Tage war überlegt worden, wo man ihn einmieten könne; essen sollte er täglich im Schlosse, und für Kleidung fand sich auch wohl Rat.	4	1	0	2	0	0	false
+122	Margreth hatte bisher ihren Sohn nur geliebt, jetzt fing sie an, stolz auf ihn zu werden und sogar eine Art Hochachtung vor ihm zu fühlen, da sie den jungen Menschen so ganz ohne ihr Zutun sich entwickeln sah, sogar ohne ihren Rat, den sie, wie die meisten Menschen, für unschätzbar hielt und deshalb die Fähigkeiten nicht hoch genug anzuschlagen wußte, die eines so kostbaren Förderungsmittels entbehren konnten.	11	1	0	9	0	0	false
+123	Ein lautes Vivat beantwortete den galanten Toast.	0	0	0	0	0	0	false
+124	Fußhoch über die andern tauchte sein blonder Kopf auf und nieder, wie ein Hecht, der sich im Wasser überschlägt; an allen Enden schrien Mädchen auf, denen er zum Zeichen der Huldigung mit einer raschen Kopfbewegung sein langes Flachshaar ins Gesicht schleuderte.	0	0	0	0	0	0	false
+125	– »Aber warum nicht, Mutter?	2	0	1	0	0	0	true
+126	Sein Ohm, der nicht wohl ohne Projekte leben konnte, unternahm mitunter ziemlich bedeutende öffentliche Arbeiten, z.B. beim Wegbau, wobei Friedrich für einen seiner besten Arbeiter und überall als seine rechte Hand galt; denn obgleich dessen Körperkräfte noch nicht ihr volles Maß erreicht hatten, kam ihm doch nicht leicht jemand an Ausdauer gleich.	10	1	0	8	0	0	false
+127	Hülsmeyers behalten dich wohl noch die Nacht über, morgen komm wieder.«	4	2	0	4	0	0	true
+128	Herr von S. schüttelte mitleidig den Kopf:	0	0	0	0	0	0	false
+129	Indessen war der Mitgenuß des Ruhms auch so ziemlich der einzige Vorteil, den Margreth aus diesen günstigen Umständen zog, da Friedrich immer mehr auf sein Äußeres verwandte und allmählich anfing, es schwer zu verdauen, wenn Geldmangel ihn zwang, irgend jemand im Dorf darin nachzustehen.	7	0	0	7	0	0	false
+130	– »Nichts für ungut, gnädige Herrschaften; wir sind nur ungelehrte Bauersleute!«	1	0	1	1	0	0	true
+131	Sie hatten sich kaum niedergelegt, so erhob sich eine Windsbraut, als ob sie das Haus mitnehmen wollte.	2	0	0	2	0	0	false
+132	– »Ach Gott, wenn der alles hielte, was er verspricht!	5	0	1	0	1	0	true
+133	In seinem achtzehnten Jahre hatte Friedrich sich bereits einen bedeutenden Ruf in der jungen Dorfwelt gesichert, durch den Ausgang einer Wette, infolge deren er einen erlegten Eber über zwei Meilen weit auf seinem Rücken trug, ohne abzusetzen.	1	0	0	1	0	0	false
+134	»Herr,« sagte Johannes, »ich kann auch noch wohl etwas tun; ich kann hölzerne Löffel machen, und Ihr könnt mich auch als Boten schicken.«	4	1	0	4	0	0	true
+135	– Friedrich machte seinen Bückling.	0	0	0	0	0	0	true
+136	Mach, mach voran, daß du fertig wirst.«	0	0	0	0	0	0	true
+137	So gewöhnte man sich daran, ihn bald geputzt und fröhlich als anerkannten Dorfelegant an der Spitze des jungen Volks zu sehen, bald wieder als zerlumpten Hirtenbuben einsam und träumerisch hinter den Kühen herschleichend, oder in einer Waldlichtung liegend, scheinbar gedankenlos und das Moos von den Bäumen rupfend.	4	0	0	4	0	0	false
+138	»Butterdieb, Butterdieb!« riefen ein paar Kinder, und heran drängte sich, oder vielmehr ward geschoben, Johannes Niemand, den Kopf zwischen die Schultern ziehend und mit aller Macht nach dem Ausgange strebend.	1	0	1	1	0	0	true
+139	– »Mutter – es pocht draußen!«	1	0	1	1	0	0	true
+140	Um diese Zeit wurden die schlummernden Gesetze doch einigermaßen aufgerüttelt durch eine Bande von Holzfrevlern, die unter dem Namen der Blaukittel alle ihre Vorgänger so weit an List und Frechheit übertraf, daß es dem Langmütigsten zuviel werden mußte.	3	0	0	3	0	0	false
+141	– »Nun,« sagte der Baron zweifelnd, »willst du's versuchen?	3	0	1	1	0	0	true
+142	Zudem waren alle seine Kräfte auf den auswärtigen Erwerb gerichtet; zu Hause schien ihm, ganz im Widerspiel mit seinem sonstigen Rufe, jede anhaltende Beschäftigung lästig, und er unterzog sich lieber einer harten, aber kurzen Anstrengung, die ihm bald erlaubte, seinem frühern Hirtenamte wieder nachzugehen, was bereits begann, seinem Alter unpassend zu werden, und ihm gelegentlichen Spott zuzog, vor dem er sich aber durch ein paar derbe Zurechtweisungen mit der Faust Ruhe verschaffte.	7	0	0	7	0	0	false
+143	»Das würde doch nicht sonderlich ausfallen.«	1	0	0	1	0	1	true
+144	In diesem Augenblick erhob sich ein Getümmel am Ende der Tenne, Geschrei, Schelten, Gelächter, alles durcheinander.	0	0	0	0	0	0	false
+145	Die Bettstatt bebte und im Schornstein rasselte es wie ein Kobold.	0	0	0	0	0	0	false
+146	– »O doch Herr, wenn ich erst im Gange bin – es geht nicht schnell, aber hin komme ich doch, und es wird mir auch nicht so sauer, wie man denken sollte.«	5	0	0	5	0	0	true
+147	Was habt ihr mit unserem Johannes?« rief Friedrich gebieterisch.	0	0	1	0	0	0	true
+148	– »Nein, Mutter, an der Tür!«	0	1	1	0	0	0	true
+149	Ihre Benennung erhielten sie von der ganz gleichförmigen Tracht, durch die sie das Erkennen erschwerten, wenn etwa ein Förster noch einzelne Nachzügler im Dickicht verschwinden sah.	5	1	0	3	0	0	false
+150	Es hat keine sonderliche Eile.«	0	0	0	0	0	0	true
+151	– »Was ist's?	2	0	1	0	0	0	true
+152	– »Still, Fritzchen, das ist das lockere Brett im Giebel, das der Wind jagt.«	0	0	0	0	0	0	true
+153	Hier ist ein Brief nach P.	3	1	0	1	0	0	false
+154	Ganz gegen den gewöhnlichen Stand der Dinge, wo man die stärksten Böcke der Herde mit dem Finger bezeichnen konnte, war es hier trotz aller Wachsamkeit bisher nicht möglich gewesen, auch nur ein Individuum namhaft zu machen.	7	1	0	5	0	0	false
+155	Gott, schlaf doch!	3	0	1	1	0	0	false
+156	In der Bande mußten sehr gewandte Spione sein, denn die Förster konnten wochenlang umsonst wachen; in der ersten Nacht, gleichviel, ob stürmisch oder mondhell, wo sie vor Übermüdung nachließen, brach die Zerstörung ein.	2	0	0	2	0	0	false
+157	Er schnitzelte Löffel, aß auf dem Schlosse und machte Botengänge für den gnädigen Herrn.	0	0	0	0	0	0	false
+158	Johannes, der arme Teufel, dem zu Hause das Schlechteste gut genug sein mußte, hatte versucht, sich ein halbes Pfündchen Butter für die kommende Dürre zu sichern, und ohne daran zu denken, daß er es, sauber in sein Schnupftuch gewickelt, in der Tasche geborgen, war er ans Küchenfeuer getreten und nun rann das Fett schmählich die Rockschöße entlang.	2	0	0	2	0	0	false
+159	Bring mich nicht um das armselige bißchen Nachtruhe.«	0	0	0	0	0	0	true
+160	»Das sollt Ihr früh genug gewahr werden,« keuchte ein altes Weib mit der Küchenschürze und einem Wischhader in der Hand.	1	0	0	1	0	0	true
+161	– »Sie schließt nicht; die Klinke ist zerbrochen.	0	0	0	0	0	0	true
+162	Am folgenden Tage bezog Johannes sein Kämmerchen bei einer Witwe im Dorfe.	0	0	0	0	0	0	false
+163	Sie verheerten alles wie die Wanderraupe, ganze Waldstrecken wurden in einer Nacht gefällt und auf der Stelle fortgeschafft, so daß man am andern Morgen nichts fand, als Späne und wüste Haufen von Topholz, und der Umstand, daß nie Wagenspuren einem Dorfe zuführten, sondern immer vom Flusse her und dorthin zurück, bewies, daß man unter dem Schutz und vielleicht mit dem Beistande der Schiffeigentümer handelte.	5	0	0	5	0	0	false
+164	– Schande!	2	0	1	0	0	0	true
+165	Von einigen Dörfern ward mit Bestimmtheit gesagt, daß sie nicht zu den Blaukitteln gehörten, aber keines konnte als dringend verdächtig bezeichnet werden, seit man das verdächtigste von allen, das Dorf B., freisprechen mußte.	0	0	0	0	0	0	false
+166	– »Der Johannes könnte viel erzählen,« sagte er zu seiner Frau, »wenn er nicht so grundeinfältig wäre.«	1	0	0	1	0	0	true
+167	Andere machten Platz,sowohl aus Mitleid als Vorsicht.	0	0	0	0	0	0	false
+168	Die Mutter drehte sich heftig im Bett um.	0	0	0	0	0	0	false
+169	– »Mehr tiefsinnig als einfältig,« versetzte sie; »ich fürchte immer, er schnappt noch über.«	3	0	0	3	0	0	true
+170	Im ganzen ging's ihm leidlich; die Herrschaft war sehr gütig, und Herr von S. unterhielt sich oft lange mit ihm über die Türkei, den österreichischen Dienst und die See.	3	0	0	3	0	0	false
+171	Seltsam war es, daß das Landvolk umher ebenso unwissend und gespannt schien, als die Förster selber.	2	0	0	2	0	0	false
+172	Allgemeiner Aufruhr; die Mädchen sprangen zurück, aus Furcht, sich zu beschmutzen, oder stießen den Delinquenten vorwärts.	0	0	0	0	0	0	false
+173	– »Aber wenn nun der Vater kommt?« –	1	0	1	1	0	0	true
+174	»Lumpenhund!« rief er; ein paar derbe Maulschellen trafen den geduldigen Schützling; dann stieß er ihn an die Tür und gab ihm einen tüchtigen Fußtritt mit auf den Weg.	1	0	1	1	0	0	true
+175	– »Wo ist der Teufel, Mutter?«	0	0	1	0	0	0	true
+176	Nach einiger Zeit blieb Johannes auf einem Botengange über Gebühr lange aus.	1	0	0	1	0	0	false
+177	Dennoch war der Erfolg nur gering und die Wächter hatten oft kaum das eine Ende des Forstes verlassen, wenn die Blaukittel schon zum andern einzogen.	7	1	0	5	0	0	false
+178	Ein Zufall hatte dies bewirkt, eine Hochzeit, auf der fast alle Bewohner dieses Dorfes notorisch die Nacht zugebracht hatten, während zu eben dieser Zeit die Blaukittel eine ihrer stärksten Expeditionen ausführten.	4	1	0	2	0	0	false
+179	Aber Friedrich trat vor:	0	0	0	0	0	0	false
+180	– »Den hält der Teufel fest genug!«	1	0	1	1	0	0	true
+181	Der Schaden in den Forsten war indes allzu groß, deshalb wurden die Maßregeln dagegen auf eine bisher unerhörte Weise gesteigert; Tag und Nacht wurde patrolliert, Ackerknechte, Hausbediente mit Gewehren versehen und den Forstbeamten zugesellt.	2	0	0	2	0	0	false
+182	– »Ei bewahre!« antwortete der Baron, »er war sein Leben lang ein Simpel; simple Leute werden nie verrückt.«	1	0	1	1	0	0	true
+183	Er war im Begriff, sich wieder hinter die Baßviole zu flüchten; doch zuvor noch ein Knalleffekt: er zog seine silberne Taschenuhr hervor, zu jener Zeit ein seltener und kostbarer Schmuck.	4	0	0	4	0	0	false
+184	Er steht vor der Tür und will dich holen, wenn du nicht ruhig bist!«	0	0	1	0	0	0	true
+185	– »Du bist lange ausgeblieben, Johannes,« sagte sie; »ich dachte schon, du hättest dich im Brederholz verirrt.«	2	1	0	2	0	0	true
+186	Es war im Juli 1756 früh um drei; der Mond stand klar am Himmel, aber sein Glanz fing an zu ermatten und im Osten zeigte sich bereits ein schmaler gelber Streif, der den Horizont besäumte und den Eingang einer engen Talschlucht wie mit einem Goldbande schloß.	1	0	0	1	0	0	false
+187	»Es ist bald zehn,« sagte er.	1	0	0	1	0	0	true
+188	Er kehrte niedergeschlagen zurück; seine Würde war verletzt, das allgemeine Gelächter schnitt ihm durch die Seele, ob er sich gleich durch einen tapfern Juchheschrei wieder in den Gang zu bringen suchte – es wollte nicht mehr recht gehen.	3	0	0	3	0	0	true
+189	– »Wart du Unrast!	2	0	1	0	0	0	true
+190	Das währte länger als ein volles Jahr, Wächter und Blaukittel, Blaukittel und Wächter, wie Sonne undMond, immer abwechselnd im Besitz des Terrains und nie zusammentreffend.	2	0	0	2	0	0	false
+191	Die gute Frau von S. war sehr besorgt um ihn und wollte schon Leute aussenden, als man ihn die Treppe heraufstelzen hörte.	4	1	0	2	0	0	false
+192	– »Das ist ja ein weiter Umweg; warum gingst du nicht durchs Brederholz?« –	1	1	1	1	0	0	true
+193	Er sah übermüdet aus, gähnte, ließ mitunter seinen Kopf an einem verwitterten Stammknorren ruhen und Blicke, dämmeriger als der Horizont, über den mit Gestrüpp und Aufschlag fast verwachsenen Eingang des Grundes streifen.	2	0	0	2	0	0	false
+194	Ich will Musik machen.«	0	0	0	0	0	0	true
+195	Der Wind hatte sich gewendet und zischte jetzt wie eine Schlange durch die Fensterritze an seinem Ohr.	3	1	0	1	0	0	false
+196	Friedrich ward still; er horchte noch ein Weilchen und schlief dann ein.	2	0	0	2	0	0	false
+197	Friedrich lag im Grase, nach seiner gewohnten Weise, und schnitzelte an einem Weidenstabe, dessen knotigem Ende er die Gestalt eines ungeschlachten Tieres zu geben versuchte.	0	0	0	0	0	0	false
+198	– »Ich bin durch den Föhrengrund gegangen.«	0	0	0	0	0	0	true
+199	»Jetzt den Brautmenuett!	5	1	1	1	0	0	true
+200	Nach einigen Stunden erwachte er.	0	0	0	0	0	0	false
+201	Sein Hund lag in einiger Entfernung nah bei den Kühen, die unbekümmert um die Forstgesetze ebenso oft den jungen Baumspitzen als dem Grase zusprachen und in die frische Morgenluft schnaubten.	2	0	0	2	0	0	false
+202	– »Was hat sie gekostet?« rief Wilm Hülsmeyer, Friedrichs Nebenbuhler.	0	0	1	0	0	0	true
+203	Nach einer Weile bemerkte er, daß die Mutter auch nicht schlief.	1	0	0	1	0	0	false
+204	Aus dem Walde drang von Zeit zu Zeit ein dumpfer, krachender Schall; der Ton hielt nur einige Sekunden an, begleitet von einem langen Echo an den Bergwänden und wiederholte sich etwa alle fünf bis acht Minuten.	4	1	0	2	0	0	false
+205	Ich werde alt und du selig,« fügte er langsam hinzu.	0	0	0	0	0	0	true
+206	Ein paarmal belebten sich seine Augen und nahmen den ihnen eigentümlichen glasartigen Glanz an, aber gleich nachher schloß er sie wieder halb und gähnte und dehnte sich, wie es nur faulen Hirten erlaubt ist.	6	0	0	6	0	0	false
+207	Er sah trübe zu ihr auf:	0	0	0	0	0	0	false
+208	»Eine prächtige Uhr!« sagte der Schweinehirt und schob sein Gesicht in ehrfurchtsvoller Neugier vor.	0	0	1	0	0	0	true
+209	Seine Schulter war erstarrt; er kroch tief untersDeckbett und lag aus Furcht ganz still.	1	0	0	1	0	0	false
+210	»Die Leute sagten mir, der Wald sei gefällt, und jetzt seien so viele Kreuz- und Querwege darin, da fürchtete ich, nicht wieder hinauszukommen.	4	1	0	4	0	0	true
+211	– »Hast	0	0	0	0	0	0	true
+212	»Gegrüßt seist du, Maria!« und: »Bitte für uns arme Sünder!«	0	0	2	0	0	0	true
+213	Es fing bereits stark zu dämmern an; die Vögel begannen leise zu zwitschern und der Tau stieg fühlbar aus dem Grunde.	1	0	0	1	0	0	false
+214	Ich sage dir, Ernst, das nimmt noch ein schlimmes Ende.«	1	0	0	1	0	0	true
+215	– »Willst du sie bezahlen?« fragte Friedrich.	0	0	1	0	0	0	true
+216	Er hörte sie weinen und mitunter:	1	0	0	1	0	0	false
+217	– »Sahst du wohl,« sagte Frau von S. nachher zu ihrem Manne, »wie wunderlich und quer er aus den Augen sah?	4	1	1	2	0	0	true
+218	Friedrich achtete nicht darauf; nur zuweilen, wenn das Getöse ungewöhnlich stark oder anhaltend war, hob er den Kopf und ließ seine Blicke langsam über die verschiedenen Pfade gleiten, die ihren Ausgang in dem Talgrunde fanden.	2	0	0	2	0	0	false
+219	– Ein unwillkürlicher Seufzer entfuhr ihm.	0	0	0	0	0	0	true
+220	Plötzlich fuhr er auf: über sein Gesicht fuhr ein Blitz, er horchte einige Sekunden mit vorgebeugtem Oberleib wie ein Jagdhund, dem die Luft Witterung zuträgt.	0	0	0	0	0	0	false
+221	Die Felder waren leer, das Laub begann abzufallen und mancher Hektische fühlte die Schere an seinem Lebensfaden.	0	0	0	0	0	0	false
+222	Friedrich warf einen stolzen Blick auf ihn und griff in schweigender Majestät zum Fidelbogen.	0	0	0	0	0	0	false
+223	– »Friedrich, bist du wach?«	0	0	1	0	0	0	true
+224	du	0	0	0	0	0	0	false
+225	Die Kügelchen des Rosenkranzes glitten an seinem Gesicht hin.	0	0	0	0	0	0	false
+226	Indessen nahte der September heran.	1	0	0	1	0	0	false
+227	Friedrich war an dem Stamm hinabgeglitten und starrte, die Arme über den Kopf verschlungen in das leise einschleichende Morgenrot.	0	0	0	0	0	0	false
+228	sie bezahlt?« antwortete Wilm.	0	0	1	0	0	0	true
+229	– »Fidel, du verfluchtes Tier!«	0	0	1	0	0	0	true
+230	Endlich kam er eines Abends nicht nach Hause.	1	0	0	1	0	0	false
+231	Du weißt wohl, der Franz Ebel hatte auch eine schöne Uhr, bis der Jude Aaron sie ihm wieder abnahm.«	3	1	0	3	0	0	true
+232	– »Kind, bete ein wenig – du kannst ja schon das halbe Vaterunser – daß Gott uns bewahre vor Wasser- und Feuersnot.«	2	2	0	2	0	0	true
+233	Man dachte, die Herrschaft habe ihn verschickt, am zweiten auch nicht, am dritten Tage ward seine Hausfrau ängstlich.	1	0	0	1	0	0	false
+234	Auch Johannes schien unter dem Einflusse des nahen Äquinoktiums zu leiden; die ihn in diesen Tagen sahen, sagen, er habe auffallend verstört ausgesehen und unaufhörlich leise mit sich selber geredet, was er auch sonst mitunter tat, aber selten.	6	0	0	6	0	0	false
+235	Dann schob er schnell zwei Finger in den Mund und pfiff gellend und anhaltend.	1	0	0	1	0	0	false
+236	– »Nun, nun,« sagte Hülsmeyer, »dergleichen hat man schon erlebt.	5	1	0	3	0	0	true
+237	– »Ja, Mutter.«	0	1	0	0	0	0	true
+238	Die Gutsherrschaft war indessen in die Kammer getreten, wo der Braut von den Nachbarfrauen das Zeichen ihres neuen Standes, die weiße Stirnbinde, umgelegt wurde.	1	0	0	1	0	0	false
+239	Das mannigfache Geräusch und Getöse im Hause kam ihm wunderlich vor.	0	0	0	0	0	0	false
+240	– »Gott bewahre,« sagte der Gutsherr, »ich weiß nichts von ihm; aber geschwind den Jäger gerufen und Försters Wilhelm!	3	0	1	1	0	0	true
+241	Er ließ schnell seine Blicke über die Schlucht fahren und sie dann mit besonderer Schärfe auf dem Knaben verweilen, trat dann vor, winkte nach dem Gebüsch, und allmählich wurden sieben bis acht Männer sichtbar, alle in ähnlicher Kleidung, Weidmesser im Gürtel und die gespannten Gewehre in der Hand.	2	0	0	2	0	0	false
+242	– Ein Steinwurf traf die Seite des unbesorgten Hundes, der, vom Schlafe aufgeschreckt, zuerst um sich biß und dann heulend auf drei Beinen dort Trost suchte, von wo das Übel ausgegangen war.	4	0	0	4	0	0	true
+243	Friedrich antwortete nicht, sondern winkte stolz der ersten Violine, und sie begannen aus Leibeskräften zu streichen.	0	0	0	0	0	0	false
+244	Friedrich dachte an den Teufel, wie der wohl aussehen möge.	3	1	0	1	0	0	false
+245	In demselben Augenblicke wurden die Zweige eines nahen Gebüsches fast ohne Geräusch zurückgeschoben und ein Mann trat heraus, im grünen Jagdrock, den silbernen Wappenschild am Arm, die gespannte Büchse in der Hand.	1	0	0	1	0	0	false
+246	Sie ging ins Schloß und fragte nach.	0	0	0	0	0	0	false
+247	Sie sollte einem verworrenen Haushalt vorstehen, unter den Augen eines mürrischen alten Mannes, den sie noch obendrein lieben sollte.	2	0	0	2	0	0	false
+248	»Hör, Mutter, gewiß, da sind Leute, die pochen.«	2	0	0	2	0	0	true
+249	Wer weiß, ob er nicht gar eines von seinen schiefen Beinen gebrochen hat!	3	0	1	1	0	0	false
+250	– »Ich wollte, daß der Racker auf der Stelle krepierte.	0	0	0	0	0	0	true
+251	Er stand neben ihr, durchaus nicht wie der Bräutigam des Hohen Liedes, der »in die Kammer tritt wie die Morgensonne.«	1	0	0	1	0	0	true
+252	Das junge Blut weinte sehr, teils weil es die Sitte so wollte, teils aus wahrer Beklemmung.	4	0	0	4	0	0	false
+253	Er meinte, es müsse etwas Lebendiges drinnen sein und draußen auch.	3	0	0	3	0	0	false
+254	»Friedrich, was war das?« fragte der zuerst Erschienene.	1	0	1	1	0	0	true
+255	Wenn der armselige Krüppel,« setzte er bewegt hinzu, »auch nur in einen trockenen Graben gefallen ist, so kann er nicht wieder heraus.	4	0	0	4	0	0	true
+256	Die Jäger kehrten nach einigen Stunden heim; sie hatten keine Spur gefunden.	0	0	0	0	0	0	false
+257	– »Die Kanaille hat uns gesehen,« sagte ein anderer.	0	0	0	0	0	0	true
+258	Sie sah demütig zu ihm auf und schien zu fühlen, daß er recht habe.	0	0	0	0	0	0	false
+259	hörst du nicht?	2	0	1	0	0	0	true
+260	– »Ach nein, Kind; aber es ist kein altes Brett im Hause, das nicht klappert.«	0	1	0	0	1	0	true
+261	Seinetwegen können die Kühe mir die Ohren vom Kopf fressen.«	1	0	0	1	0	0	true
+262	– Nehmt die Hunde mit,« rief er den abziehenden Jägern nach, »und sucht vor allem in den Gräben; seht in die Steinbrüche!« rief er lauter.	0	0	1	0	0	0	true
+263	– »Du hast nun genug geweint,« sagte er verdrießlich; »bedenk, du bist es nicht, die mich glücklich macht, ich mache dich glücklich!« –	2	0	1	2	0	0	true
+264	– »Hör!	2	0	1	0	0	0	true
+265	– »Friedrich, stell dich nicht an wie ein Narr!	2	0	1	0	0	0	true
+266	Friedrich warnicht mehr dort.	2	0	0	2	0	0	false
+267	Hör doch!«	0	0	1	0	0	0	true
+268	Du kennst mich und du verstehst mich auch!«	1	0	1	1	0	0	true
+269	Aber er kann noch leben; drei Tage hält's ein Mensch wohl ohne Nahrung aus.«	2	1	0	2	0	0	true
+270	– »Morgen sollst du auf die Reise mit einem Stein am Halse,« fuhr Friedrich fort und stieß nach dem Hunde.	0	0	0	0	0	0	true
+271	Herr von S. war in großer Unruhe:	0	0	0	0	0	0	false
+272	– Das Geschäft war beendigt; die junge Frau hatte ihrem Manne zugetrunken, junge Spaßvögel hatten durch den Dreifuß geschaut, ob die Binde gerade sitze, und man drängte sich wieder der Tenne zu, von wo unauslöschliches Gelächter und Lärm herüberschallte.	2	0	0	2	0	0	true
+273	Es ruft!	2	0	1	0	0	0	false
+274	»Wenn ich mir denke, daß einer so liegen muß wie ein Stein, und kann sich nicht helfen!	3	0	1	1	0	0	true
+275	Friedrich war wie vernichtet fortgegangen und der Jude ihm gefolgt, immer schreiend: »O weh mir!	4	0	1	2	1	0	true
+276	Man hörte deutlich an den Fensterläden pochen und mehrere Stimmen:	0	0	0	0	0	0	false
+277	– »Herr Brandis, denkt an meine Mutter!«	0	0	1	0	0	0	true
+278	– Ein Kind hatte   ihn gesehen, wie er am Rande des Brederholzes saß und an einem Löffel schnitzelte; »er schnitt ihn aber ganz entzwei,« sagte das kleine Mädchen.	2	0	0	2	0	0	true
+279	Eine große, unerträgliche Schmach hatte ihn getroffen, da der Jude Aaron, ein Schlächter und gelegentlicher Althändler aus dem nächsten Städtchen, plötzlich erschienen war, und nach einem kurzen, unbefriedigenden Zwiegespräch ihn laut vor allen Leuten um den Betrag von zehn Talern für eine schon um Ostern gelieferte Uhr gemahnt hatte.	3	1	0	1	0	0	false
+280	Die Mutter richtete sich auf; das Toben des Sturms ließ einen Augenblick nach.	0	0	0	0	0	0	false
+281	– Er machte sich selbst auf den Weg; in allen Häusern wurde nachgefragt, überall in die Hörner geblasen, gerufen, die Hunde zum Suchen angehetzt – umsonst!	5	0	1	3	0	0	true
+282	– Ein Blick begleitete diese Worte, der schnell wirkte.	0	0	0	0	0	0	true
+283	Frau Margreth, heda, aufgemacht!«	0	0	1	0	0	0	true
+284	Hast du nichts im Walde gehört?«	0	0	1	0	0	0	true
+285	Nachmittags fand sich wieder eine Spur: abermals ein Kind, das ihn an der andern Seite des Waldes bemerkt hatte, wo er im Gebüsch gesessen, das Gesicht auf den Knien, als ob er schliefe.	3	0	0	3	0	0	false
+286	– Die Tenne tobte von Gelächter; manche hatten sich auf den Hof nachgedrängt.	0	0	0	0	0	0	true
+287	– Margreth stieß einen heftigen Laut aus:	0	0	0	0	0	0	true
+288	Warum hab' ich nicht gehört auf vernünftige Leute!	2	0	1	0	0	0	true
+289	»Margreth!	2	0	1	0	0	0	true
+290	Das war vor zwei Tagen gewesen.	0	0	0	0	0	0	false
+291	– »Das tu ich.	0	0	0	0	0	0	true
+292	Haben sie mir nicht hundertmal gesagt, Ihr hättet all Eur Gut am Leibe und kein Brod im Schranke!«	1	0	1	1	0	0	true
+293	Der Knabe warf einen raschen Blick auf des Försters Gesicht.	0	0	0	0	0	0	false
+294	Es schien, er hatte sich immer um das Brederholz herumgetrieben.	1	0	0	1	0	0	false
+295	Wiegt ihn gegen ein Schwein!« riefen einige; andere waren ernst geworden.	0	0	1	0	0	0	true
+296	Der Rosenkranz flog klappernd auf den Brettstuhl, die Kleider wurden herbeigerissen.	0	0	0	0	0	0	false
+297	»Wenn nur das verdammte Buschwerk nicht so dicht wäre!	4	0	1	2	0	0	true
+298	Das war noch am vorigen Tage.	1	0	0	1	0	0	false
+299	– »Im Walde?« –	0	0	1	0	0	0	true
+300	– »Packt den Juden!	2	0	1	0	0	0	true
+301	»Da bringen sie mir das Schwein wieder!«	2	0	1	2	0	0	true
+302	Herr von S. war auf dem Heimwege verstimmt, die jedesmalige Folge, wenn der Wunsch, seine Popularität aufrecht zu erhalten, ihn bewog, solchen Festen beizuwohnen.	0	0	0	0	0	0	false
+303	Margreth kam gar nicht wieder; aber in der Küche war viel Gemurmel und fremde Stimmen.	3	0	0	3	0	0	false
+304	Man trieb die Hunde in den jungen Schlag; man blies und hallote und kehrte endlich mißvergnügt heim, als man sich überzeugt, daß die Tiere den ganzen Wald abgesucht hatten.	1	0	0	1	0	0	false
+305	Die ohnehin dunkle Gesichtsfarbe des Försters ging in tiefes Braunrot über.	1	0	0	1	0	0	false
+306	– »Eure Holzfäller, sonst nichts.«	1	0	0	1	0	0	true
+307	– »Der Friedrich sah so blaß aus wie ein Tuch,« sagte eine alte Frau, und die Menge teilte sich, wie der Wagen des Gutsherrn in den Hof lenkte.	1	0	0	1	0	0	true
+308	Sie fuhr zum Herde und bald darauf hörte Friedrich sie mit trotzigen Schritten über die Tenne gehen.	1	0	0	1	0	0	false
+309	– »Meine Holzfäller!«	0	0	1	0	0	0	true
+310	da kann keine Seele hindurch,« sagte der Gutsherr.	2	0	0	2	0	0	true
+311	»Was sind denn das für ein paar Figuren?« –	1	0	1	1	0	0	true
+312	Mit einemmale ward eine Lampe hereingebracht.	1	0	0	1	0	0	false
+313	laßt nicht nach!«	0	0	1	0	0	0	true
+314	– »Wohin Ihr sie geschickt habt; ich weiß es nicht.«– Brandis wandte sich zu seinen Gefährten:	0	0	0	0	0	0	true
+315	Er deutete auf zwei dunkle Gestalten, die vor dem Wagen rannten wie Strauße.	0	0	0	0	0	0	false
+316	Er sah schweigend aus dem Wagen.	0	0	0	0	0	0	false
+317	Zweimal kam ein fremder Mann in die Kammer und schien ängstlich etwas zu suchen.	1	0	0	1	0	0	false
+318	»Wie viele sind ihrer, und wo treiben sie ihr Wesen?«	0	0	1	0	0	0	true
+319	– »Laßt nicht nach!	2	0	1	0	0	0	true
+320	– Der Baron war fast ebenso beängstigt wie sie.	2	0	0	2	0	0	true
+321	Als einer nach dem andern im Dickicht verschwunden war, trat Brandis dicht vor den Knaben:	0	0	0	0	0	0	false
+322	– »Auch ein paar selige Schweine aus unserm eigenen Stall!« seufzte Herr von S.	1	0	1	1	0	0	true
+323	Friedrich meinte, sie sei tot; er erhob ein fürchterliches Geschrei, worauf ihm jemand eine Ohrfeige gab, was ihn zur Ruhe brachte, und nun begriff er nach und nach aus den Reden der Umstehenden, daß der Vater vom Ohm Franz Semmler und dem Hülsmeyer tot im Holze gefunden sei und jetzt in der Küche liege.	4	1	0	2	0	0	false
+324	Zwei Männer führten die Mutter.	0	0	0	0	0	0	false
+325	»Geht voran; ich komme gleich nach.«	1	0	0	1	0	0	true
+326	bat Frau von S.; »besser ein paar Schritte umsonst, als daß etwas versäumt wird.«	1	0	0	1	0	0	true
+327	Nun schlüpften sie ins Schloß.	1	0	0	1	0	0	false
+328	Sie war weiß wie Kreide und hatte die Augen geschlossen.	0	0	0	0	0	0	false
+329	Ihr Lumpenpack, dem kein Ziegel auf dem Dach gehört!	2	0	1	0	0	0	false
+330	Sie behaupteten, von des alten Mergels Geist verfolgt worden zu sein, als sie durchs Brederholz heimkehrten.	0	0	0	0	0	0	false
+331	Der Bruder blieb bei ihr und Friedrich, dem bei strenger Strafe im Bett zu bleiben geboten war, hörte die ganze Nacht hindurch das Feuer in der Küche knistern und ein Geräusch wie von Hin- und Herrutschen und Bürsten.	1	0	0	1	0	0	false
+332	Bis zum Betteln habt ihr es, gottlob, bald gebracht, und an meiner Tür soll deine Mutter, die alte Hexe, keine verschimmelte Brodrinde bekommen.	2	0	0	2	0	0	true
+333	Da stand sein Bett noch ungemacht, wie er es verlassen hatte; dort hing sein guter Rock, den ihm die gnädige Frau aus dem alten Jagdkleide des Herrn hatte machen lassen; auf dem Tische ein Napf, sechs neue hölzerne Löffel und eine Schachtel.	3	0	0	3	0	0	false
+334	»Friedrich,« sagte er mit dem Ton unterdrückter Wut, »meine Geduld ist zu Ende; ich möchte dich prügeln wie einen Hund, und mehr seid ihr auch nicht wert.	2	0	0	2	0	0	true
+335	Seine Unruhe trieb ihn sogar nach Johannes' Wohnung, obwohl er sicher war, ihn dort nicht zu finden.	2	0	0	2	0	0	true
+336	Zu Hause angekommen, fand er die Hausflur vom ganzen Dienstpersonal eingenommen, das zwei Kleinknechte umstand, welche sich blaß und atemlos auf der Stiege niedergelassen hatten.	0	0	0	0	0	0	false
+337	Sobald Margreth wieder zur Besinnung kam, suchte sie die fremden Leute loszuwerden.	1	0	0	1	0	0	false
+338	Er ließ sich die Kammer des Verschollenen aufschließen.	0	0	0	0	0	0	false
+339	Der eine wollte auch glühende Augen durch die Zweige funkeln gesehen haben, und beide waren gelaufen, was ihre Beine vermochten.	1	0	0	1	0	0	false
+340	Einmal verstand er, daß der Oheim sagte: »Margreth, zieh dir das nicht zu Gemüt; wir wollen jeder drei Messen lesen lassen, und um Ostern gehen wir zusammen eine Bittfahrt zur Muttergottes von Werl.«	2	0	0	2	0	0	true
+341	Friedrich griff krampfhaft nach einem Aste.	0	0	0	0	0	0	false
+342	»Ein Andenken von Mergel,« murmelte er und trat hinaus, denn ihm ward ganz beengt in dem dumpfen, engen Kämmerchen.	1	0	0	1	0	0	true
+343	Zuerst hatte es über ihnen an der Höhe gerauscht und geknistert; darauf hoch in der Luft ein Geklapper wie von aneinander geschlagenen Stöcken; plötzlich ein gellender Schrei und ganz deutlich die Worte: »O weh, meine arme Seele!« hoch von oben herab.	6	0	1	6	1	0	true
+344	Gesprochenward wenig und leise, aber zuweilen drangen Seufzer herüber, die dem Knaben, so jung er war, durch Mark und Bein gingen.	3	0	0	3	0	0	false
+345	Der Gutsherr öffnete sie; fünf Groschen lagen darin, sauber in Papier gewickelt, und vier silberne Westenknöpfe; der Gutsherr betrachtete sie aufmerksam.	0	0	0	0	0	0	false
+346	Aber vorher sollt ihr mir noch beide ins Hundeloch!«	2	0	1	2	0	0	true
+347	Nach einigen Minuten, als alles still geworden war, sagte sie in sich hinein: »Zehn Jahre, zehn Kreuze.	0	0	0	0	0	0	true
+348	Doch nur einen Augenblick.	1	0	0	1	0	0	false
+349	So war er denn zum zweitenmal verschwunden; ob man ihn wiederfinden würde – vielleicht einmal nach Jahren seine Knochen in einem trockenen Graben?	7	0	1	5	0	1	true
+350	»Hm,« sagte der Gutsherr, »was die Schelme nicht stehlen, das verderben die Narren.«	0	0	0	0	1	0	true
+351	Wir haben sie doch zusammen getragen, und jetzt bin ich allein!« dann lauter:	5	1	1	5	0	0	true
+352	»Dummes Zeug!« sagte der Gutsherr verdrießlich und trat in die Kammer, sich umzukleiden.	0	0	1	0	0	0	true
+353	Als nach zwei Tagen die Leiche fortgetragen wurde, saß Margreth am Herde, das Gesicht mit der Schürze verhüllend.	0	0	0	0	0	0	false
+354	Die Nachsuchungen wurden fortgesetzt, bis man sich überzeugt hatte, Johannes sei nicht mehr in der Gegend, wenigstens nicht lebendig.	2	0	0	2	0	0	false
+355	Er war totenbleich und seine Augen schienen wie Kristallkugeln aus dem Kopfe schießen zu wollen.	0	0	0	0	0	0	false
+356	Am andern Morgen wollte die Fontäne im Garten nicht springen, und es fand sich, daß jemand eine Röhre verrückt hatte, augenscheinlich um nach dem Kopfe eines vor vielenJahren hier verscharrten Pferdegerippes zu suchen, der für ein bewährtes Mittel wider allen Hexen-und Geisterspuk gilt.	3	1	0	1	0	0	false
+357	– »Herr,« sagte er fest, mitfast sanfter Stimme; »Ihr habt gesagt, was Ihr nicht verantworten könnt, und ich vielleicht auch.	3	0	0	3	0	0	true
+358	Vierzehn Tage später kehrte der junge Brandis morgens von einer Besichtigung seines Reviers durch das Brederholz heim.	1	0	0	1	0	0	false
+359	Es war Mitternacht, aber alles im Schlosse außer dem Bett.	0	0	0	0	0	0	false
+360	– Friedrich kam scheu heran; die Mutter war ihm ganz unheimlich geworden mit den schwarzen Bändern und den verstörten Zügen.	1	0	0	1	0	0	true
+361	Es war ein für die Jahreszeit ungewöhnlich heißer Tag; die Luft zitterte, kein Vogel sang, nur die Raben krächzten langweilig aus den Ästen und hielten ihre offenen Schnäbel der Luft entgegen.	1	0	0	1	0	0	false
+362	Ihn lebend wieder zu sehen, dazu war wenig Hoffnung, und jedenfalls nach achtundzwanzig Jahren gewiß nicht.	3	0	0	3	0	0	false
+363	Dann kehrte die größte, an Erschlaffung grenzende Ruhe zurück.	1	0	0	1	0	0	false
+364	Drei Tage später tobte ein furchtbarer Sturm.	0	0	0	0	0	0	false
+365	»Fritzchen, komm her!«	0	0	1	0	0	0	true
+366	An den Scheiben flogen Blätter und Zweige her; mitunter fuhr ein Ziegel hinab und schmetterte auf das Pflaster des Hofes.	1	0	0	1	0	0	false
+367	– »Mutter, Hülsmeyer stiehlt.«	0	0	0	0	0	0	true
+368	Bald nahm er seine von der Sonne durchglühte Kappe ab, bald setzte er sie wieder auf.	3	0	0	3	0	0	false
+369	Ich habe sie nicht gesehen, aber den Hohlweg hinauffahren hören.«	1	0	0	1	0	0	true
+370	Wir wollen es gegeneinander aufgehen lassen, und nun will ich Euch sagen, was Ihr verlangt.	2	0	0	2	0	0	true
+371	Der Gutsherr stand am Fenster und sah besorgt ins Dunkle, nach seinen Feldern hinüber.	1	0	0	1	0	0	false
+372	»Fritzchen,« sagte sie, »willst du jetzt auch fromm sein, daß ich Freude an dir habe, oder willst du unartig sein und lügen, oder saufen und stehlen?«	2	1	1	2	0	0	true
+373	Wenn Ihr die Holzfäller nicht selbst bestellt habt, so müssen es die Blaukittel sein; denn aus dem Dorfe ist kein Wagen gekommen; ich habe den Weg ja vor mir, und vier Wagen sind es.	3	1	0	3	0	0	true
+374	Brandis   war sehr ermüdet.	1	0	0	1	0	0	false
+375	Seine Frau sah ängstlich aus.	0	0	0	0	0	0	false
+376	Gott bewahre!	2	0	1	0	0	0	false
+377	Ringsumher kein Baum außer der Judenbuche.	1	0	0	1	0	0	false
+378	– »Könnt Ihr sagen, daß ich je einen Baum in Eurem Revier gefällt habe?	3	0	1	1	0	0	true
+379	»Ist das Feuer auch gewiß gut verwahrt?« sagte sie; »Gretchen, sieh noch einmal nach, gieß es lieber ganz aus!	8	0	2	6	0	0	true
+380	– »Furchtbares Wetter!« sagte Herr von S.	0	0	1	0	0	0	true
+381	– »Hülsmeyer?	2	0	1	0	0	0	true
+382	– Er stockte einen Augenblick.	0	0	0	0	0	0	true
+383	Es war alles gleich unerträglich, das Arbeiten durch den kniehohen Schlag sehr beschwerlich.	2	0	0	2	0	0	false
+384	Die Kühle zog so angenehm durch seine Glieder, daß er die Augen schloß.	1	0	0	1	0	0	false
+385	Denkt nach, ob Ihr das sagen könnt?«	0	0	1	0	0	0	true
+386	Alles kniete nieder und die Hausfrau begann:	0	0	0	0	0	0	false
+387	– »Er hat neulich den Aaron geprügelt und ihm sechs Groschen genommen.«	1	0	0	1	0	0	true
+388	Soll ich dir auf den Rücken kommen?	2	0	1	0	0	0	true
+389	Überhaupt, daß ich je anderwärts gehauen habe, als auf Bestellung?	5	0	1	3	0	0	true
+390	Dahin strebte er denn auch aus allen Kräften und ließ sich todmatt auf das beschattete Moos darunter nieder.	2	0	0	2	0	0	false
+391	– Kommt, wir wollen das Evangelium Johannis beten.«	0	0	0	0	0	0	true
+392	wer sagt dir so schlechtes Zeug?«	1	0	1	1	0	0	true
+393	Er wandte sich unwirsch und schritt dem Gebüsche zu.	0	0	0	0	0	0	false
+394	Ein furchtbarer Donnerschlag.	0	0	0	0	0	0	false
+395	Hülsmeyer ist ein ordentlicher, angesessener Mann, und die Juden sind alle Schelme.«	0	0	0	0	0	0	true
+396	– »Nein, Herr,« rief Friedrich, »wenn Ihr zu den andern Förstern wollt, die sind dort an der Buche hinaufgegangen.«	1	1	0	1	0	0	true
+397	Brandis glaubt solche unangenehmen Nachbarn zu spüren, er wandte sich ein paarmal hin und her, mochte aber doch nicht aufstehen; sein Hund sprang unterdessen umher, kratzte am Stamm der Buche und bellte hinauf.	4	0	0	4	0	0	false
+398	Ein verlegenes Murmeln war die ganze Antwort des Försters, der nach Art der meisten rauhen Menschen leicht bereute.	0	0	0	0	0	0	false
+399	»Schändliche Pilze!« murmelte er halb im Schlaf.	0	0	1	0	0	0	true
+400	»Im Anfang war das Wort und das Wort war bei Gott und Gott war das Wort.«	0	0	0	0	0	0	true
+401	– »Hat er dem Aaron Geld genommen, so hat ihn der verfluchte Jude gewiß zuvor darum betrogen.	3	0	0	3	0	0	true
+402	Es gibt nämlich in jener Gegend eine Art sehr saftiger Pilze, die nur ein paar Tage stehen, dann einfallen und einen unerträglichen Geruch verbreiten.	4	0	0	4	0	0	false
+403	– »Um Gottes willen!	2	0	1	0	0	0	true
+404	– »Kind, Brandis ist ein Förster.«	0	0	0	0	0	0	true
+405	– »Ich sage Euch, an der Buche; des langen Heinrich Flintenriemen blieb noch am krummen Ast dort hängen; ich hab's ja gesehen!«	3	1	1	3	0	0	true
+406	Eine Katze?« murmelte Brandis.	0	0	1	0	0	0	true
+407	Alle fuhren zusammen; dann furchtbares Geschrei und Getümmel die Treppe heran.	1	0	0	1	0	0	false
+408	– »Aber, Mutter, Brandis sagt auch, daß er Holz und Rehe stiehlt.«	1	0	0	1	0	0	true
+409	– »Was hast du da, Bello?	3	0	1	1	0	0	true
+410	– »An der Buche?« sagte Brandis zweifelhaft, »nein, dort hinüber, nach dem Mastergrunde.«	2	1	1	2	0	0	true
+411	Margreth schwieg eine Weile; dann sagte sie:	1	0	0	1	0	0	false
+412	Friedrich hatte die ganze Zeit hindurch seine Stellung nicht verlassen, halb liegend, den Arm um einen dürren Ast geschlungen, sah er dem Fortgehenden unverrückt nach, wie er durch den halbverwachsenen Steig glitt, mit den vorsichtigen weiten Schritten seines Metiers, so geräuschlos wie ein Fuchs die Hühnerstiege erklimmt.	2	0	0	2	0	0	false
+413	Er schloß die Augen wieder; der Hund fuhr fort zu bellen und legte endlich seinem Herrn die kalte Schnauze ans Gesicht.	2	0	0	2	0	0	false
+414	Sie warf sich vor dem Gutsherrn auf die Knie.	0	0	0	0	0	0	false
+415	»Höre, Fritz, das Holz läßt unser Herrgott frei wachsen und das Wild wechselt aus eines Herren Lande in das andere; die können niemand angehören.	0	0	0	0	0	0	true
+416	Brennt es?« rief Frau von S. und sank mit dem Gesichte auf den Stuhl.	0	0	1	0	0	0	true
+417	– »Mutter, lügen die Förster?«	0	0	1	0	0	0	true
+418	Er öffnete die Wimper halb und die Judenschrift fiel ihm ins Auge, sehr ausgewachsen, aber doch noch ganz kenntlich.	4	0	0	4	0	0	false
+419	Der Förster schlug den bezeichneten Weg ein.	0	0	0	0	0	0	false
+420	Die Türe ward aufgerissen und herein stürzte die Frau des Juden Aaron, bleich wie der Tod, das Haar wild um den Kopf, von Regen triefend.	0	0	0	0	0	0	false
+421	Da blitze es noch einmal durchs Laub.	3	0	0	3	0	0	false
+422	Was hast du denn?«	1	0	1	1	0	0	true
+423	Mein Mann ist erschlagen!« und sank ohnmächtig zusammen.	0	0	1	0	0	0	true
+424	Friedrich hatte seinen Vater auf dem Stroh gesehen, wo er, wie man sagt, blau und fürchterlich ausgesehen haben soll.	0	0	0	0	0	0	false
+425	Hiebei sah Brandis, wie er so auf dem Rücken lag, in die Höhe, sprang dann mit einem Satze auf und wie besessen ins Gestrüpp hinein.	2	0	0	2	0	0	false
+426	– »Laß mich in Ruh'!	2	0	1	0	0	0	true
+427	Hier sank ein Zweig hinter ihm, dort einer; die Umrisse seiner Gestalt schwanden immer mehr.	6	1	0	4	0	0	false
+428	»Gerechtigkeit!« rief sie, »Gerechtigkeit!	2	0	2	0	0	0	true
+429	Doch das verstehst du noch nicht; jetzt geh in den Schoppen und hole mir Reisig.«	2	1	0	2	0	0	true
+430	An der linken Schläfe war der blaue Fleck, sonst keine Verletzung zu finden.	1	0	0	1	0	0	false
+431	Überhaupt hatte die Erinnerung an seinen Vater eine mit Grausen gemischte Zärtlichkeit in ihm zurückgelassen, wie denn nichts so fesselt, wie die Liebe und Sorgfalt eines Wesens, das gegen alles Übrige verhärtet scheint, und bei Friedrich wuchs dieses Gefühl mit den Jahren, durch das Gefühl mancher Zurücksetzung von seiten anderer.	3	0	0	3	0	0	false
+432	– »Und du hast ihn nicht ab geschnitten, Esel?« rief der Baron.	0	0	1	0	0	0	true
+433	Gereute es ihn vielleicht, den Förster nicht um Verschweigung seiner Angaben gebeten zu haben?	3	0	1	1	0	0	false
+434	Es war ein Stahlknopf seines Jagdrocks; nun war er fort.	1	0	0	1	0	0	false
+435	Es war nur zu wahr, und die nachfolgende Untersuchung bewies, daß der Jude Aaron durch einen Schlag an die Schläfe mit einem stumpfen Instrumente, wahrscheinlich einem Stabe, sein Leben verloren hatte, durch einen einzigen Schlag.	1	0	0	1	0	0	false
+436	Aber davon erzählte er nie und schien ungern daran zu denken.	2	0	0	2	0	0	false
+437	Friedrichs Gesicht hatte während dieses allmähligen Verschwindens den Ausdruck seiner Kälte verloren und seine Züge schienen zuletzt unruhig bewegt.	1	0	0	1	0	0	false
+438	Totenbleich kam er auf dem Schlosse an: in der Judenbuche hänge ein Mensch; er habe die Beine gerade über seinem Gesichte hängen sehen.	1	0	0	1	0	0	false
+439	Aaron war vor drei Tagen am Nachmittage ausgegangen, um Vieh zu kaufen, und hatte dabei gesagt, er werde wohl über Nacht ausbleiben, da noch einige böse Schuldner in B. und S. zu mahnen seien.	4	1	0	2	0	0	false
+440	Es ist gewöhnlich in jenen Gegenden, den Verunglückten die Ruhe im Grabe abzusprechen.	0	0	0	0	0	0	false
+441	Ich glaubte anfangs, es seien die Pilze.«	1	0	0	1	0	0	true
+442	»Es ist zu spät,« sagte er vor sich hin und griff nach seinem Hute.	0	0	0	0	0	0	true
+443	In diesem Falle werde er in B. beim Schlächter Salomon übernachten.	0	0	0	0	0	0	false
+444	Die Aussagen der Jüdin und ihres Knechtes Samuel lauteten so:	1	0	0	1	0	0	false
+445	Es war ihm äußerst empfindlich, wenn, solange er Kind war, jemand des Verstorbenennicht allzu löblich gedachte; ein Kummer, den ihm das Zartgefühl der Nachbarn nicht ersparte.	1	0	0	1	0	0	false
+446	Er ging einige Schritte voran, blieb dann stehen.	1	0	0	1	0	0	false
+447	– »Herr,« keuchte Brandis, »wenn Ew. Gnaden dagewesen wären, so wüßten Sie wohl, daß der Mensch nicht mehr lebt.	5	1	0	3	0	0	true
+448	Sie waren unter der Buche angelangt.	0	0	0	0	0	0	false
+449	Es war der Förster, der den Flintenstein schärfte.	0	0	0	0	0	0	false
+450	Beim Juden Salomon wußte man nichts von Aaron; er war garnicht da gewesen.	2	0	0	2	0	0	false
+451	Seitdem trieb er seiner Mutter Kühe allein an das andere Ende des Tales, wo man ihn oft stundenlang in derselben Stellung im Grase liegen und den Thymian aus dem Boden rupfen sah.	2	0	0	2	0	0	false
+452	Der alte Mergel war das Gespenst des Brederholzes geworden; einen Betrunkenen führte er als Irrlicht bei einem Haar in den Zellerkolk (Teich); die Hirtenknaben, wenn sie nachts bei ihren Feuern kauerten und die Eulen in den Gründen schrieen, hörten zuweilen in abgebrochenen Tönen ganz deutlich dazwischen sein: »Hör mal an, feins Lieseken,« und ein unprivilegierter Holzhauer, der unter der breiten Eiche eingeschlafen und dem es darüber Nacht geworden war, hatte beim Erwachen sein geschwollenes blaues Gesicht durch die Zweige lauschen sehen.	4	0	0	4	0	0	true
+453	Ein leises Picken im Gebüsche, nicht zwanzig Schritte von ihm.	0	0	0	0	0	0	false
+454	Dennoch trieb der Gutsherr zur größten Eile und zog selbst mit hinaus.	2	0	0	2	0	0	false
+455	Als er am folgenden Tage nicht heimkehrte, war seine Frau sehr besorgt geworden und hatte sich endlich heute um drei nachmittags in Begleitung ihres Knechtes und des großen Schlächterhundes auf den Weg gemacht.	6	1	0	4	0	0	false
+456	Friedrich mußte von andern Knaben vieles darüber hören; dann heulte er, schlug um sich, stach auch einmal mit seinem Messerchen und wurde bei dieser Gelegenheit jämmerlich geprügelt.	3	0	0	3	0	0	false
+457	– »Nein!« sagte er dann mit entschlossenem Tone, raffte seine Siebensachen zusammen und trieb das Vieh eilfertig die Schlucht entlang.	1	1	1	1	0	0	true
+458	Nur zwei hatten ihn gesehen, und zwar an demselben Tage, an welchem er ausgegangen.	2	0	0	2	0	0	false
+459	Simon Semmler war ein kleiner, unruhiger, magerer Mann mit vor dem Kopf liegenden Fischaugen und überhaupt einem Gesicht wie ein Hecht, ein unheimlicher Geselle, bei dem dicktuende Verschlossenheit oft mit ebenso gesuchter Treuherzigkeit wechselte, der gern einen aufgeklärten Kopf vorgestellt hätte und statt dessen für einen fatalen, Händel suchenden Kerl galt, dem jeder um so lieber aus dem Wege ging, je mehr er in das Alter trat, wo ohnehin beschränkte Menschen leicht an Ansprüchen gewinnen, was sie an Brauchbarkeit verlieren.	8	0	0	8	0	0	false
+460	Um Mittag saß Frau Margreth am Herd und kochte Tee.	0	0	0	0	0	0	false
+461	– »Gott, es ist Johannes!	2	0	1	0	0	0	true
+462	Friedrich horchte.	0	0	0	0	0	0	false
+463	»Ich sehe nichts,« sagte Herr von S. – »Hierher müssen Sie treten, hierher, an diese Stelle!«	1	0	1	1	0	0	true
+464	Nun waren sie zu allen Bauern gegangen, von denen sie wußten, daß Aaron einen Handel mit ihnen im Auge hatte.	1	0	0	1	0	0	false
+465	Er war zwölf Jahre alt, als seine Mutter einen Besuch von ihrem jüngern Bruder erhielt, der in Brede wohnte und seit der törichten Heirat seiner Schwester ihre Schwelle nicht betreten hatte.	0	0	0	0	0	0	false
+466	– Wirklich, dem war so: der Gutsherr erkannte seine eigenen abgetragenen Schuhe.	1	0	0	1	0	0	true
+467	Die große Angst trieb das Weib nach Haus, wo sie ihren Mann wiederzufinden eine schwache Hoffnung nährte.	0	0	0	0	0	0	false
+468	»Simon, bist du da?« sagte sie, und zitterte, daß sie sich am Stuhle halten mußte.	1	0	1	1	0	0	true
+469	Margreth sah schweigend und trübe in das siedende Wasser.	0	0	0	0	0	0	false
+470	– So – nun herunter!	4	0	1	2	0	0	true
+471	Es war darüber sehr spät geworden.	1	0	0	1	0	0	false
+472	Dennoch freute sich die arme Margreth, die sonst keinen der Ihrigen mehr am Leben hatte.	3	0	0	3	0	0	false
+473	– Setzt die Leiter an!	2	0	1	0	0	0	true
+474	– Friedrich war krank heimgekommen, er klagte über heftige Kopfschmerzen und hatte auf ihre besorgte Nachfrage erzählt, wie er sich schwer geärgert über den Förster; kurz den ganzen eben beschriebenen Vorgang, mit Ausnahme einiger Kleinigkeiten, die er besser fand, für sich zu behalten.	3	1	0	1	0	0	true
+475	Simon betrachtete sie ernst und reichte ihr die Hand:	0	0	0	0	0	0	false
+476	Sollte wohl eine Krankheit im Anzuge sein?	5	1	1	1	0	0	false
+477	Laßt ihn nicht fallen!	2	0	1	0	0	0	false
+478	Es ist der Stab ihres Mannes, und fast im selben Augenblicke bricht der Hund durchs Gebüsch und trägt etwas im Maule:	1	0	0	1	0	0	false
+479	»Du bist alt geworden, Margreth!«	0	0	1	0	0	0	true
+480	So waren sie im Brederholz vom Gewitter überfallen worden und hatten unter einer großen, am Berghange stehenden Buche Schutz gesucht; der Hund hatte unterdessen auf eine auffallende Weise umhergestöbert und sich endlich, trotz allem Locken, im Walde verlaufen.	3	0	0	3	0	0	false
+481	»Willst du sehen, wie es mir geht und meinem schmutzigen Jungen?« –	0	0	1	0	0	0	true
+482	– Sacht, sacht!	2	0	1	0	0	0	true
+483	Sie war es wohl gewohnt, ihren Sohn mitunter klagen zu hören, aber heute kam er ihr so angegriffen vor, wie sonst nie.	10	2	0	6	0	0	false
+484	Mit einemmale sieht die Frau beim Leuchten des Blitzes etwas Weißes neben sich im Moose.	1	0	0	1	0	0	false
+485	»Mutter!« rief Friedrich aus der Kammer.	0	0	1	0	0	0	true
+486	Macht dennoch die Schlinge auf und die Halsbinde.«	1	0	0	1	0	0	true
+487	Nicht lange, so ist in einem mit dürrem Laube gefüllten Graben der Leichnam des Juden gefunden.	2	0	0	2	0	0	false
+488	»Es ist mir derweil oft bitterlich gegangen mit allerlei Schicksalen.«	2	0	0	2	0	0	true
+489	– Eine breite Narbe ward sichtbar; der Gutsherr fuhr zurück.	0	0	0	0	0	0	true
+490	– Lieber Himmel, die Würmer sind schon daran!	5	1	1	1	0	0	true
+491	Sie seufzte tief und ließ einen eben ergriffenen Holzblock fallen.	3	1	0	1	0	0	false
+492	es ist der Schuh ihres Mannes.	0	0	0	0	0	0	false
+493	– Margreth seufzte:	0	0	0	0	0	0	true
+494	– »Aug' um Auge, Zahn um Zahn!« dies waren die einzigen Worte, die sie zuweilen hervorstieß.	1	0	1	1	0	0	true
+495	Jetzt bist du alt und das Kind ist klein.	1	1	0	1	0	0	true
+496	Dann   wandte er sich zu den Förstern:	1	0	0	1	0	0	false
+497	– »Ach nein, ich weiß nicht, was du meinst.«	0	1	0	0	1	0	true
+498	– »Was willst du?«	0	0	1	0	0	0	true
+499	– Dies war die Angabe des Knechtes, von der Frau nur im allgemeinen unterstützt; ihre übergroße Spannung hatte nachgelassen und sie schien jetzt halb verwirrt oder vielmehr stumpfsinnig.	5	1	0	3	0	0	true
+500	– »Ja, Mädchen, zu spät gefreit, hat immer gereut!	5	1	1	1	0	0	true
+501	– »War das ein Schuß?«	0	0	1	0	0	0	true
+502	– »Mein Gott!« sagte er; er beugte sich wieder über die Leiche, betrachtete die Narbe mit großer Aufmerksamkeit und schwieg eine Weile in tiefer Erschütterung.	1	0	1	1	0	0	true
+503	Der Anklage bedurfte es nicht, da Herr von S. selbst Zeuge eines Auftritts gewesen war, der den dringendsten Verdacht auf ihn werfen mußte; zudem die Gespenstergeschichte von jenem Abende, das Aneinanderschlagen der Stäbe im Brederholz, der Schrei aus der Höhe.	1	0	0	1	0	0	false
+504	Aber wenn ein altes Haus brennt, dann hilft kein Löschen.«	1	0	0	1	0	0	true
+505	– Die Leiche ward auf dem Schindanger verscharrt.	0	0	0	0	0	0	true
+506	Die Nachbarin trat herein und erzählte mit leisem Flüstern irgendeine unbedeutende Klatscherei, die Margreth ohne Teilnahme anhörte.	0	0	0	0	0	0	false
+507	Da der Amtsschreiber gerade abwesend war, so betrieb Herr von S. selbst alles rascher, als sonst geschehen wäre.	4	0	0	4	0	0	false
+508	In derselben Nacht noch wurden die Schützen aufgeboten, um Friedrich zu verhaften.	1	0	0	1	0	0	false
+509	Jedes Ding hat seine Zeit.	0	0	0	0	0	0	false
+510	– »Es pocht mir wohl nur so im Kopfe,« versetzte er.	3	1	0	3	0	0	true
+511	»Es ist nicht recht, daß der Unschuldige für den Schuldigen leide; sagt es nur allen Leuten: der da« – er deutete auf den Toten – »war Friedrich Mergel.«	2	0	0	2	0	0	true
+512	Die hebräische Schrift an dem Baume heißt:	0	0	0	0	0	0	false
+513	– »Mutter!« rief Friedrich.	0	0	1	0	0	0	true
+514	Der Gutsherr selber pochte an; es währte kaum eine Minute, bis geöffnet ward und Margreth völlig gekleidet in der Türe erschien.	3	0	0	3	0	0	false
+515	– »Ei nun so ziemlich, und dabei fromm.«	3	0	0	3	0	0	true
+516	– Über Margreths vergrämtes Gesicht flog eine Flamme so rot wie Blut.	1	0	0	1	0	0	true
+517	Dann ging sie.	1	0	0	1	0	0	false
+518	Dies hat sich nach allen Hauptumständen wirklich so begeben im September des Jahrs 1788. –	1	0	0	1	0	0	true
+519	Dennoch begann die Dämmerung bereits anzubrechen, bevor die Schützen so geräuschlos wie möglich das Haus der armen Margreth umstellt hatten.	3	0	0	3	0	0	false
+520	»Aber ich höre, dein Junge ist schlau und gewichst,« fuhr Simon fort.	0	0	0	0	0	0	true
+521	»Was erzählte die Hülsmeyer?«	0	0	1	0	0	0	true
+522	»Wo ist Friedrich?« fragte er mit unsicherer Stimme.	0	0	1	0	0	0	true
+523	Aber er ist still und nachdenklich, nicht wahr?	2	0	1	0	0	0	false
+524	– »Ach gar nichts, Lügen, Wind!«	1	0	1	1	1	0	true
+525	Margreth ging zu ihm hinein.	0	0	0	0	0	0	false
+526	»Wenn du dich diesem Orte nahest, so wird es dir ergehen, wie du mir getan hast.«	1	0	0	1	0	0	true
+527	Herr von S. fuhr zurück; er hätte sie fast nicht erkannt, so blaß und steinern sah sie aus.	2	0	0	2	0	0	false
+528	– »Hum, 's hat mal einer eine Kuh gestohlen, der hieß auch Fromm.	2	0	0	2	0	0	true
+529	Der Gutsherr zögerte noch einen Augenblick.	1	0	0	1	0	0	false
+530	– »Er ist ein eigenes Kind,« sagte Margreth wie für sich; »es ist nicht gut.« – Simon lachte hell auf:	0	0	0	0	0	0	true
+531	– »Von der Gretchen Siemers; du weißt ja wohl die alte Geschichte; und ist doch nichts Wahres dran.« – Friedrich legte sich wieder hin.	4	2	0	4	0	0	true
+532	– »Sucht ihn,« antwortete sie und setzte sich auf einen Stuhl.	0	0	0	0	0	0	true
+533	Er läuft nicht mit den andern Buben?«	0	0	1	0	0	0	true
+534	– Friedrich richtete sich auf.	0	0	0	0	0	0	true
+535	Das wird ihnen der Bursche schon wieder bezahlen.	4	1	0	2	0	0	false
+536	Margreth saß am Herde; sie spann und dachte wenig Erfreuliches.	0	0	0	0	0	0	false
+537	Erwar nicht da, aber das Bett noch warm.	3	0	0	3	0	0	false
+538	Hülsmeyer war neulich bei mir; der sagte, es ist ein Junge wie 'n Reh.«	1	0	0	1	0	0	true
+539	»Herein, herein!« sagte er dann barsch; »worauf warten wir?«	1	0	2	1	0	0	true
+540	»Dein Junge ist scheu, weil ihn die andern ein paarmal gut durchgedroschen haben.	1	0	0	1	0	0	true
+541	»Ich will sehen, ob ich schlafen kann,« sagte er.	0	0	0	0	0	0	true
+542	Man trat in Friedrichs Kammer.	0	0	0	0	0	0	false
+543	– »Guten Tag, Frau Mergel,« sagte er; »könnt Ihr mir einen Trunk Milch geben?	2	0	1	0	0	0	true
+544	Einige gingen in den Garten, sahen hinter den Zaun und in die Apfelbäume hinauf; er war nicht zu finden.	0	0	0	0	0	0	false
+545	Der armen Margreth ward selten so wohl, jedermann nannte ihren Jungen tückisch und verschlossen.	4	1	0	2	0	0	false
+546	Im Dorfe schlug es halb zwölf; die Türe klinkte und der Gerichtsschreiber Kapp trat herein.	0	0	0	0	0	0	false
+547	Man stieg auf den Söller, in den Keller, stieß ins Stroh, schaute hinter jedes Faß, sogar in den Backofen; er war nicht da.	2	0	0	2	0	0	false
+548	Welcher Mutter geht das Herz nicht auf, wenn sie ihr Kind loben hört?	2	0	1	0	0	0	false
+549	»Gebt den Schlüssel zu jenem Koffer.«	0	0	0	0	0	0	true
+550	»Ja, gottlob, er hat gerade Glieder.«	2	1	0	2	0	0	true
+551	Sie war gerade beschäftigt, einen Teller hervorzulangen und überhörte die Frage.	1	0	0	1	0	0	false
+552	Ich komme von M.« – Als Frau Mergel das Verlangte brachte, fragte er:	0	0	0	0	0	0	true
+553	– »Entwischt!« sagte der Gutsherr mit sehr gemischten Gefühlen: der Anblick der alten Frau wirkte gewaltig auf ihn.	1	0	1	1	0	0	true
+554	Die Tränen traten ihr in die Augen.	0	0	0	0	0	0	false
+555	»Wo ist Friedrich?«	0	0	1	0	0	0	true
+556	– »Gebt den Schlüssel!« wiederholte der Gutsherr, und merkte jetzt erst, daß der Schlüssel steckte.	4	1	1	2	0	0	true
+557	– »Er hat viel von dir, Simon, viel.«	1	0	0	1	0	0	true
+558	»Wißt Ihr wohl,« sagte er dann, »daß die Blaukittel in dieser Nacht wieder im Masterholze eine ganze Strecke so kahl gefegt haben, wie meine Hand?«	4	1	1	4	0	0	true
+559	Der Inhalt des Koffers kam zum Vorschein: des Entflohenen gute Sonntagskleider und seiner Mutter ärmlicher Staat; dann zwei Leichenhemden mit schwarzen Bändern, das eine für einen Mann, das andere für eine Frau gemacht.	1	0	0	1	0	0	false
+560	– Margreth antwortete nicht.	0	0	0	0	0	0	true
+561	– »Wie sieht er aus?« fuhr Simon fort.	0	0	1	0	0	0	true
+562	Er trank zögernd und in kurzen Absätzen.	0	0	0	0	0	0	false
+563	»Die Schandbuben,« fuhr der Schreiber fort, »ruinieren alles; wenn sie noch Rücksicht nähmen auf das junge Holz, aber Eichenstämmchen wie mein Arm dick, wo nicht einmal eine Ruderstange drin steckt!	6	0	1	4	0	0	true
+564	Ganz zu unterst auf dem Boden des Koffers lag die silberne Uhr und einige Schriften von sehr leserlicher Hand, eine derselben von einem Manne unterzeichnet, den man in starkem Verdacht der Verbindung mit den Holzfrevlern hatte.	2	0	0	2	0	0	false
+565	An der Schule soll er sich wohl nicht verbrennen.	3	1	0	1	0	0	false
+566	Simon lachte:	0	0	0	0	0	0	false
+567	– »Ei, du frommer Gott!« versetzte sie gleichgültig.	0	0	1	0	0	0	true
+568	Herr von S. war tief erschüttert.	0	0	0	0	0	0	false
+569	»Ei, das muß ein rarer Kerl sein, ich werde alle Tage schöner.	0	0	0	0	0	0	true
+570	– »Es ist schade!« sagte Margreth.	0	0	1	0	0	0	true
+571	Im Schlosse angelangt, fand der Gutsherr den Amtsschreiber, der schon am vorigen Abend heimgekommen war und behauptete, die ganze Geschichte verschlafen zu haben, da der gnädige Herr nicht nach ihm geschickt.	3	1	0	1	0	0	false
+572	Ebenso gut.	1	0	0	1	0	0	false
+573	Der Amtsschreiber hatte getrunken und ging noch immer nicht.	2	0	0	2	0	0	false
+574	Es ist, als ob ihnen andrer Leute Schaden ebenso lieb wäre wie ihr Profit!«	1	0	1	1	0	0	true
+575	Herr von S. nahm sie mit zur Durchsicht, und man verließ das Haus, ohne daß Margreth ein anderes Lebenszeichen von sich gegeben hätte, als daß sie unaufhörlich die Lippen nagte und mit den Augen zwinkerte.	0	0	0	0	0	0	false
+576	Du läßt ihn die Kühe hüten?	2	0	1	0	0	0	true
+577	»War denn nicht irgendein altes Weib im Dorfe, das Ihrer Magd die Sache erzählte?	3	0	1	1	0	0	true
+578	Aber wo hütet er?	2	0	1	0	0	0	false
+579	»Habt Ihr nichts von Brandis gehört?« fragte er plötzlich.	0	0	1	0	0	0	true
+580	– »Sie kommen immer zu spät,« sagte Herr von S. verdrießlich.	1	0	0	1	0	0	true
+581	Es ist doch nicht halb wahr, was der Magister sagt.	1	0	0	1	0	0	false
+582	Er schien etwas auf dem Herzen zu haben.	0	0	0	0	0	0	false
+583	im Roderholze?	2	0	1	0	0	0	false
+584	– »So wißt Ihr nicht, was ihm begegnet ist?«	1	0	1	1	0	0	true
+585	– »Schöne Polizei!« murmelte der Gutsherr, »jede alte Schachtel im Dorf weiß Bescheid, wenn es recht geheim zugehen soll.«	1	0	1	1	0	0	true
+586	im Teutoburger Wald?	2	0	1	0	0	0	false
+587	Und warum weckte man Sie dann nicht?«	1	0	1	1	0	0	true
+588	Im Telgengrund?	2	0	1	0	0	0	false
+589	– »Nichts; er kommt niemals hier ins Haus.«	2	1	0	2	0	0	true
+590	– »Gnädiger Herr,« versetzte Kapp, »allerdings hat meine Anne Marie den Handel um eine Stunde früher erfahren als ich; aber sie wußte, daß Ihre Gnaden die Sache selbst leiteten, und dann,« fügte er mit klagender Miene hinzu, »daß ich so todmüde war.«	4	0	0	4	0	0	true
+591	– »Er ist tot!«	0	0	1	0	0	0	true
+592	»Das müßte wahrhaftig ein dummer Teufel von Delinquenten sein, der sich packen ließe!«	0	0	1	0	0	0	true
+593	– »Die ganzen Nächte durch; aber wie meinst du das?«	0	0	1	0	0	0	true
+594	– »Was denn?« fragte Margreth gespannt.	1	0	1	1	0	0	true
+595	Dann fuhr er heftig fort:	1	0	0	1	0	0	false
+596	auch des Nachts und früh?«	2	0	1	2	0	0	true
+597	– »Mein Fuhrmann hatte sich in der Nacht verirrt,« hob der Amtsschreiber wieder an; »über eine Stunde lang hielten wir im Walde; es war ein Mordwetter; ichdachte, der Wind werde den Wagen umreißen.	1	0	0	1	0	0	true
+598	»Ei, da kommt der Gesell!	3	0	1	1	0	0	true
+599	Er ging ja noch heute morgen ganz gesund hier vorüber mit der Flinte auf dem Rücken!«	7	4	1	7	0	0	true
+600	– »Tot!« rief sie, »was, tot?	2	0	2	0	0	0	true
+601	Beide schwiegen eine Weile.	0	0	0	0	0	0	false
+602	Simon schien dies zu überhören; er reckte den Hals zur Türe hinaus.	0	0	0	0	0	0	false
+603	Um Gotteswillen!	2	0	1	0	0	0	false
+604	Da sagte der Kutscher: wenn wir nur nicht den Steinbrüchen zu nahe kommen!	4	0	1	2	0	0	true
+605	er schlenkert gerade so mit den Armen wie dein seliger Mann.	2	0	0	2	0	0	false
+606	Vor einer Viertelstunde wurde die Leiche ins Dorf gebracht.«	0	0	0	0	0	0	true
+607	Mir war selbst bange; ich ließ halten und schlug Feuer, um wenigstens etwas Unterhaltung an meiner Pfeife zu haben.	2	0	0	2	0	0	true
+608	Endlich, als der Regen nachließ, fahren wir in Gottes Namen darauf los, immer in das Zellerfeld hinein, ohne eine Hand vor den Augen zu sehen.	2	0	0	2	0	0	true
+609	Vaterssohn!	2	0	1	0	0	0	false
+610	– »Er ist tot,« wiederholte der Schreiber, sie scharf fixierend; »von den Blaukitteln erschlagen.	0	0	0	0	0	0	true
+611	– »Gott im Himmel, geh nicht mit ihm ins Gericht!	2	0	1	0	0	0	true
+612	Ew. Gnaden mögen glauben, daß mir fatal zu Mut wurde.	0	0	0	0	0	0	true
+613	In der Mutter Züge kam ein heimliches, stolzes Lächeln; ihres Friedrichs blonde Locken und Simons rötliche Bürsten!	2	0	1	0	0	0	false
+614	Und schau mal an!	2	0	1	0	0	0	false
+615	Margreth schlug die Hände zusammen.	0	0	0	0	0	0	false
+616	Mit einemmale hörten wir ganz nah, perpendikulär unter uns die Glocke schlagen.	2	0	0	2	0	0	true
+617	Wahrhaftig, der Junge hat meine blonden Haare!«	1	0	1	1	0	0	true
+618	– »Mit ihm!« rief der Amtsschreiber, »mit dem verfluchten Mörder, meint Ihr?«	0	0	2	0	0	0	true
+619	So stand ich, in Kot und Regen, ohne mich zu rühren, bis es gottlob sehr bald anfing zu dämmern.	4	0	0	4	0	0	true
+620	Doch ging alles über Erwarten gut; Friedrich zeigte sich weder verstockt, noch frech, vielmehr etwas blöde und sehr bemüht, dem Ohm zu gefallen.	4	0	0	4	0	0	false
+621	Aus der Kammer drang ein schweres Stöhnen.	0	0	0	0	0	0	false
+622	Er wußte nicht, was er tat!«	0	0	1	0	0	0	true
+623	Ich sprang aus dem Wagen, denn seinen eigenen Beinen kann man trauen, aber denen der Pferde nicht.	0	0	0	0	0	0	true
+624	Ohne zu antworten, brach sie einen Zweig von der nächsten Hecke und ging ihrem Sohne entgegen, scheinbar, eine träge Kuh anzutreiben, im Grunde aber, ihm einige rasche, halbdrohende Worte zuzuraunen; denn sie kannte seine störrische Natur, und Simons Weise war ihr heute einschüchternder vorgekommen als je.	5	1	0	3	0	0	false
+625	dicht an der Heerser Tiefe und den Turm von Heerse gerade unter uns.	1	0	0	1	0	0	true
+626	Margreth ließ sich geduldig auseinandersetzen, wie groß der Vorteil, wie gering die Entbehrung ihrerseits bei dem Handel sei.	1	0	0	1	0	0	false
+627	Friedrich saß aufrecht im Bette, das Gesicht in die Hände gedrückt und ächzte wie ein Sterbender.	0	0	0	0	0	0	false
+628	Und wo hielten wir?	2	0	1	0	0	0	true
+629	So kam es denn dahin, daß nach einer halbstündigen Unterredung Simoneine Art Adoption des Knaben in Vorschlag brachte, vermöge deren er denselben zwar nicht gänzlich seiner Mutter entziehen, aber doch über den größten Teil seiner Zeit verfügen wollte, wofür ihm dann am Ende des alten Junggesellen Erbe zufallen solle, das ihm freilich ohnedies nicht entgehen konnte.	8	0	0	8	0	0	false
+630	Margreth eilte hin und der Schreiber folgte ihr.	0	0	0	0	0	0	false
+631	Doch sie schwieg und gab sich in alles.	0	0	0	0	0	0	false
+632	– »Wie ist dir?« wiederholte der Amtsschreiber.	0	0	1	0	0	0	true
+633	Er hatte unterdessen die mitgenommenen Papiere durchgesehen.	1	0	0	1	0	0	false
+634	Nur bat sie den Bruder, streng, doch nicht hart gegen den Knaben zu sein.	2	0	0	2	0	0	false
+635	Wären wir noch zwanzig Schritt weiter gefahren, wir wären alle Kinder des Todes gewesen.«	2	0	0	2	0	0	true
+636	Sie wußte am besten, was eine kränkliche Witwe an der Hülfe eines zwölfjährigen Knaben entbehrt, den sie bereits gewöhnt hat, die Stelle einer Tochter zu ersetzen.	1	0	0	1	0	0	false
+637	– »Friedrich, wie ist dir?« sagte die Mutter.	0	0	1	0	0	0	true
+638	– »Das war in der Tat kein Spaß,« versetzte der Gutsherr, halb versöhnt.	0	0	0	0	0	0	true
+639	– »Was fehlt ihm?«	0	0	1	0	0	0	true
+640	– »Ich hätte nicht gedacht,« murmelte er, »daß die Mergels so tief drinsteckten.«	1	0	0	1	0	0	true
+641	Simon nickte schlau mit dem Kopf: »Laß mich nur gewähren, wir wollen uns schon vertragen, und weißt du was?	4	1	1	2	0	0	true
+642	– »O mein Leib, mein Kopf!« jammerte er.	0	0	1	0	0	0	true
+643	Es waren Mahnbriefe um geliehene Gelder, die meisten von Wucherern.	0	0	0	0	0	0	false
+644	»Er ist gut,« sagte sie, »aber ich bin eine einsame Frau; mein Kind ist nicht, wie einer, über den Vaterhand regiert hat.«	0	0	0	0	0	0	true
+645	– »Ach Gott, die denkt jetzt daran nicht!«	1	1	1	1	1	0	true
+646	Komm, Fritzchen, zieh deine Holzschuh' an!«	0	0	1	0	0	0	true
+647	– »Nein, nein,« ächzte er, »es ist nur Kolik, es wird schon besser.«	2	3	0	2	0	0	true
+648	– »Ach, Gott weiß es,« versetzte sie; »er ist schon um vier mit den Kühen heimgekommen, weil ihm so übel war.	4	1	0	2	1	0	true
+649	– »Ja, und daß es so an den Tag kommen muß,« versetzte Kapp; »das wird kein kleiner Ärger für Frau Margreth sein,«	1	1	0	1	0	0	true
+650	Gib mir den Jungen gleich mit, ich habe zwei Säcke aus der Mühle zu holen; der kleinste ist ihm grad recht, und so lernt er mir zur Hand gehen.	3	0	0	3	0	0	true
+651	– Friedrich – Friedrich, antworte doch, soll ich zum Doktor?«	1	0	1	1	0	0	true
+652	– Die Untersuchung war kurz, gewaltsamer Tod erwiesen, der vermutliche Täter entflohen, die Anzeigen gegen ihn zwar gravierend, doch ohne persönliches Geständnis nicht beweisend, seine Flucht allerdings sehr verdächtig.	4	0	0	4	0	0	true
+653	So hatte er ziemlich das Ansehen eines feurigen Mannes, der unter dem gestohlenen Sacke büßt; Friedrich ihm nach, fein und schlank für sein Alter, mit zarten, fast edlen Zügen und langen blonden Locken, die besser gepflegt waren, als sein übriges Äußere erwarten ließ; übrigens zerlumpt, sonneverbrannt und mit dem Ausdruck der Vernachlässigung und einer gewissen rohen Melancholie in den Zügen.	4	0	0	4	0	0	false
+654	– »Geht,« sagte er matt; »ich muß schlafen, dann geht's vorüber.«	1	0	0	1	0	0	true
+655	So mußte die gerichtliche Verhandlung ohne genügenden Erfolg geschlossen werden.	1	0	0	1	0	0	false
+656	– Mit diesen Worten stand der Gutsherr auf und verließ das Zimmer, um mit Herrn Kapp die gerichtliche Leichenschau vorzunehmen.	0	0	0	0	0	0	true
+657	– Und bald sah Margreth den beiden nach, wie sie fortschritten, Simon voran, mit seinem Gesicht die Luft durchschneidend, während ihm die Schöße des roten Rocks wie Feuerflammen nachzogen.	1	0	0	1	0	0	true
+658	Er legte sich zurück; sein Gesicht zuckte krampfhaft vor Schmerz; dann kehrte die Farbe wieder.	2	0	0	2	0	0	false
+659	– Sie sah ihn starr an.	0	0	0	0	0	0	true
+660	Das Haus der Witwe ward nie leer von Jammernden und Ratenden.	1	0	0	1	0	0	false
+661	Bis jetzt war wenig gesprochen worden.	3	1	0	1	0	0	false
+662	Dennoch war eine große Familienähnlichkeit beider nicht zu verkennen, und wie Friedrich so langsam seinem Führer nachtrat, die Blicke fest auf denselben geheftet, der ihn gerade durch das Seltsame seiner Erscheinung anzog, erinnerte er unwillkürlich an jemand, der in einem Zauberspiegel das Bild seiner Zukunft mit verstörter Aufmerksamkeit betrachtet.	3	0	0	3	0	0	false
+663	– »Frau Mergel,« sagte der Amtsschreiber ernst, »ist es gewiß, daß Friedrich um vier zu Hause kam und nicht wieder fortging?«	2	0	1	2	0	0	true
+664	Die Juden der Umgegend hatten großen Anteil gezeigt.	0	0	0	0	0	0	false
+665	Jetzt nahten die beiden sich der Stelle des Teutoburger Waldes, wo das Brederholz den Abhang des Gebirges niedersteigt und einen sehr dunkeln Grund ausfüllt.	4	1	0	2	0	0	false
+666	Und fortgehen?	2	0	1	0	0	0	false
+667	Durch den Mord ihres Glaubensgenossen aufs Äußerste erbittert, hatten sie weder Mühe noch Geld gespart, dem Täter auf die Spur zu kommen.	1	0	0	1	0	0	false
+668	Plötzlich fragte Simon:	0	0	0	0	0	0	false
+669	– wollte Gott, er könnt' es!«	0	0	1	0	0	0	true
+670	»Fragt jedes Kind auf der Straße.	0	0	0	0	0	0	true
+671	Seit Menschengedenken waren nicht so viel Juden beisammen in L. gesehen worden.	1	0	0	1	0	0	false
+672	Simon schien nachdenkend, der Knabe zerstreut, und beide keuchten unter ihren Säcken.	0	0	0	0	0	0	false
+673	Als dennoch alles nichts half und die gerichtliche Verhandlung für beendet erklärt worden war, erschien am nächsten Morgen eine Anzahl der angesehensten Israeliten im Schlosse, um dem gnädigen Herrn einen Handel anzutragen.	1	0	0	1	0	0	false
+674	– Der Knabe antwortete nicht.	0	0	0	0	0	0	true
+675	– »In Gottes Namen, ja, daß er ihn im Walde geschimpft und unsere Armut vorgeworfen hat, der Lump!	5	1	1	1	0	0	true
+676	Man weiß sogar, daß einer derselben, gemeinhin der Wucherjoel genannt, einem seiner Kunden, der ihm mehrere Hunderte schuldete und den er für einen besonderslistigen Kerl hielt, Erlaß der ganzen Summe angeboten hatte, falls er ihm zur Verhaftung des Mergel verhelfen wolle; denn der Glaube war allgemein unter den Juden, daß der Täter nur mit guter Beihülfe entwischt und wahrscheinlich noch in der Umgegend sei.	5	0	0	5	0	0	false
+677	»Trinkst dugern Branntwein?«	1	0	1	1	0	0	true
+678	– »Hat er Euch nichts von Brandis erzählt?«	0	0	1	0	0	0	true
+679	Gibt dir die Mutter zuweilen welchen?«	1	0	1	1	0	0	true
+680	– Geht!« fuhr sie heftig fort; »seid Ihr gekommen, um ehrliche Leute zu beschimpfen?	2	0	2	0	0	0	true
+681	So mitten im vollen Laube?« fragte der Gutsherr.	2	0	1	2	0	0	true
+682	– »Die Mutter hat selbst keinen,« sagte Friedrich.	1	0	0	1	0	0	true
+683	Der Gegenstand war die Buche, unter der Aarons Stab gefunden und wo der Mord wahrscheinlich verübt worden war.	0	0	0	0	0	0	false
+684	»Ich frage, trinkst du gern Branntwein?	3	0	1	1	0	0	true
+685	– Doch Gott verzeih mir, er ist tot!	2	0	1	0	0	0	true
+686	– »Wollt ihr sie fällen?	2	0	1	0	0	0	true
+687	– Sie wandte sich wieder zu ihrem Sohne; der Schreiber ging.	1	0	0	1	0	0	true
+688	– »Aber wenn ich nun den Wald hauen lasse, so schadet es dem jungen Aufschlag.«	2	0	0	2	0	0	true
+689	– Kennst du das Holz da vor uns?«	1	0	1	1	0	0	true
+690	Geht!«	0	0	1	0	0	0	true
+691	– »Nein, Ihro Gnaden, sie muß stehenbleiben im Winter und Sommer, solange ein Span daran ist.«	0	1	0	0	0	0	true
+692	– »So, so, desto besser!	5	0	1	3	0	0	true
+693	– Sie boten 200 Taler.	0	0	0	0	0	0	true
+694	– »Weißt du auch, was darin vorgefallen ist?«	1	0	1	1	0	0	true
+695	Ohne Beichte und Absolution!«	0	0	1	0	0	0	true
+696	– »Friedrich, wie ist dir?« sagte die Mutter; »hast du wohl gehört?	5	1	2	1	0	0	true
+697	– »Wollen wir sie doch nicht um gewöhnlichen Preis.«	1	0	0	1	0	0	true
+698	– »Das ist das Brederholz.«	0	0	0	0	0	0	true
+699	Schrecklich, schrecklich!	2	0	1	0	0	0	false
+700	Darauf sah man an einem Abende wohl gegen sechzig Juden, ihren Rabbiner an der Spitze, in das Brederholz ziehen, alle schweigend und mit gesenkten Augen.	3	1	0	1	0	0	false
+701	Indessen kamen sie der düstern Schlucht immer näher.	2	0	0	2	0	0	false
+702	In diesem Augenblick trat Johannes Niemand in die Kammer; dünn und lang wie eine Hopfenstange, aber zerlumpt und scheu wie wir ihn vor fünf Jahren gesehen.	1	0	0	1	0	0	true
+703	Sie blieben über eine Stunde im Walde und kehrten dann ebenso ernst und feierlich zurück, durch das Dorf B. bis in das Zellerfeld, wo sie sich zerstreuten und jeder seines Weges ging.	2	0	0	2	0	0	false
+704	Der Handel ward geschlossen und allen Förstern streng eingeschärft, die Judenbuche auf keine Weise zu schädigen.	0	0	0	0	0	0	false
+705	– Friedrich schwieg.	0	0	0	0	0	0	true
+706	– »Mutter, Mutter, um Gottes willen laß mich schlafen; ich kann nicht mehr!«	1	0	1	1	0	0	true
+707	»Friedrich,« stotterte er, »du sollst sogleich zum Ohm kommen; er hat Arbeit für dich; aber sogleich.«	3	0	0	3	0	0	true
+708	Und wo war Friedrich?	2	0	1	0	0	0	false
+709	– »Ja, jeden Abend zwei Rosenkränze.«	0	1	0	0	0	0	true
+710	»Betet die Mutter noch so viel?«	2	0	1	2	0	0	true
+711	Sein Gesicht war noch bleicher als gewöhnlich.	1	0	0	1	0	0	false
+712	Am nächsten Morgen stand an der Buche mit dem Beil eingehauen:	0	0	0	0	0	0	false
+713	hob Simon wieder an.	1	0	0	1	0	0	false
+714	– »Ich komme nicht,« sagte er barsch, »ich bin krank.«	0	0	0	0	0	0	true
+715	Er war bald verschollen, vergessen.	1	0	0	1	0	0	false
+716	Und du betest mit?«	0	0	1	0	0	0	true
+717	– »Du mußt aber kommen,« keuchte Johannes; »er hat gesagt, ich müßte dich mitbringen.«	1	0	0	1	0	0	true
+718	– Friedrich drehte sich gegen die Wand.	0	0	0	0	0	0	true
+719	Ohne Zweifel fort, weit genug, um die kurzen Arme einer so schwachen Polizei nicht mehr fürchten zu dürfen.	3	0	0	3	0	0	false
+720	– »So?	3	0	1	1	0	0	true
+721	Nur die arme Margreth blieb ungetröstet.	1	0	0	1	0	0	false
+722	– »Die Mutter betet in der Dämmerung vor dem Essen den einen Rosenkranz, dann bin ich meist noch nicht wieder da mit den Kühen, und den andern im Bette, dann schlaf' ich gewöhnlich ein.«	6	0	0	6	0	0	true
+723	»Das will ich doch sehen!«	1	0	1	1	0	0	true
+724	Ohm Simon redete selten von ihm, und dann schlecht; die Judenfrau tröstete sich am Ende und nahm einen andern Mann.	1	0	0	1	0	0	false
+725	– Der Knabe lachte halb verlegen mit einem durchtriebenen Seitenblick.	0	0	0	0	0	0	true
+726	– Friedrich lachte höhnisch auf:	0	0	0	0	0	0	true
+727	Diese letzten Worte wurden unter dem Schirme einer weiten Buche gesprochen, die den Eingang der Schlucht überwölbte.	0	0	0	0	0	0	false
+728	– »Was fällt dir ein?« rief sie, »du kannst, du sollst nicht gehen!«	0	0	2	0	0	0	true
+729	»Denken Sie sich, Kapp, der Mergel ist vielleicht unschuldig an dem Morde.	1	0	0	1	0	0	true
+730	Es war jetzt ganz finster; das erste Mondviertel stand am Himmel, aber seine schwachen Schimmer dienten nur dazu, den Gegenständen, die sie zuweilen durch eine Lücke der Zweige berührten, ein fremdartiges Ansehen zu geben.	6	1	0	4	0	0	false
+731	Etwa ein halbes Jahr nachher las der Gutsherr einige eben erhaltene Briefe in Gegenwart des Amtsschreibers.	7	2	0	3	0	0	false
+732	– »So, so, Geselle!«	2	0	1	2	0	0	true
+733	– »Laß ihn in Ruhe, er kann nicht,« seufzte Margreth, »du siehst ja, wie es steht.« – Sie ging auf einige Minuten hinaus; als sie zurückkam, war Friedrich bereits angekleidet.	2	1	0	2	0	0	true
+734	– »Sonderbar, sonderbar!« sagte er.	0	0	1	0	0	0	true
+735	– »Ach Gott,« seufzte die Mutter, »wenn die Kinder klein sind, treten sie uns in den Schoß, und wenn sie groß sind, ins Herz!«	0	0	1	0	1	0	true
+736	Wissen Sie wohl, daß Ihr lieber Getreuer, Friedrich Mergel, den Juden mag ebensowenig erschlagen haben, als ich oder Sie?	5	1	1	3	0	0	true
+737	So schritten beide rüstig voran, Simon mit dem festen Schritt des abgehärteten Wanderers, Friedrich schwankend und wie im Traum.	1	0	0	1	0	0	false
+738	– »Was sein muß, schickt sich wohl,« versetzte er und war schon zur Türe hinaus mit Johannes.	4	2	0	2	0	0	true
+739	Soeben schreibt mir der Präsident des Gerichtes zu P.: ›Le vrai n'est pas toujours vraisemblable; das erfahreich oft in meinem Berufe und jetzt neuerdings.	6	1	0	4	0	0	true
+740	Friedrich hielt sich dicht hinter seinem Ohm; sein Odem ging schnell, und wer seine Züge hätte unterscheiden können, würde den Ausdruck einer ungeheuren, doch mehr phantastischen als furchtsamen Spannung darin wahrgenommen haben.	2	0	0	1	0	1	false
+741	Ein Mitglied der Schlemmingschen Bande (die wir jetzt, nebenbei gesagt, größtenteils unter Schloß und Riegel haben), Lumpenmoises genannt, hat im letzten Verhöre ausgesagt, daß ihn nichts so sehr gereue, als der Mord eines Glaubensgenossen, Aaron, den er im Walde erschlagen und doch nur sechs Groschen bei ihm gefunden habe.	7	1	0	7	0	0	true
+742	Baumwurzeln und schlüpfrige Stellen, wo sich das Wegwasser gesammelt, machten seinen Schritt unsicher; er war einige Male nahe daran, zu fallen.	0	0	0	0	0	0	false
+743	Spur schien Licht geben wollen:	0	0	0	0	0	0	false
+744	Die gerichtliche Untersuchung hatte ihren Anfang genommen, die Tat lag klar am Tage; über den Täter aber waren die Anzeigen so schwach, daß, obschon alle Umstände die Blaukittel dringend verdächtigten, man doch nicht mehr als Mutmaßungen wagen konnte.	4	0	0	4	0	0	false
+745	Leider fehlen die Beweise, aber die Wahrscheinlichkeit ist groß.	2	0	0	2	0	0	false
+746	Es kam ihm vor, als ob alles sich bewegte und die Bäume in den einzelnen Mondstrahlen bald zusammen, bald voneinander schwankten.	3	0	0	3	0	0	false
+747	Eine	0	0	0	0	0	0	false
+748	Was sagen Sie dazu?	2	0	1	0	0	0	false
+749	Der Mond schien klar hinein und zeigte, daß hier noch vor kurzem die Axt unbarmherzig gewütet hatte.	4	1	0	2	0	0	false
+750	Die Abwesenheit des Gutsherrn hatte den Gerichtschreiber genötigt, auf eigene Hand die Sache einzuleiten.	0	0	0	0	0	0	false
+751	Aaron ist zwar ein verbreiteter Name usw.‹ – Was sagen Sie dazu?« wiederholte der Gutsherr; »und weshalb wäre der Esel von einem Burschen denn gelaufen?«	3	0	2	3	0	0	true
+752	Leider ward das Verhör durch die Mittagsstunde unterbrochen, und während wir tafelten, hat sich der Hund von einem Juden an seinem Strumpfband erhängt.	1	0	0	1	0	0	true
+753	Jetzt schien sich in einiger Entfernung das Dunkel zu brechen, und bald traten beide in eine ziemlich große Lichtung.	5	1	0	3	0	0	false
+754	doch rechnete man aus Gründen wenig darauf.	2	0	0	2	0	0	false
+755	Hirten, die in derselben Nacht gehütet, Knechte, die den Acker in der Nähe bestellt, alle standen stramm und fest, die Hände in den Taschen, gleichsam als stillschweigende Erklärung, daß sie nicht einzuschreiten gesonnen seien.	0	0	0	0	0	0	false
+756	– »Nun, vielleicht der Holzfrevel wegen, mit denen wir ja gerade in Untersuchung waren.	6	1	0	4	0	0	true
+757	In der Mitte der Lichtung stand eine alte Eiche, mehr breit als hoch; ein blasser Strahl, der durch die Zweige auf ihren Stamm fiel, zeigte, daß er hohl sei, was ihn wahrscheinlich vor der allgemeinen Zerstörung geschützt hatte.	1	0	0	1	0	0	false
+758	Überall ragten Baumstümpfe hervor, manche mehrere Fuß über der Erde, wie sie gerade in der Eile am bequemsten zu durchschneiden gewesen waren; die verpönte Arbeit mußte unversehens unterbrochen worden sein, denn eine Buche lag quer über dem Pfad, in vollem Laube, ihre Zweige hoch über sich streckend und im Nachtwinde mit dennoch frischen Blättern zitternd.	5	0	0	5	0	0	false
+759	Er saß am Tische; die Stube war gedrängt voll von Bauern, teils neugierigen, teils solchen, von denen man in Ermangelung eigentlicher Zeugen einigen Aufschluß zu erhalten hoffte.	4	1	0	2	0	0	false
+760	– Der Amtsschreiber dachte nach.	0	0	0	0	0	0	true
+761	Simon blieb einen Augenblick stehen und betrachtete den gefällten Stamm mit Aufmerksamkeit.	0	0	0	0	0	0	false
+762	Ihre Aussagen waren völlig gleichlautend:	0	0	0	0	0	0	false
+763	Mergels Gewissen war schmutzig genug auch ohne diesen Flecken.«	2	0	0	2	0	0	true
+764	»Friedrich, kennst du den Baum?	2	0	1	0	0	0	true
+765	Brandis habe sie am zehnten abends zur Runde bestellt, da ihm von einem Vorhaben der Blaukittel müsse Kunde zugekommen sein; doch habe er sich nur unbestimmt darüber geäußert.	3	0	0	3	0	0	false
+766	Acht Forstbeamte wurden vernommen.	0	0	0	0	0	0	false
+767	Heißt es nicht: der Böse läuft vor seinem eigenen Schatten?	2	0	1	0	0	0	false
+768	Hier ergriff Simon plötzlich des Knaben Arm.	3	1	0	1	0	0	false
+769	Friedrich war hin, verschwunden und – Johannes Niemand, der arme, unbeachtete Johannes, am gleichen Tage mit ihm.	0	0	0	0	0	0	true
+770	– Friedrich fuhr zusammen und klammerte sich mit kalten Händen an seinen Ohm.	0	0	0	0	0	0	true
+771	Gegen vier Uhr habe Brandis gesagt:	0	0	0	0	0	0	false
+772	Dabei beruhigte man sich.	0	0	0	0	0	0	false
+773	Das ist die breite Eiche.«	0	0	0	0	0	0	true
+774	Um zwei Uhr in der Nacht seien sie ausgezogen und auf manche Spuren der Zerstörung gestoßen, die den Oberförster sehr übel gestimmt; sonst sei alles still gewesen.	2	0	0	2	0	0	false
+775	– »Ohm, Ohm!« keuchte Friedrich.	0	0	1	0	0	0	true
+776	– Als sie nun um den Bremerberg gewendet und zugleich der Wind umgeschlagen, habe man deutlich im Masterholz fällen gehört und aus der schnellen Folge der Schläge geschlossen, daß die Blaukittel am Werk seien.	2	0	0	2	0	0	true
+777	Es war am Vorabende des Weihnachtfestes, den 24sten Dezember 1788.	0	0	0	0	0	0	false
+778	– »Was fällt dir ein?	2	0	1	0	0	0	true
+779	Eine schöne, lange Zeit war verflossen, achtundzwanzig Jahre, fast die Hälfte eines Menschenlebens; der Gutsherr war sehr alt und grau geworden, sein gutmütiger Gehülfe Kapp längst begraben.	3	0	0	3	0	0	false
+780	– »Sieh,« fuhr Simon fort, »hier haben Ohm Franz und der Hülsmeyer deinen Vater gefunden, als er in der Betrunkenheit ohne Buße und Ölung zum Teufel gefahren war.«	1	1	0	1	0	0	true
+781	»Wir sind angeführt, laßt unsheimgehen.«	0	0	0	0	0	0	true
+782	Menschen, Tiere und Pflanzen waren entstanden, gereift, vergangen, nur Schloß B. sah immer gleich grau und vornehm auf die Hütten herab, die wie alte hektische Leute immer fallen zu wollen schienen und immer standen.	6	0	0	6	0	0	false
+783	Nun folgte der Auftritt mit Friedrich.	1	0	0	1	0	0	false
+784	Mitternacht war nahe, dennoch flimmerten überall matte Lichtchen aus den Schneehügeln, und in jedem Hause lagen die Einwohner auf den Knien, um den Eintritt des heiligen Christfestes mit Gebet zu erwarten, wie dies in katholischen Ländern Sitte ist, oder wenigstens damals allgemein war.	4	0	0	4	0	0	false
+785	Satan von einem Jungen, du kneipst mir den Arm!	2	0	1	0	0	0	true
+786	Man habe nun eine Weile beratschlagt, ob es tunlich sei, mit so geringer Macht die kühne Bande anzugreifen, und sich dann ohne bestimmten Entschluß dem Schalle langsam genähert.	3	0	0	3	0	0	false
+787	Tiefer Schnee lag in den Hohlwegen, wohl an zwölf Fuß hoch, und eine durchdringende Frostluft machte die Fensterscheiben in der geheizten Stube gefrieren.	3	1	0	1	0	0	false
+788	Du wirst dich doch nicht fürchten?	3	0	1	1	0	0	true
+789	An der Mitte des Hanges stand er still, lehnte sich auf seinen Krückenstab und starrte unverwandt auf die Lichtpunkte.	0	0	0	0	0	0	false
+790	Er suchte den Knaben abzuschütteln.	0	0	0	0	0	0	false
+791	Alles sei vorüber gewesen, kein Laut mehr im Walde, von zwanzig gefällten Stämmen noch acht vorhanden, die übrigen bereits fortgeschafft.	4	0	0	4	0	0	false
+792	Ferner: nachdem Brandis sie ohne Weisung fortgeschickt, seien sie eine Weile vorangeschritten und dann, als sie bemerkt, daß das Getöse im noch ziemlich weit entfernten Walde gänzlich aufgehört, stille gestanden, um den Oberförster zu erwarten.	5	0	0	5	0	0	false
+793	Da bewegte sich von der Breder Höhe herab eine Gestalt langsam gegen das Dorf; der Wanderer schiensehr matt oder krank; er stöhnte schwer und schleppte sich äußerst mühsam durch den Schnee.	4	0	0	4	0	0	false
+794	Laß los, los!« –	0	0	1	0	0	0	true
+795	Die Zögerung habe sie verdrossen, und nach etwa zehn Minuten seien sie weitergegangen und so bis an den Ort der Verwüstung.	5	1	0	3	0	0	false
+796	Nun schlug es zwölf im Turm; der letzte Schlag verdröhnte langsam und im nächsten Hause erhob sich ein leiser Gesang, der, von Hause zu Hause schwellend, sich über das ganze Dorf zog:	1	0	0	1	0	0	false
+797	Ich hatt' ihn so lieb wie meinen eigenen Bruder.«	1	0	0	1	0	0	true
+798	Auch habe die Dürre der Jahreszeit und der mit Fichtennadeln bestreute Boden keine Fußstapfen unterscheiden lassen, obgleich der Grund ringsumher wie festgestampft war.	2	0	0	2	0	0	false
+799	Ein Kindelein so löbelich	1	0	0	1	0	0	false
+800	Es war so still überall, so tot und kalt; man mußte an Irrlichter auf Kirchhöfen denken.	3	0	0	3	0	0	false
+801	– »Dein Vater war übrigens eine gute Seele; Gott wird's nicht so genau mit ihm nehmen.	2	0	0	2	0	0	true
+802	Es sei ihnen unbegreiflich, wie man dieses ins Werk gestellt, da keine Wagenspuren zu finden gewesen.	0	0	0	0	0	0	false
+803	Hier habe sich einem von ihnen beim Ausgange des Waldes die Flaschenschnur in Brombeerranken verstrickt, und als er umgeschaut, habe er etwas im Gestrüpp blitzen sehen; es war die Gurtschnalle des Oberförsters, den man nun hinter den Ranken liegend fand, grad ausgestreckt, die rechte Hand um den Flintenlauf geklemmt, die andere geballt und die Stirn von einer Axt gespalten.	6	1	0	4	0	0	false
+804	Von einer Jungfrau säuberlich,	0	0	0	0	0	0	false
+805	Es war die erste Nacht, die sie zugebracht hatte, ohne den Atem ihres Kindes neben sich zu hören, und Friedrich kam noch immer nicht.	2	0	0	2	0	0	false
+806	– Friedrich ließ den Arm seines Ohms los; beide legten schweigend den übrigen Teil des Waldes zurück und das Dorf Brede lag vor ihnen, mit seinen Lehmhütten und den einzelnen bessern Wohnungen von Ziegelsteinen, zu denen auch Simons Haus gehörte.	1	0	0	1	0	0	true
+807	Da man nun überlegt, daß es zu nichts nützen könne, den Oberförster zu erwarten, sei man rasch der andern Seite des Waldes zugeschritten, in der Hoffnung, vielleicht noch einen Blick von den Frevlern zu erhaschen.	3	0	0	3	0	0	false
+808	Ist uns geboren heute,	3	1	0	1	0	0	true
+809	Am nächsten Abend saß Margreth schon seit einer Stunde mit ihrem Rocken vor der Tür und wartete auf ihren Knaben.	3	1	0	1	0	0	false
+810	Manche behaupteten, um vier Uhr noch zu Hause oder anderswo beschäftigt gewesen zu sein, und keiner wollte etwas bemerkt haben.	3	0	0	3	0	0	false
+811	Und wär' das Kindelein nicht geborn,	0	0	0	0	0	0	false
+812	Die Uhr im Turm schlug sieben, das Vieh kehrte heim; er war noch immer nicht da und sie mußte aufstehen, um nach den Kühen zu schauen.	3	0	0	3	0	0	false
+813	Was war zu machen?	2	0	1	0	0	0	false
+814	Dies waren die Aussagen der Förster; nun kamen die Bauern an die Reihe, aus denen jedoch nichts zu bringen war.	2	0	0	2	0	0	false
+815	Des freun sich alle Leute;	0	0	0	0	0	0	false
+816	Sie war ärgerlich und ängstlich und wußte, daß sie beides ohne Grund war.	0	0	0	0	0	0	false
+817	Das Heil ist unser aller.	0	0	0	0	0	0	false
+818	Der Schein spielte auf seinen Zügen und gab ihnen ein widriges Ansehen von Magerkeit und ängstlichem Zucken.	0	0	0	0	0	0	false
+819	Man mußte sich mit ihren negativen Zeugnissen begnügen.	0	0	0	0	0	0	false
+820	So wären wir alle zusammen verlorn:	2	0	0	2	0	0	true
+821	Als sie wieder in die dunkle Küche trat, stand Friedrich am Herde; er hatte sich vornübergebeugt und wärmte die Hände an den Kohlen.	1	0	0	1	0	0	false
+822	sie waren sämtlich angesessene, unverdächtige Leute.	0	0	0	0	0	0	false
+823	»Friedrich, wie geht's dem Ohm?«	0	0	1	0	0	0	true
+824	Er trat ein mit einem Wesen, das sich durchaus nicht von seinem gewöhnlichen unterschied, weder gespannt noch keck.	2	0	0	2	0	0	false
+825	Erlös uns von der Hölle!	2	0	1	0	0	0	true
+826	– Der Knabe murmelte einige unverständliche Worte und drängte sich dicht an die Feuermauer.	0	0	0	0	0	0	true
+827	O du mein liebster Jesu Christ,	0	0	0	0	0	0	true
+828	Margreth blieb in der Tennentür stehen, so seltsam verändert kam ihr das Kind vor.	1	0	0	1	0	0	false
+829	Friedrich ward hereingerufen.	0	0	0	0	0	0	false
+830	Der du als Mensch geboren bist,	0	0	0	0	0	0	true
+831	Sein Alibi zur Zeit des Mordes war leicht erwiesen.	0	0	0	0	0	0	false
+832	Die zweite Strophe begann; er betete leise mit; dann die dritte und vierte.	1	0	0	1	0	0	false
+833	Junge, tu dasMaul auf!	2	0	1	0	0	0	false
+834	Das Verhör währte ziemlich lange und die Fragenwaren mitunter ziemlich schlau gestellt; er beantwortete sie jedoch alle offen und bestimmt und erzählte den Vorgang zwischen ihm und dem Oberförster ziemlich der Wahrheit gemäß, bis auf das Ende, das er geratener fand, für sich zu behalten.	6	0	0	6	0	0	false
+835	Der Mann am Hange war in die Knie gesunken und versuchte mit zitternder Stimme einzufallen; es ward nur ein lautes Schluchzen daraus, und schwere, heiße Tropfen fielen in den Schnee.	1	0	0	1	0	0	false
+836	– »Friedrich, hast du das Reden verlernt!	2	0	1	0	0	0	true
+837	Da richtete der Mann sich mühselig auf und schlich langsam hinab in das Dorf.	1	0	0	1	0	0	false
+838	– »Was sagst du?	2	0	1	0	0	0	true
+839	Der Gerichtsschreiber saß unmutig und verlegen da.	0	0	0	0	0	0	false
+840	Der Förster lag am Ausgange des Masterholzes; über dreiviertel Stunden Weges von der Schlucht, in der er Friedrich um vier Uhr angeredet und aus der dieser seine Herde schon zehn Minuten später ins Dorf getrieben.	3	1	0	1	0	0	false
+841	Das Lied war geendigt und die Lichter in den Häusern begannen sich zu bewegen.	0	0	0	0	0	0	false
+842	Du weißt ja doch, daß ich auf dem rechten Ohr nicht gut höre.« – Das Kind erhob seine Stimme und geriet dermaßen ins Stammeln, daß Margreth es um nichts mehr begriff.	4	1	0	4	0	0	true
+843	Jedermann hatte dies gesehen; alle anwesenden Bauern beeiferten sich, es zu bezeugen; mit diesem hatte er geredet, jenem zugenickt.	0	0	0	0	0	0	false
+844	»Was ist denn das?« sagte drinnen eine Frauenstimme; »die Türe klappert und der Wind geht doch nicht.«	3	0	1	3	0	0	true
+845	Wieder fort?	3	0	1	1	0	0	false
+846	»Wem gehört dies?«	0	0	1	0	0	0	true
+847	– Er pochte stärker:	0	0	0	0	0	0	true
+848	An mehreren Häusern keuchte er vorüber, dann stand er vor einem still und pochte leise an.	1	0	0	1	0	0	false
+849	Einen Gruß von Meister Semmler?	2	0	1	0	0	0	false
+850	Plötzlich fuhr er mit der Hand hinter sich und brachte etwas Blinkendes vor Friedrichs Auge.	0	0	0	0	0	0	false
+851	»Herr Jesus!	2	0	1	0	0	0	true
+852	– Geflüster in der Küche.	0	0	0	0	0	0	true
+853	Verfluchter Junge, ich kann dich nicht verstehen.	0	0	0	0	0	0	true
+854	Wohin?	2	0	1	0	0	0	false
+855	– Friedrich sprang drei Schritt zurück.	0	0	0	0	0	0	true
+856	»Um Gottes willen, laßt einen halberfrorenen Menschen ein, der aus der türkischen Sklaverei kommt!«	0	0	1	0	0	0	true
+857	Die Kühe sind schon zu Hause.	3	1	0	1	0	0	false
+858	Seine Augen waren rasch über das tödliche Werkzeug gefahren und schienen momentan auf einem ausgebrochenen Splitter am Stiele zu haften.	0	0	0	0	0	0	false
+859	– »Um Gottes Barmherzigkeit willen, laßt mich ein!	2	0	1	0	0	0	true
+860	– Sie trat heftig einige Schritte vor.	0	0	0	0	0	0	true
+861	»Ich weiß es nicht,« sagte er fest.	0	0	0	0	0	0	true
+862	Ich dachte Ihr wolltet mir den Schädel einschlagen.«	0	0	0	0	0	0	true
+863	»Geht ins Wirtshaus,« antwortete eine andere Stimme, »das fünfte Haus von hier!«	1	1	1	1	0	0	true
+864	Wart, ich muß einmal sehen, ob du keine Zunge im Munde hast!«	1	0	1	1	0	0	true
+865	Nach einigem Zögern ward die Tür geöffnet und ein Mann leuchtete mit der Lampe hinaus.	0	0	0	0	0	0	false
+866	Margreth stand still; ihre Blicke wurden ängstlich.	0	0	0	0	0	0	false
+867	– »Sieh sie genau an,« fuhr der Gerichtschreiber fort.	0	0	0	0	0	0	true
+868	Ich habe kein Geld.« –	0	0	0	0	0	0	true
+869	Das Kind sah zu ihr auf, mit dem Jammerblick eines armen, halbwüchsigen Hundes, der Schildwacht stehen lernt, und begann in der Angst mit den Füßen zu stampfen und den Rücken an der Feuermauer zu reiben.	0	0	0	0	0	0	false
+870	– Es war die Axt, die man in dem Schädel des Oberförsters eingeklammert gefunden hatte.	0	0	0	0	0	0	true
+871	Und dennoch – »Friedrich, Friedrich!« rief sie.	1	0	1	1	0	0	true
+872	»Es ist eine Axt wie andere,« sagte er dann und legte sie gleichgültig auf den Tisch.	1	0	0	1	0	0	true
+873	Alle drängten sich um den Eintretenden her und musterten ihn mit scheuer Neugier.	0	0	0	0	0	0	false
+874	In der Schlafkammer klappte eine Schranktür und der Gerufene trat hervor, in der einen Hand eine sogenannte Holzschenvioline, d.h. einen alten Holzschuh, mit drei bis vier zerschabten Geigensaiten überspannt, in der andern einen Bogen, ganz des Instruments würdig.	1	0	0	1	0	0	false
+875	– »Kommt   nur herein!« sagte er dann, »Ihr werdet uns den Hals nicht abschneiden.«	2	0	1	2	0	0	true
+876	Der Knabe erschien ihr wie zusammengeschrumpft, auch seine Kleider waren nicht dieselben, nein, das war ihr Kind nicht!	5	1	1	1	0	0	false
+877	Friedrich faßte sie mit der Hand, besah sie oben, unten, wandte sie um.	2	0	0	2	0	0	false
+878	In der Küche befanden sich außer dem Manne eine Frau in den mittlern Jahren, eine alte Mutter und fünf Kinder.	0	0	0	0	0	0	false
+879	»Ich kenne sie nicht.«	0	0	0	0	0	0	true
+880	Mit schiefem Halse, gekrümmtem Rücken, die ganze Gestalt gebrochen und kraftlos; langes, schneeweißes Haar hing um sein Gesicht, das den verzogenen Ausdruck langen Leidens trug.	0	0	0	0	0	0	false
+881	»Da, Johannes!« sagte er und reichte ihm mit einer Gönnermiene das Kunstwerk; »da ist die Violine, die ich dir versprochen habe.	2	0	1	2	0	0	true
+882	Ein Blutfleck ward sichtbar; er schien zu schaudern, aber er wiederholte noch einmal sehr bestimmt:	3	0	0	3	0	0	false
+883	Eine armselige Figur!	2	0	1	0	0	0	false
+884	So ging er gerade auf sein verkümmertes Spiegelbild zu, seinerseits mit einer Haltung bewußter Würde und Selbständigkeit, die in diesem Augenblicke den Unterschied zwischen beiden sonst merkwürdig ähnlichen Knaben stark hervortreten ließ.	4	0	0	4	0	0	false
+885	– »Ein Bett können wir Euch nicht geben,« sagte sie; »aber ich will hier eine gute Streu machen; Ihr müßt Euch schon so behelfen.«	3	2	0	3	0	0	true
+886	– Johannes warf noch einmal einen scheuen Blick auf Margreth, streckte dann langsam seine Hand aus, bis er das Dargebotene fest ergriffen hatte, und brachte es wie verstohlen unter die Flügel seines armseligen Jäckchens.	3	0	0	3	0	0	true
+887	Es blieb nichts übrig, als das Verhör zu schließen.	0	0	0	0	0	0	false
+888	Der Gerichtschreiber seufzte vor Unmut.	0	0	0	0	0	0	false
+889	Die Frau ging schweigend an den Herd und legte frisches Reisig zu.	0	0	0	0	0	0	false
+890	Mein Spielen ist vorbei, ich muß jetzt Geld verdienen.«	2	1	0	2	0	0	true
+891	Er selbst wußte um nichts mehr, und hatte nur einen Versuch zu möglicher Entdeckung durch Überraschung machen wollen.	3	0	0	3	0	0	false
+892	– Der Heimgekehrte ward als Johannes Niemand erkannt, und er selbst bestätigte, daß er derselbe sei, der einst mit Friedrich Mergel entflohen.	2	0	0	2	0	0	true
+893	Ihre Gedanken hatten eine andere, sehr ernste Richtung genommen, und sie blickte mit unruhigem Auge von einem auf den andern.	1	0	0	1	0	0	false
+894	Den Blaukitteln schien durch das Aufsehen, das der Vorgang gemacht und die darauf folgenden geschärften Maßregeln der Mut genommen; sie waren von nun an wie verschwunden, und obgleich späterhin noch mancher Holzfrevler erwischt wurde, fand man doch nie Anlaß, ihn der berüchtigten Bande zuzuschreiben.	5	0	0	5	0	0	false
+895	Das Dorf war am folgenden Tage voll von den Abenteuern des so lange Verschollenen.	1	0	0	1	0	0	false
+896	– »Gott's Lohn!« versetzte der Fremde; »ich bin's wohl schlechter gewohnt.«	1	1	1	1	0	0	true
+897	Margreth stand ganz still und ließ die Kinder gewähren.	1	0	0	1	0	0	false
+898	Denjenigen, die vielleicht auf den Ausgang dieser Begebenheit gespannt sind, muß ich sagen, daß diese Geschichte nie aufgeklärt wurde, obwohl noch viel dafür geschah und diesem Verhöre mehrere folgten.	3	0	0	3	0	0	true
+899	Es würde in einer erdichteten Geschichte unrecht sein, die Neugier des Lesers so zu täuschen.	2	0	0	1	0	1	false
+900	Die Judenbuche	0	0	0	0	0	0	false
+901	Das junge Volk hatte zwar keine Erinnerungen von ihm, aber die Alten fanden seine Züge noch ganz wohl heraus, so erbärmlich entstellt er auch war.	9	1	0	7	0	0	false
+902	Sie saß wieder am Spinnrade.	1	0	0	1	0	0	false
+903	Der fremde Knabe hatte sich wieder über die Kohlen gebeugt mit einem Ausdruck augenblicklichen Wohlbehagens, der an Albernheit grenzte, während in Friedrichs Zügen der Wechsel eines offenbar mehr selbstischen als gutmütigen Mitgefühls spielte und sein Auge in fast glasartiger Klarheit zum erstenmale bestimmt den Ausdruckjenes ungebändigten Ehrgeizes und Hanges zum Großtun zeigte, der nachher als so starkes Motiv seiner meisten Handlungen hervortrat.	6	0	0	6	0	0	false
+904	Die Axt lag zwanzig Jahre nachher als unnützes Corpus delicti im Gerichtsarchiv, wo sie wohl noch jetzt ruhen mag mit ihren Rostflecken.	8	2	0	4	0	0	false
+905	Annette von Droste-Hülshoff	0	0	0	0	0	0	false
+906	Jeder wollte den Mann aus der Türkei sehen, und man wunderte sich beinahe, daß er noch aussehe wie andere Menschen.	2	0	0	2	0	0	false
+907	Der Ruf seiner Mutter störte ihn aus Gedanken, die ihm ebenso neu als angenehm waren.	1	0	0	1	0	0	false
+908	Am nächsten Sonntage stand Friedrich sehr früh auf, um zur Beichte zu gehen.	1	0	0	1	0	0	false
+909	aus dem gebirgichten Westfalen	0	0	0	0	0	0	false
+910	»Und woher habt Ihr den schiefen Hals?«	0	0	1	0	0	0	true
+911	Friedrich sah auf und wandte sich, da er nichts weiter vernahm, wieder zu seinem Schützling.	2	0	0	2	0	0	false
+912	Es war Mariä Himmelfahrt und die Pfarrgeistlichen schon vor Tagesanbruch im Beichtstuhle.	3	1	0	1	0	0	false
+913	Aber dies alles hat sich wirklich zugetragen; ich kann nichts davon oder dazutun.	0	0	0	0	0	0	true
+914	Ein Sittengemälde	0	0	0	0	0	0	false
+915	»Johannes, Johannes, was seid Ihr grau geworden!« sagte eine alte Frau.	0	0	1	0	0	0	true
+916	»Friedrich,« sagte sie zögernd, »sag einmal –« und schwieg dann.	2	0	0	2	0	0	true
+917	– »Und was ist aus Mergel geworden?	2	0	1	0	0	0	true
+918	»Was ist das für ein Junge?	2	0	1	0	0	0	true
+919	In der Küche mußte sein Gebetbuch auf dem Sims liegen und er hoffte, es mit Hülfe des schwachen Mondlichts zu finden; es war nicht da.	1	0	0	1	0	0	false
+920	So fest, daß ohne Zittern sie den Stein	1	0	0	1	0	0	false
+921	Wo ist die Hand so zart, daß ohne Irren	1	0	0	1	0	0	false
+922	– »Vom Holz- und Wassertragen in der Sklaverei,« versetzte er.	0	0	0	0	0	0	true
+923	»Nein, höre –« und dann leiser:	1	1	0	1	0	0	true
+924	Nachdem er sich im Finstern angekleidet, verließ er so geräuschlos wie möglich den engen Verschlag, der ihm in Simons Hause eingeräumt war.	1	0	0	1	0	0	false
+925	Sie sondern mag beschränkten Hirnes Wirren,	0	0	0	0	0	0	false
+926	– Friedrich antwortete ebenso leise:	1	0	0	1	0	0	true
+927	»Sollte er nachtwandeln?« dachte Friedrich, und verhielt sich ganz still.	1	0	1	1	0	0	true
+928	Wer wagt es, eitlen Blutes Drang zu messen,	0	0	0	0	0	0	false
+929	Wenn Ihr an ihn denkt, betet für ihn,« fügte er hinzu, »er wird es wohl nötig haben.«	1	1	0	1	0	0	true
+930	»Das ist des Ohms Simon Schweinehirt, der eine Botschaft an den Hülsmeyer hat.	0	0	0	0	0	0	true
+931	Ihr seid doch zusammen fortgelaufen?«	2	0	1	2	0	0	true
+932	Wie heißt er?«	0	0	1	0	0	0	true
+933	Er warf die Augen suchend umher und fuhr zusammen; in der Kammertür stand Simon, fast unbekleidet, seine dürre Gestalt, sein ungekämmtes, wirres Haar und die vom Mondschein verursachte Blässe des Gesichts gaben ihm ein schauerlich verändertes Ansehen.	1	0	0	1	0	0	false
+934	Mag schleudern auf ein arm verkümmert Sein?	2	0	1	0	0	0	false
+935	– »Freilich wohl; aber ich weiß nicht, wo er ist, wir sind voneinander gekommen.	3	1	0	3	0	0	true
+936	– »Ohm, seid Ihr's?	2	0	1	0	0	0	true
+937	In junge Brust die zähen Wurzeln trieb,	0	0	0	0	0	0	false
+938	– »Nicht?« sagte Johannes und horchte gespannt auf, als man ihm erzählte, was der Gutsherr geflissentlich verbreitet hatte, um den Fleck von Mergels Namen zu löschen.	0	0	1	0	0	0	true
+939	– »Nun –?« sagte Margreth.	1	0	1	1	0	0	true
+940	– »Friedrich, wohin?« flüsterte der Alte.	0	0	1	0	0	0	true
+941	Zu wägen jedes Wort, das unvergessen	0	0	0	0	0	0	false
+942	Man fragte ihn, warum Friedrich sich denn aus dem Staube gemacht, da er den Juden doch nicht erschlagen?	4	0	1	2	0	0	false
+943	Der Ohm hat mir ein Paar Schuhe und eine Weste von Drillich gegeben; die hat mir der Junge unterwegs getragen; dafür hab' ich ihm meine Violine versprochen; er ist ja doch ein armes Kind; Johannes heißt er.«	3	1	0	3	0	0	true
+944	Du Glücklicher, geboren und gehegt	0	0	0	0	0	0	true
+945	Er seufzte tief und fragte nun seinerseits nach manchem.	2	0	0	2	0	0	false
+946	– »Wie heißt er weiter?«	0	0	1	0	0	0	true
+947	– »Das will ich,« sagte Friedrich.	0	0	0	0	0	0	true
+948	Im lichten Raum, von frommer Hand gepflegt,	0	0	0	0	0	0	false
+949	Ich will beichten gehen.«	0	0	0	0	0	0	true
+950	Des Vorurteils geheimen Seelendieb?	2	0	1	0	0	0	false
+951	»Also ganz umsonst,« sagte er nachdenkend, »ganz umsonst so viel ausgestanden!«	7	0	1	7	0	0	true
+952	– »Was willst du, Mutter?«	0	0	1	0	0	0	true
+953	– »Das dacht' ich mir; geh in Gottes Namen, aber beichte wie ein guter Christ.«	1	0	0	1	0	0	true
+954	Er hatte zuletzt Bettelbrod gegessen und war   in einem fremden Schuppen auf dem Stroh gestorben.	1	0	0	1	0	0	false
+955	– Er hat keinen Vater,« fügte er leiser hinzu.	0	0	0	0	0	0	true
+956	du sollst kein Zeugnis ablegen gegen deinen Nächsten.«	0	0	0	0	0	0	true
+957	Laß ruhn den Stein – er trifft dein eignes Haupt!	2	0	1	0	0	0	true
+958	Margreth hatte länger gelebt, aber in völliger Geistesdumpfheit.	1	0	0	1	0	0	false
+959	Simon war lange tot, aber zuvor noch ganz verarmt, durch Prozesse und böse Schuldner, die er nicht gerichtlich belangen durfte, weil es, wie man sagte, zwischen ihnen keine reine Sache war.	4	0	0	4	0	0	false
+960	– »Ja – weiter nicht – oder, warte – doch: Niemand, Johannes Niemand heißt er.	2	1	0	2	0	0	true
+961	– »Denk an die zehn Gebote:	0	0	0	0	0	0	true
+962	Leg hin die Waagschal', nimmer dir erlaubt!	4	0	1	2	0	0	true
+963	– »Nein, gar keines; du bist schlecht unterrichtet; wer einen andern in der Beichte anklagt, der empfängt das Sakrament unwürdig.«	1	1	0	1	0	0	true
+964	Friedrich Mergel, geboren 1738, war der einzige Sohn eines sogenannten Halbmeiers oder Grundeigentümers geringerer Klasse im Dorfe B., das, so schlecht gebaut und rauchig es sein mag, doch das Auge jedes Reisenden fesselt durch die überaus malerische Schönheit seiner Lage in der grünen Waldschlucht eines bedeutenden und geschichtlich merkwürdigen Gebirges.	3	0	0	3	0	0	false
+965	Dennoch hatte sie nicht eigentlich Not gelitten; die Gutsherrschaft sorgte sehr für sie, schickte ihr täglich das Essen und ließ ihr auch ärztliche Behandlung zukommen, als ihr kümmerlicher Zustand in völlige Abzehrung übergegangen war.	6	1	0	4	0	0	false
+966	– »So, Friedrich«, sagte sie, »laß den Jungen gehen, daß er seine Bestellung machen kann.	1	0	0	1	0	0	true
+967	Margreth stand auf und ging in die Kammer.	0	0	0	0	0	0	false
+968	– »Kein falsches!«	0	0	1	0	0	0	true
+969	–	0	0	0	0	0	0	true
+970	Die Leute im Dorf waren es bald müde geworden, ihr beizustehen, da sie alles verkommen ließ, was man ihr gab, wie es denn die Art der Menschen ist, gerade die Hülflosesten zu verlassen, solche, bei denen der Beistand nicht nachhaltig wirkt und die der Hülfe immer gleich bedürftig bleiben.	5	0	0	5	0	0	false
+971	Nach einer Weile kam sie heraus, mit einem harten, finstern Ausdruck in den Mienen.	0	0	0	0	0	0	false
+972	– »Ohm, wie kommt Ihr darauf?« sagte Friedrich dann; »Eur Gewissen ist nicht rein; Ihr habt mich belogen.«	1	0	1	1	0	0	true
+973	Unter höchst einfachen und häufig unzulänglichen Gesetzen waren die Begriffe der Einwohner von Recht und Unrecht einigermaßen in Verwirrung geraten, oder vielmehr, es hatte sich neben dem gesetzlichen ein zweites Recht gebildet, ein Recht der öffentlichen Meinung, der Gewohnheit und der durch Vernachlässigung entstandenen Verjährung.	3	0	0	3	0	0	false
+974	– »Alles hin, alles tot!« seufzte Johannes.	0	0	1	0	0	0	true
+975	Hast du zu Hause nichts zu tun?«	0	0	1	0	0	0	true
+976	– »Ich?	2	0	1	0	0	0	true
+977	Beide schwiegen.	0	0	0	0	0	0	false
+978	Das Ländchen, dem es angehörte, war damals einer jener abgeschlossenen Erdwinkel ohne Fabriken und Handel, ohne Heerstraßen, wo noch ein fremdes Gesicht Aufsehen erregte, und eine Reise von dreißig Meilen selbst den Vornehmeren zum Ulysses seiner Gegend machte – kurz, ein Fleck, wie es deren sonst so viele in Deutschland gab, mit all den Mängeln und Tugenden, all der Originalität und Beschränktheit, wie sie nur in solchen Zuständen gedeihen.	6	0	0	6	0	0	true
+979	In ihrem Hause wohnte jetzt der Sohn des ehemaligen Schweinehirten, der an jenem unglücklichen Abende Friedrichs Uhr so sehr bewundert hatte.	5	1	0	3	0	0	false
+980	– Junge, was liegst du da in der Asche?	3	0	1	1	0	0	true
+981	So fand ihn der Förster Brandis, der Sohn des Erschlagenen, den die Gutsherrschaft abgeschickt hatte, ihn ins Schloß zu holen.	1	0	0	1	0	0	false
+982	»Warte, Johannes,« sagte Friedrich stolz, »ich will dir mein halbes Butterbrod geben, es ist mir doch zu groß, die Mutter schneidet allemal übers ganze Brod.«	2	0	0	2	0	0	true
+983	– »Wo ist Eure Axt?«	0	0	1	0	0	0	true
+984	Soviel darf man indessen behaupten, daß die Form schwächer, der Kern fester, Vergehen häufiger, Gewissenlosigkeit seltener waren.	1	0	0	1	0	0	false
+985	DieGutsbesitzer, denen die niedere Gerichtsbarkeit zustand, straften und belohnten nach ihrer in den meisten Fällen redlichen Einsicht; der Untergebene tat, was ihm ausführbar und mit einem etwas weiten Gewissen verträglich schien, und nur dem Verlierenden fiel es zuweilen ein, in alten staubichten Urkunden nachzuschlagen.	3	0	0	3	0	0	false
+986	Am Abend, als es dunkel geworden war und der Mond schien, sah man ihn im Schnee auf dem Kirchhofe umherhumpeln; er betete bei keinem Grabe, ging auch an keines dicht hinan, aber auf einige schien er aus der Ferne starre Blicke zu heften.	2	0	0	2	0	0	false
+987	– Der Knabe raffte sich mit der Miene eines Verfolgten so eilfertig auf, daß ihm alle Glieder im Wege standen und die Holschenvioline bei einem Haar ins Feuer gefallen wäre.	1	0	0	1	0	0	true
+988	So?«	1	0	1	1	0	0	true
+989	Es ist schwer, jene Zeit unparteiisch ins Auge zu fassen; sie ist seit ihrem Verschwinden entweder hochmütig getadelt oder albern gelobt worden, da den, der sie erlebte, zuviel teure Erinnerungen blenden und der Spätergeborene sie nicht begreift.	0	0	0	0	0	0	false
+990	– »Ja, aber er bekommt nichts mehr; Ohm Simon ißt um sieben Uhr.«	1	1	0	1	0	0	true
+991	Auf der Tenne.«	0	0	0	0	0	0	true
+992	Ein Menschenschlag, unruhiger und unternehmender als alle seine Nachbarn, ließ in dem kleinen Staate, von dem wir reden, manches weit greller hervortreten als anderswo unter gleichen Umständen.	1	0	0	1	0	0	true
+993	Aber,« er musterte ihn durch die Brille, »du bist ja erbärmlich mitgenommen in der Türkei!«	1	1	1	1	0	0	true
+994	Margreth wandte sich zu dem Knaben: »Hebt man dir nichts auf?	2	0	1	0	0	0	true
+995	Beim Eintritt in das Wohnzimmer sah er scheu umher, wie vom Licht geblendet, und dann auf den Baron, der sehr zusammengefallen in seinem Lehnstuhl saß, aber noch immer mit den hellen Augen und dem roten Käppchen auf dem Kopfe wie vor achtundzwanzig Jahren; neben ihm die gnädige Frau, auch alt, sehr alt geworden.	7	0	0	7	0	0	false
+996	– »Laß doch,« sagte Margreth, »er geht ja nach Hause.«	2	1	0	2	0	0	true
+997	– »Meine Axt?	2	0	1	0	0	0	true
+998	Denn wer nach seiner Überzeugung handelt, und sei sie noch so mangelhaft, kann nie ganz zugrunde gehen, wogegen nichts seelentötender wirkt, als gegen das innere Rechtsgefühl das äußere Recht in Anspruch nehmen.	5	0	0	5	0	0	false
+999	»Nun, Johannes,« sagte der Gutsherr, »erzähl mir einmal recht ordentlich von deinen Abenteuern.	3	0	0	3	0	0	true
+1000	Wo ist der alte?«	0	0	1	0	0	0	true
+1001	Da jedoch große und ergiebige Waldungen den Hauptreichtum des Landes ausmachten, ward allerdings scharf über die Forsten gewacht, aber weniger auf gesetzlichem Wege, als in stets erneuten Versuchen, Gewalt und List mit gleichen Waffen zu überbieten.	5	0	0	5	0	0	false
+1002	– »Aber warum lief der dumme Junge denn?	3	0	1	1	0	0	true
+1003	– »Niemand,« stotterte das Kind.	0	0	0	0	0	0	true
+1004	– »Habt Ihr einen neuen Stiel hineingemacht?	2	0	1	0	0	0	true
+1005	Holz-und Jagdfrevel waren an der Tagesordnung, und bei den häufig vorfallenden Schlägereien hatte sich jeder selbst seines zerschlagenen Kopfes zu trösten.	1	0	0	1	0	0	false
+1006	Johannes begann: wie Mergel ihn nachts von der Herde abgerufen und gesagt, er müsse mit ihm fort.	1	0	0	1	0	0	false
+1007	Sprich, wer sorgt für dich?«	0	0	1	0	0	0	true
+1008	Seine Lage inmitten tiefer und stolzer Waldeinsamkeit mochte schon früh den angeborenen Starrsinn der Gemüter nähren; die Nähe eines Flusses, der in die See mündete und bedeckte Fahrzeuge trug, groß genug, um Schiffbauholz bequem und sicher außer Land zu führen, trug sehr dazu bei, die natürliche Kühnheit der Holzfrevler ermutigen, und der Umstand, daß alles umher von Förstern wimmelte, konnte hier nur aufregend wirken, da bei den häufig vorkommenden Scharmützeln der Vorteil meist auf seiten der Bauern blieb.	10	2	0	6	0	0	false
+1009	– Johannes sah vor sich nieder:	0	0	0	0	0	0	true
+1010	Das sei Gott geklagt!	2	0	1	0	0	0	false
+1011	Sieh,« fuhr er fort, »wenn ich mehr von der Geschichte weiß, als der Türpfosten da, so will ich ewig nicht selig werden.	2	0	0	2	0	0	true
+1012	Dreißig, vierzig Wagen zogen zugleich aus in den schönen Mondnächten, mit ungefähr doppelt soviel Mannschaft jedes Alters, vom halbwüchsigen Knaben bis zum siebzigjährigen Ortsvorsteher, der als erfahrenerLeitbock den Zug mit gleich stolzem Bewußtsein anführte, als er seinen Sitz in der Gerichtsstube einnahm.	2	0	0	2	0	0	false
+1013	– »Den kannst du heute bei Tag im Holzschuppen finden.	3	1	0	1	0	0	true
+1014	Das Dorf B. galt für die hochmütigste, schlauste und kühnste Gemeinde des ganzen Fürstentums.	0	0	0	0	0	0	false
+1015	Du weißt doch, daß er unschuldig war?«	1	0	1	1	0	0	true
+1016	– »Niemand?« wiederholte sie; »da nimm, nimm!« fügte sie heftig hinzu; »du heißt Niemand und Niemand sorgt für dich!	3	0	3	1	0	0	true
+1017	Geh,« fuhr er verächtlich fort, »ich dachte du seist ein Mann; aber du bist ein altes Weib, das gleich meint, das Haus brennt, wenn ihr Feuertopf raucht.	1	0	0	1	0	0	true
+1018	Simon hatte so allerlei Geschäfte; mir sagte man nichts davon, aber ich glaube nicht, daß alles war, wie es sein sollte.«	1	0	0	1	0	0	true
+1019	Friedrich, geh nicht mit ihm, hörst du, geht nicht zusammen durchs Dorf.«	1	0	0	1	0	0	true
+1020	– Friedrich stand beklemmt und zweifelnd.	0	0	0	0	0	0	true
+1021	Ein gelegentlicher Schuß, ein schwacher Schrei ließen wohl einmal eine junge Frau oder Braut auffahren; kein anderer achtete darauf.	4	1	0	2	0	0	false
+1022	– »Was hat denn Friedrich dir gesagt?«	1	0	1	1	0	0	true
+1023	»Ich weiß nicht recht, mich dünkt, es war wegen Holzgeschichten.	0	0	0	0	0	0	true
+1024	Und nun mach dich fort!	3	0	1	1	0	0	true
+1025	– Längst war ich zu Haus,« fügte er hinzu.	1	0	0	1	0	0	true
+1026	Die Zurückgebliebenen horchten sorglos dem allmähligen Verhallen des Knarrens und Stoßens der Räder in den Hohlwegen und schliefen sacht weiter.	0	0	0	0	0	0	false
+1027	Aber während sie flüsterten, hatte der Himmel sich bewölkt.	0	0	0	0	0	0	false
+1028	In diesen Umgebungen ward Friedrich Mergel geboren, in einem Hause, das durch die stolze Zugabe eines Rauchfangs und minder kleiner Glasscheiben die Ansprüche seines Erbauers, sowie durch seine gegenwärtige Verkommenheit die kümmerlichen Umstände des jetzigen Besitzers bezeugte.	1	0	0	1	0	0	false
+1029	So liefen wir bis Heerse; da war es noch dunkel und wir versteckten uns hinter das große Kreuz am Kirchhofe, bis es etwas heller würde, weil wir uns   vor den Steinbrüchen am Zellerfelde fürchteten; und wie wir eine Weile gesessen hatten, hörten wir mit einem Male über uns schnauben und stampfen und sahen lange Feuerstrahlen in der Luft gerade über dem Heerser Kirchturm.	5	0	0	5	0	1	true
+1030	Ihr Gesicht war bleich wie ein Tuch.	0	0	0	0	0	0	false
+1031	– »Ich will ja nur Holz holen aus dem Schuppen,« antwortete Friedrich.	2	1	0	2	0	0	true
+1032	Er hätte viel darum gegeben, seines Ohms Gesicht sehen zu können.	1	0	0	1	0	0	false
+1033	Beim ersten Morgengrau kehrte der Zug ebenso schweigend heim, die Gesichter glühend wie Erz, hier und dort einer mit verbundenem Kopf, was weiter nicht in Betracht kam, und nach ein paar Stunden war die Umgegend voll von dem Mißgeschick eines oder mehrerer Forstbeamten, die aus dem Walde getragen wurden, zerschlagen, mit Schnupftabak geblendet und für einige Zeit unfähig, ihrem Berufe nachzukommen.	6	1	0	4	0	0	false
+1034	– »Nichts, als daß wir laufen müßten, sie wären hinter uns her.	0	0	0	0	0	0	true
+1035	– Als beide Knaben fort waren, warf sich Margreth auf einen Stuhl und schlug die Hände mit dem Ausdruckdes tiefsten Jammers zusammen.	0	0	0	0	0	0	true
+1036	Ohm, ich habe Euch ein schweres Gewissen zu danken.«	0	0	0	0	0	0	true
+1037	Freilich hatten Unglücksfälle manches hiervon herbeigeführt; doch war auch viel Unordnung und böse Wirtschaft im Spiel.	3	0	0	3	0	0	false
+1038	Johannes schien noch vor der Erinnerung zu schaudern, und der Gutsherr dachte an seinen seligen Kapp und dessen Abenteuer am Heerser Hange.	1	0	0	1	0	0	false
+1039	»Simon, Simon, wie willst du vor Gott bestehen!«	0	0	1	0	0	0	true
+1040	– »So geh, beicht!« flüsterte Simon mit bebender Stimme; »verunehre das Sakrament durch Angeberei und setze armen Leuten einen Spion auf den Hals, der schon Wege finden wird, ihnen das Stückchen Brod aus den Zähnen zu reißen, wenn er gleich nicht reden darf – geh!« –	3	1	2	3	0	0	true
+1041	»Ich habe schwere Schuld,« seufzte Friedrich, »daß ich ihn den unrechten Weg geschickt – obgleich – doch, dies hab' ich nichtgedacht, nein, gewiß nicht.	4	1	0	2	0	0	true
+1042	Das frühere Geländer um Hof und Garten war einem vernachlässigten Zaune gewichen, das Dach schadhaft, fremdes Vieh weidete auf den Triften, fremdes Korn wuchs auf dem Acker zunächst am Hofe, und der Garten enthielt, außer ein paar holzichten Rosenstöcken aus besserer Zeit, mehr Unkraut als Kraut.	1	0	0	1	0	0	false
+1043	Wir sprangen auf und liefen, was wir konnten in Gottes Namen gerade aus, und wie es dämmerte, waren wir wirklich auf dem rechten Wege nach P.«	1	0	0	1	0	0	true
+1044	»Ein falscher Eid, ein falscher Eid!« stöhnte sie.	0	0	1	0	0	0	true
