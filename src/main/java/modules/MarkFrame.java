@@ -16,6 +16,7 @@ public class MarkFrame {
     private Boolean removeSTWWord = false;
     private Boolean debug = true;
     private int penaltyLevel = 5;
+    String tokenKind = "cab";
 
     Set<AnnotationFS> toRemove = new HashSet<>();
 
@@ -72,28 +73,54 @@ public class MarkFrame {
      * @return
      */
     private boolean leadingFrame(CAS mainCas, AnnotationFS stwWord) {
-        String position = "start";
-        // CabTokens
-        Type cabTokenType = mainCas.getTypeSystem().getType("de.idsma.rw.CabToken");
-        Feature cabPOS = cabTokenType.getFeatureByBaseName("Pos");
+        if (tokenKind.equals("cab")){
+            String position = "start";
+            // CabTokens
+            Type cabTokenType = mainCas.getTypeSystem().getType("de.idsma.rw.CabToken");
+            Feature cabPOS = cabTokenType.getFeatureByBaseName("Pos");
 
-        List<AnnotationFS> toklist = CasUtil.selectFollowing(mainCas, cabTokenType,
-                stwWord, 2);
+            List<AnnotationFS> toklist = CasUtil.selectFollowing(mainCas, cabTokenType,
+                    stwWord, 2);
 
-        // 1) und entgegnete : (") Mittags komme ich
-        if (toklist.get(0).getCoveredText().equals(":")) {
-            this.addAnnotation(mainCas, stwWord.getBegin(), stwWord
-                    .getEnd(), stwWord, position);
-            return true;
+            // 1) und entgegnete : (") Mittags komme ich
+            if (toklist.get(0).getCoveredText().equals(":")) {
+                this.addAnnotation(mainCas, stwWord.getBegin(), stwWord
+                        .getEnd(), stwWord, position);
+                return true;
+            }
+            // 2) und sagte ihm/Peter : (") Du hast es versprochen
+            else if ((toklist.get(0).getFeatureValueAsString(cabPOS).equals("NE") || toklist
+                    .get(0).getFeatureValueAsString(cabPOS).equals("PPER"))
+                    && toklist.get(1).getCoveredText().equals(":")) {
+                this.addAnnotation(mainCas, stwWord.getBegin(), stwWord.getEnd(), stwWord, position);
+                return true;
+            } else
+                return false;
+        } else if (tokenKind.equals("no_cab")){
+            String position = "start";
+            //Tokens
+            Type tokenType = mainCas.getTypeSystem().getType("de.idsma.rw.preprocessing.Token");
+            Feature ttPosFeat = tokenType.getFeatureByBaseName("Pos");
+
+            List<AnnotationFS> toklist = CasUtil.selectFollowing(mainCas, tokenType,
+                    stwWord, 2);
+
+            // 1) und entgegnete : (") Mittags komme ich
+            if (toklist.get(0).getCoveredText().equals(":")) {
+                this.addAnnotation(mainCas, stwWord.getBegin(), stwWord
+                        .getEnd(), stwWord, position);
+                return true;
+            }
+            // 2) und sagte ihm/Peter : (") Du hast es versprochen
+            else if ((toklist.get(0).getFeatureValueAsString(ttPosFeat).equals("NE") || toklist
+                    .get(0).getFeatureValueAsString(ttPosFeat).equals("PPER"))
+                    && toklist.get(1).getCoveredText().equals(":")) {
+                this.addAnnotation(mainCas, stwWord.getBegin(), stwWord.getEnd(), stwWord, position);
+                return true;
+            } else
+                return false;
         }
-        // 2) und sagte ihm/Peter : (") Du hast es versprochen
-        else if ((toklist.get(0).getFeatureValueAsString(cabPOS).equals("NE") || toklist
-                .get(0).getFeatureValueAsString(cabPOS).equals("PPER"))
-                && toklist.get(1).getCoveredText().equals(":")) {
-            this.addAnnotation(mainCas, stwWord.getBegin(), stwWord.getEnd(), stwWord, position);
-            return true;
-        } else
-            return false;
+        return false;
     }
 
     /**
@@ -109,29 +136,60 @@ public class MarkFrame {
      * @return
      */
     private boolean followingFrameQuote(CAS mainCas, AnnotationFS stwWord) {
-        String position = "end";
-        // CabTokens
-        Type cabTokenType = mainCas.getTypeSystem().getType("de.idsma.rw.CabToken");
-        Feature cabPOS = cabTokenType.getFeatureByBaseName("Pos");
-
-        List<AnnotationFS> tokBefore = CasUtil.selectPreceding(mainCas, cabTokenType,
-                stwWord, 2);
-        //System.out.println("Tok before: " + tokBefore);
         boolean matchFound = false;
-        if (tokBefore.size() == 2) {
-            // 1) " , sagte
-            if (tokBefore.get(0).getFeatureValueAsString(cabPOS).equals("$(")
-                    && tokBefore.get(1).getFeatureValueAsString(cabPOS).equals("$,")) {
-                this.addAnnotation(mainCas, stwWord.getBegin(),
-                        stwWord.getEnd(), stwWord, position);
-                matchFound = true;
+        if (tokenKind.equals("cab")){
+            String position = "end";
+            // CabTokens
+            Type cabTokenType = mainCas.getTypeSystem().getType("de.idsma.rw.CabToken");
+            Feature cabPOS = cabTokenType.getFeatureByBaseName("Pos");
+
+            List<AnnotationFS> tokBefore = CasUtil.selectPreceding(mainCas, cabTokenType,
+                    stwWord, 2);
+            //System.out.println("Tok before: " + tokBefore);
+            //boolean matchFound = false;
+            if (tokBefore.size() == 2) {
+                // 1) " , sagte
+                if (tokBefore.get(0).getFeatureValueAsString(cabPOS).equals("$(")
+                        && tokBefore.get(1).getFeatureValueAsString(cabPOS).equals("$,")) {
+                    this.addAnnotation(mainCas, stwWord.getBegin(),
+                            stwWord.getEnd(), stwWord, position);
+                    matchFound = true;
+                }
+                // 2) " sagte
+                else if (tokBefore.get(1).getFeatureValueAsString(cabPOS).equals("$(")) {
+                    this.addAnnotation(mainCas, stwWord.getBegin(),
+                            stwWord.getEnd(), stwWord, position);
+                    matchFound = true;
+                }
             }
-            // 2) " sagte
-            else if (tokBefore.get(1).getFeatureValueAsString(cabPOS).equals("$(")) {
-                this.addAnnotation(mainCas, stwWord.getBegin(),
-                        stwWord.getEnd(), stwWord, position);
-                matchFound = true;
+            return matchFound;
+
+        }else if (tokenKind.equals("no_cab")){
+            String position = "end";
+            Type tokenType = mainCas.getTypeSystem().getType("de.idsma.rw.preprocessing.Token");
+            Feature ttPosFeat = tokenType.getFeatureByBaseName("Pos");
+
+
+            List<AnnotationFS> tokBefore = CasUtil.selectPreceding(mainCas, tokenType,
+                    stwWord, 2);
+            //System.out.println("Tok before: " + tokBefore);
+            //boolean matchFound = false;
+            if (tokBefore.size() == 2) {
+                // 1) " , sagte
+                if (tokBefore.get(0).getFeatureValueAsString(ttPosFeat).equals("$(")
+                        && tokBefore.get(1).getFeatureValueAsString(ttPosFeat).equals("$,")) {
+                    this.addAnnotation(mainCas, stwWord.getBegin(),
+                            stwWord.getEnd(), stwWord, position);
+                    matchFound = true;
+                }
+                // 2) " sagte
+                else if (tokBefore.get(1).getFeatureValueAsString(ttPosFeat).equals("$(")) {
+                    this.addAnnotation(mainCas, stwWord.getBegin(),
+                            stwWord.getEnd(), stwWord, position);
+                    matchFound = true;
+                }
             }
+            return matchFound;
         }
         return matchFound;
     }
@@ -146,34 +204,70 @@ public class MarkFrame {
      * @return
      */
     private boolean followingFrame(CAS mainCas, AnnotationFS stwWord) {
-        String position = "end";
-        // CabTokens
-        Type cabTokenType = mainCas.getTypeSystem().getType("de.idsma.rw.CabToken");
-        Feature cabPOS = cabTokenType.getFeatureByBaseName("Pos");
-
-        List<AnnotationFS> tokAfter = CasUtil.selectFollowing(mainCas, cabTokenType,
-                stwWord, 2);
-        List<AnnotationFS> tokBefore = CasUtil.selectPreceding(mainCas, cabTokenType,
-                stwWord, 2);
         boolean matchFound = false;
-        if (tokBefore.size() == 2 && tokAfter.size() == 2) {
-            if (tokBefore.get(1).getCoveredText().equals(",")) {
-                // 1) , sagte er/Peter
-                if (tokAfter.get(0).getFeatureValueAsString(cabPOS).equals("NE")
-                        || tokAfter.get(0).getFeatureValueAsString(cabPOS).equals("NN")
-                        || tokAfter.get(0).getFeatureValueAsString(cabPOS).equals("PPER")) {
-                    this.addAnnotation(mainCas, stwWord.getBegin(), stwWord
-                            .getEnd(), stwWord, position);
-                    matchFound = true;
-                }
-                // 2) , sagte der Mann
-                else if (tokAfter.get(0).getFeatureValueAsString(cabPOS).equals("ART")
-                        && tokAfter.get(1).getFeatureValueAsString(cabPOS).equals("NN")) {
-                    this.addAnnotation(mainCas, stwWord.getBegin(), stwWord
-                            .getEnd(), stwWord, position);
-                    matchFound = true;
+        if (tokenKind.equals("cab")){
+            String position = "end";
+            // CabTokens
+            Type cabTokenType = mainCas.getTypeSystem().getType("de.idsma.rw.CabToken");
+            Feature cabPOS = cabTokenType.getFeatureByBaseName("Pos");
+
+            List<AnnotationFS> tokAfter = CasUtil.selectFollowing(mainCas, cabTokenType,
+                    stwWord, 2);
+            List<AnnotationFS> tokBefore = CasUtil.selectPreceding(mainCas, cabTokenType,
+                    stwWord, 2);
+            //boolean matchFound = false;
+            if (tokBefore.size() == 2 && tokAfter.size() == 2) {
+                if (tokBefore.get(1).getCoveredText().equals(",")) {
+                    // 1) , sagte er/Peter
+                    if (tokAfter.get(0).getFeatureValueAsString(cabPOS).equals("NE")
+                            || tokAfter.get(0).getFeatureValueAsString(cabPOS).equals("NN")
+                            || tokAfter.get(0).getFeatureValueAsString(cabPOS).equals("PPER")) {
+                        this.addAnnotation(mainCas, stwWord.getBegin(), stwWord
+                                .getEnd(), stwWord, position);
+                        matchFound = true;
+                    }
+                    // 2) , sagte der Mann
+                    else if (tokAfter.get(0).getFeatureValueAsString(cabPOS).equals("ART")
+                            && tokAfter.get(1).getFeatureValueAsString(cabPOS).equals("NN")) {
+                        this.addAnnotation(mainCas, stwWord.getBegin(), stwWord
+                                .getEnd(), stwWord, position);
+                        matchFound = true;
+                    }
                 }
             }
+            return matchFound;
+        }else if (tokenKind.equals("no_cab")){
+            String position = "end";
+
+            Type tokenType = mainCas.getTypeSystem().getType("de.idsma.rw.preprocessing.Token");
+            Feature ttPosFeat = tokenType.getFeatureByBaseName("Pos");
+
+
+            List<AnnotationFS> tokAfter = CasUtil.selectFollowing(mainCas, tokenType,
+                    stwWord, 2);
+            List<AnnotationFS> tokBefore = CasUtil.selectPreceding(mainCas, tokenType,
+                    stwWord, 2);
+            //boolean matchFound = false;
+            if (tokBefore.size() == 2 && tokAfter.size() == 2) {
+                if (tokBefore.get(1).getCoveredText().equals(",")) {
+                    // 1) , sagte er/Peter
+                    if (tokAfter.get(0).getFeatureValueAsString(ttPosFeat).equals("NE")
+                            || tokAfter.get(0).getFeatureValueAsString(ttPosFeat).equals("NN")
+                            || tokAfter.get(0).getFeatureValueAsString(ttPosFeat).equals("PPER")) {
+                        this.addAnnotation(mainCas, stwWord.getBegin(), stwWord
+                                .getEnd(), stwWord, position);
+                        matchFound = true;
+                    }
+                    // 2) , sagte der Mann
+                    else if (tokAfter.get(0).getFeatureValueAsString(ttPosFeat).equals("ART")
+                            && tokAfter.get(1).getFeatureValueAsString(ttPosFeat).equals("NN")) {
+                        this.addAnnotation(mainCas, stwWord.getBegin(), stwWord
+                                .getEnd(), stwWord, position);
+                        matchFound = true;
+                    }
+                }
+            }
+            return matchFound;
         }
         return matchFound;
     }

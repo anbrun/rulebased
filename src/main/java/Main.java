@@ -34,7 +34,10 @@ public class Main {
         MarkFreeIndirect markFreeIndirect = new MarkFreeIndirect();
         MarkDirect markDirect = new MarkDirect();
         MarkFrame markFrame = new MarkFrame();
-       // ExtractNounGenitive extractNounGenitive = new ExtractNounGenitive();
+
+        MarkFreeIndirectIndicators markFreeIndirectIndicators = new MarkFreeIndirectIndicators();
+        ExtractNounGenitive extractNounGenitive = new ExtractNounGenitive();
+
 
         MarkDirect2 markDirect2 = new MarkDirect2();
 
@@ -49,11 +52,12 @@ public class Main {
 
             mainCas = markSTWWords.process(mainCas);
             mainCas = markFrame.process(mainCas);
-            mainCas = markIndirect.process(mainCas);
+
+            //mainCas = markIndirect.process(mainCas);
             mainCas = markFreeIndirect.process(mainCas);
             mainCas = markDirect2.process(mainCas);
-            //ngens.addAll(extractNounGenitive.extract(mainCas));
-
+            mainCas = markFreeIndirectIndicators.process(mainCas);
+            ngens.addAll(extractNounGenitive.extract(mainCas));
 
             FileOutputStream outStream = new FileOutputStream(new File(outFolder + "/" + f.getName()));
             XmiCasSerializer.serialize(mainCas, outStream);
@@ -62,8 +66,12 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        String infolder = "E:\\Git_RW\\myrepo\\7_final\\judenbuche_preproc";
-        String outfolder = "E:\\Git_RW\\myrepo\\7_final\\judenbuche_rulebased";
+
+    //    String infolder = "E:\\Git_RW\\myrepo\\7_final\\judenbuche_preproc";
+    //    String outfolder = "E:\\Git_RW\\myrepo\\7_final\\judenbuche_rulebased";
+
+        String infolder = "C:\\Users\\Tu.IDS-DOM\\Desktop\\luebbe\\xmi_preprocessed";
+        String outfolder = "C:\\Users\\Tu.IDS-DOM\\Desktop\\luebbe\\xmi_annotated";
 
         //String infolder = "E:\\Git_RW\\myrepo\\7_final\\final\\test_preproc";
         //String outfolder = "E:\\Git_RW\\myrepo\\7_final\\final\\test_rulebased";

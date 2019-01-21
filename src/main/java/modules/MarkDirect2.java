@@ -26,6 +26,8 @@ public class MarkDirect2 {
     private static String single_bottom_left = "\u201A";
     private static String double_ascii = "\"";
     private static String single_ascii = "'";
+    private static String single_bracket_left_html = "&gt;";
+    private static String single_bracket_right_html = "&lt;";
 
 
     // doppelte spitze Anführungszeichen, nach innen zeigend "»[^«]+«"
@@ -38,13 +40,15 @@ public class MarkDirect2 {
     // einfache spitze Anführungszeichen, nach außen zeigend (französicher Stil)
     private static Pattern quote_french_single = Pattern.compile("\u2039[^\u203A]+\u203A", Pattern.MULTILINE);
 
+    private static Pattern quote_html_single = Pattern.compile("\\&gt;[^&lt;]+\\&lt;", Pattern.MULTILINE);
+
     // doppelte Anführungszeichen oben (englischer Stil) "“[^”]+”"
     private static Pattern quote_english = Pattern.compile("\u201C[^\u201D]+\u201D", Pattern.MULTILINE);
     // einfache Anführungszeichen oben (englischer Stil) "‘[^’]+’"
     private static Pattern quote_english_single = Pattern.compile("\u2018[^\u2019]+\u2019", Pattern.MULTILINE);
 
     // doppelte Anführungszeichen unten und oben (deutscher Stil) "„[^”]+”"
-    private static Pattern quote_german = Pattern.compile("\u201E[^\u2019]+\u2019", Pattern.MULTILINE);
+    private static Pattern quote_german = Pattern.compile("\u201E[^u201C]+\u201C", Pattern.MULTILINE);
     // einfache Anführungszeichen unten und oben (deutscher Stil) "‚[^’]+’"
     private static Pattern quote_german_single = Pattern.compile("\u201A[^\u2019]+\u2019", Pattern.MULTILINE);
 
@@ -92,6 +96,9 @@ public class MarkDirect2 {
 
         this.getOccurenceInfo(double_ascii, documentText);
         this.getOccurenceInfo(single_ascii, documentText);
+
+        this.getOccurenceInfo(single_bracket_left_html, documentText);
+        this.getOccurenceInfo(single_bracket_right_html, documentText);
     }
 
 
@@ -106,6 +113,9 @@ public class MarkDirect2 {
         text = this.annotateQuotPattern(MarkDirect2.quote_english, text, mainCas);
         text = this.annotateQuotPattern(MarkDirect2.quote_english_single, text, mainCas);
         text = this.annotateQuotPattern(MarkDirect2.quote_german_bottom_english_end, text, mainCas);
+        text = this.annotateQuotPattern(MarkDirect2.quote_html_single, text, mainCas);
+        text = this.annotateQuotPattern(MarkDirect2.quote_german, text, mainCas);
+        text = this.annotateQuotPattern(MarkDirect2.quote_german_single, text, mainCas);
         //System.out.println(text);
 
         return mainCas;

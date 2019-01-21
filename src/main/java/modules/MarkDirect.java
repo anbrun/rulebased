@@ -22,38 +22,71 @@ public class MarkDirect {
     }
 
     public CAS process(CAS mainCas) {
+        String tokenKind = "no_cab";
+
         // CabTokens
         Type cabTokenType = mainCas.getTypeSystem().getType("de.idsma.rw.CabToken");
-        Iterator<AnnotationFS> tokiter = CasUtil.iterator(mainCas, cabTokenType);
-        AnnotationFS quotStart = null;
-        while (tokiter.hasNext()) {
-            AnnotationFS tok = tokiter.next();
-            if (debug) {
-                //System.out.println("currTok: " + tok.getCoveredText());
-            }
+        Type tokenType = mainCas.getTypeSystem().getType("de.idsma.rw.preprocessing.Token");
 
-            if (this.open.contains(tok.getCoveredText())) {
-                quotStart = tok;
+        if (tokenKind.equals("cab")) {
+            Iterator<AnnotationFS> tokiter = CasUtil.iterator(mainCas, cabTokenType);
+            AnnotationFS quotStart = null;
+            while (tokiter.hasNext()) {
+                AnnotationFS tok = tokiter.next();
                 if (debug) {
-                    System.out.println("Opening Quote found: " + tok.getCoveredText() + " at " + tok.getBegin());
+                    //System.out.println("currTok: " + tok.getCoveredText());
+                }
+
+                if (this.open.contains(tok.getCoveredText())) {
+                    quotStart = tok;
+                    if (debug) {
+                        System.out.println("Opening Quote found: " + tok.getCoveredText() + " at " + tok.getBegin());
+                    }
+                } else {
+                    if (this.close.contains(tok.getCoveredText())) {
+                        if (debug) {
+                            System.out.println("Closing Quote found: " + tok.getCoveredText() + " at " + tok.getBegin());
+                        }
+                        if (quotStart != null) {
+                            // get the STWWord annotation
+                            Type autoStwrType = mainCas.getTypeSystem().getType("de.idsma.rw.rule.RuleDirect");
+                            AnnotationFS directAnno = mainCas.createAnnotation(autoStwrType, quotStart.getBegin(), tok.getEnd());
+                            mainCas.addFsToIndexes(directAnno);
+                            quotStart = null;
+                        }
+                    }
                 }
             }
-            else {
-                if (this.close.contains(tok.getCoveredText())) {
+        } else if (tokenKind.equals("no_cab")){
+            Iterator<AnnotationFS> tokiter = CasUtil.iterator(mainCas, tokenType);
+            AnnotationFS quotStart = null;
+            while (tokiter.hasNext()) {
+                AnnotationFS tok = tokiter.next();
+                if (debug) {
+                    //System.out.println("currTok: " + tok.getCoveredText());
+                }
+
+                if (this.open.contains(tok.getCoveredText())) {
+                    quotStart = tok;
                     if (debug) {
-                        System.out.println("Closing Quote found: " + tok.getCoveredText() + " at " + tok.getBegin());
+                        System.out.println("Opening Quote found: " + tok.getCoveredText() + " at " + tok.getBegin());
                     }
-                    if (quotStart != null) {
-                        // get the STWWord annotation
-                        Type autoStwrType = mainCas.getTypeSystem().getType("de.idsma.rw.rule.RuleDirect");
-                        AnnotationFS directAnno = mainCas.createAnnotation(autoStwrType, quotStart.getBegin(), tok.getEnd());
-                        mainCas.addFsToIndexes(directAnno);
-                        quotStart = null;
+                } else {
+                    if (this.close.contains(tok.getCoveredText())) {
+                        if (debug) {
+                            System.out.println("Closing Quote found: " + tok.getCoveredText() + " at " + tok.getBegin());
+                        }
+                        if (quotStart != null) {
+                            // get the STWWord annotation
+                            Type autoStwrType = mainCas.getTypeSystem().getType("de.idsma.rw.rule.RuleDirect");
+                            AnnotationFS directAnno = mainCas.createAnnotation(autoStwrType, quotStart.getBegin(), tok.getEnd());
+                            mainCas.addFsToIndexes(directAnno);
+                            quotStart = null;
+                        }
                     }
                 }
             }
         }
     return mainCas;
     }
-
 }
