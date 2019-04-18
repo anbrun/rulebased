@@ -34,7 +34,7 @@ public class MarkFreeIndirectIndicators {
 
     public CAS process(CAS mainCas) {
 
-        String tokenKind = "cab";
+        String tokenKind = "no_cab";
         // first, remove all annotations of this type that are already in the document
         //mainCas = Util.removeAllAnnotationsOfType(mainCas, "de.idsma.rw.Stwr");
 
@@ -55,6 +55,8 @@ public class MarkFreeIndirectIndicators {
         //token_features
         Feature lemmaFeat = tokenType.getFeatureByBaseName("Lemma");
         Feature rfPosFeat = tokenType.getFeatureByBaseName("RfPos");
+        Feature posFeat = tokenType.getFeatureByBaseName("Pos");
+        Feature cPosFeat = tokenType.getFeatureByBaseName("CPos");
 
         //stwr Features
         Feature mediumFeat = stwrType.getFeatureByBaseName("Medium");
@@ -163,6 +165,7 @@ public class MarkFreeIndirectIndicators {
 
         int stwrID = 1;
         int counter = 0;
+        boolean cabIndicatorFlag = false;
         for (AnnotationFS sentenceAnno : sentenceList) {
             if (tokenKind.equals("cab")){
                 if (counter < 30) {
@@ -207,6 +210,7 @@ public class MarkFreeIndirectIndicators {
                                     freeIndirectIndicatorAnno.setFeatureValueFromString(stwrNote, "");
                                     freeIndirectIndicatorAnno.setFeatureValueFromString(stwrIDFeat, String.valueOf(stwrID));
                                     mainCas.addFsToIndexes(freeIndirectIndicatorAnno);
+                                    stwrID++;
                                     if (counter == 29) {
                                         AnnotationFS markerAnno = mainCas.createAnnotation(markerType, sentenceAnno.getBegin(), sentenceAnno.getEnd());
                                         mainCas.addFsToIndexes(markerAnno);
@@ -250,35 +254,69 @@ public class MarkFreeIndirectIndicators {
                 }
 
             }else if (tokenKind.equals("no_cab")){
-                if (counter < 30) {
-                    List<AnnotationFS> coveredDirList = CasUtil.selectCovered(dirType, sentenceAnno);
-                    List<AnnotationFS> coveringDirList = CasUtil.selectCovering(dirType, sentenceAnno);
-                    List<AnnotationFS> coveredStwWordList = CasUtil.selectCovered(stwwType, sentenceAnno);
-                    List<AnnotationFS> coveringStwWordList = CasUtil.selectCovering(stwwType, sentenceAnno);
-                    List<AnnotationFS> coveredFrameList = CasUtil.selectCovered(frameType, sentenceAnno);
-                    List<AnnotationFS> coveringFrameList = CasUtil.selectCovering(frameType, sentenceAnno);
-                    List<AnnotationFS> coveredCabList = new ArrayList<AnnotationFS>();
+                //if (counter < 30) {
+                List<AnnotationFS> coveredDirList = CasUtil.selectCovered(dirType, sentenceAnno);
+                List<AnnotationFS> coveringDirList = CasUtil.selectCovering(dirType, sentenceAnno);
+                List<AnnotationFS> coveredStwWordList = CasUtil.selectCovered(stwwType, sentenceAnno);
+                List<AnnotationFS> coveringStwWordList = CasUtil.selectCovering(stwwType, sentenceAnno);
+                List<AnnotationFS> coveredFrameList = CasUtil.selectCovered(frameType, sentenceAnno);
+                List<AnnotationFS> coveringFrameList = CasUtil.selectCovering(frameType, sentenceAnno);
+                List<AnnotationFS> coveredCabList = new ArrayList<AnnotationFS>();
 
-                    boolean firstPersonFlag = false;
+               //boolean firstPersonFlag = false;
 
-                    if (coveredDirList.isEmpty() && coveringDirList.isEmpty() && coveredStwWordList.isEmpty()
-                            && coveringStwWordList.isEmpty() && coveredFrameList.isEmpty() && coveringFrameList.isEmpty()) {
-                        coveredCabList = CasUtil.selectCovered(tokenType, sentenceAnno);
+                if (coveredDirList.isEmpty() && coveringDirList.isEmpty() && coveredStwWordList.isEmpty()
+                        && coveringStwWordList.isEmpty() && coveredFrameList.isEmpty() && coveringFrameList.isEmpty()) {
+                    coveredCabList = CasUtil.selectCovered(tokenType, sentenceAnno);
 
 
-                        //if first person is in sentence than it is never a fI
-
-                        for (AnnotationFS cabAnno : coveredCabList) {
-                            if (cabAnno.getFeatureValueAsString(rfPosFeat).contains("PRO") && cabAnno.getFeatureValueAsString(rfPosFeat).contains("Pers")
-                                    && cabAnno.getFeatureValueAsString(rfPosFeat).contains("1.")) {
-                                firstPersonFlag = true;
-                                break;
-                            }
+                    /*
+                    //if first person is in sentence than it is never a fI
+                    for (AnnotationFS cabAnno : coveredCabList) {
+                        if (cabAnno.getFeatureValueAsString(lemmaFeat).equals("ich")) {
+                            firstPersonFlag = true;
+                            break;
                         }
+                    }
+                    */
 
-                        if (firstPersonFlag == false) {
-                            if (sentenceAnno.getCoveredText().length() > 1 && punctuationCharList.contains(sentenceAnno.getCoveredText().charAt(sentenceAnno.getCoveredText().length() - 1))) {
-                                if (!(CasUtil.selectPreceding(mainCas, dirType, sentenceAnno, 1).isEmpty() && CasUtil.selectFollowing(mainCas, dirType, sentenceAnno, 1).isEmpty())
+                    //if (firstPersonFlag == false) {
+                    if (sentenceAnno.getCoveredText().length() > 1 && punctuationCharList.contains(sentenceAnno.getCoveredText().charAt(sentenceAnno.getCoveredText().length() - 1))) {
+                        if (!(CasUtil.selectPreceding(mainCas, dirType, sentenceAnno, 1).isEmpty() && CasUtil.selectFollowing(mainCas, dirType, sentenceAnno, 1).isEmpty()
+                                && CasUtil.selectCovered(stwrType, sentenceAnno).isEmpty() && CasUtil.selectCovering(stwrType, sentenceAnno).isEmpty())
+                                && (!(CasUtil.selectPreceding(mainCas, frameType, sentenceAnno, 1).isEmpty() && CasUtil.selectFollowing(mainCas, frameType, sentenceAnno, 1).isEmpty()))) {
+                            AnnotationFS freeIndirectIndicatorAnno = mainCas.createAnnotation(stwrType, sentenceAnno.getBegin(), sentenceAnno.getEnd());
+                            freeIndirectIndicatorAnno.setFeatureValueFromString(mediumFeat, "thought");
+                            freeIndirectIndicatorAnno.setFeatureValueFromString(rTypeFeat, "ruleFreeIndirect");
+                            freeIndirectIndicatorAnno.setFeatureValueFromString(levelFeat, "1");
+                            freeIndirectIndicatorAnno.setFeatureValueFromString(nonFactFeat, "");
+                            freeIndirectIndicatorAnno.setFeatureValueFromString(borderFeat, "");
+                            freeIndirectIndicatorAnno.setFeatureValueFromString(pragFeat, "");
+                            freeIndirectIndicatorAnno.setFeatureValueFromString(metaphFeat, "");
+                            freeIndirectIndicatorAnno.setFeatureValueFromString(stwrFeat, sentenceAnno.getCoveredText());
+                            freeIndirectIndicatorAnno.setFeatureValueFromString(stwrNote, "");
+                            freeIndirectIndicatorAnno.setFeatureValueFromString(stwrIDFeat, String.valueOf(stwrID));
+                            System.out.println("1: ");
+                            System.out.println(freeIndirectIndicatorAnno.getCoveredText());
+                            stwrID++;
+                            mainCas.addFsToIndexes(freeIndirectIndicatorAnno);
+                                /*
+                                if (counter == 29) {
+                                    AnnotationFS markerAnno = mainCas.createAnnotation(markerType, sentenceAnno.getBegin(), sentenceAnno.getEnd());
+                                    mainCas.addFsToIndexes(markerAnno);
+                                }
+                                counter++;
+                                */
+                        }
+                    } else {
+                        cabIndicatorFlag = false;
+                        for (AnnotationFS cabAnno : coveredCabList) {
+                            if (cabIndicatorFlag == false && cabAnno.getFeatureValueAsString(cPosFeat).equals("ITJ") || cabAnno.getFeatureValueAsString(cPosFeat).equals("PTKANT") ||
+                                    deiktikaList.contains(cabAnno.getFeatureValueAsString(lemmaFeat)) || punctuationList.contains(cabAnno.getCoveredText()) || modalParticleList.contains(cabAnno.getFeatureValueAsString(lemmaFeat))
+                                    || (cabAnno.getFeatureValueAsString(lemmaFeat).equals("werden") /*&& cabAnno.getFeatureValueAsString(rfPosFeat).contains("VFIN.Aux.")*/ && cabAnno.getCoveredText().contains("ü"))
+                                    || ((cabAnno.getCoveredText().equals("Morgen") || cabAnno.getCoveredText().equals("morgen")) && cabAnno.getFeatureValueAsString(cPosFeat).contains("ADV"))) {
+                                if (!(CasUtil.selectPreceding(mainCas, dirType, sentenceAnno, 1).isEmpty() && CasUtil.selectFollowing(mainCas, dirType, sentenceAnno, 1).isEmpty()
+                                        && CasUtil.selectCovered(stwrType, sentenceAnno).isEmpty() && CasUtil.selectCovering(stwrType, sentenceAnno).isEmpty())
                                         && (!(CasUtil.selectPreceding(mainCas, frameType, sentenceAnno, 1).isEmpty() && CasUtil.selectFollowing(mainCas, frameType, sentenceAnno, 1).isEmpty()))) {
                                     AnnotationFS freeIndirectIndicatorAnno = mainCas.createAnnotation(stwrType, sentenceAnno.getBegin(), sentenceAnno.getEnd());
                                     freeIndirectIndicatorAnno.setFeatureValueFromString(mediumFeat, "thought");
@@ -291,51 +329,34 @@ public class MarkFreeIndirectIndicators {
                                     freeIndirectIndicatorAnno.setFeatureValueFromString(stwrFeat, sentenceAnno.getCoveredText());
                                     freeIndirectIndicatorAnno.setFeatureValueFromString(stwrNote, "");
                                     freeIndirectIndicatorAnno.setFeatureValueFromString(stwrIDFeat, String.valueOf(stwrID));
+                                    System.out.println("2: ");
+                                    System.out.println(freeIndirectIndicatorAnno.getCoveredText());
                                     mainCas.addFsToIndexes(freeIndirectIndicatorAnno);
-                                    if (counter == 29) {
-                                        AnnotationFS markerAnno = mainCas.createAnnotation(markerType, sentenceAnno.getBegin(), sentenceAnno.getEnd());
-                                        mainCas.addFsToIndexes(markerAnno);
-                                    }
-                                    counter++;
-                                }
-                            } else {
-                                for (AnnotationFS cabAnno : coveredCabList) {
-                                    if (cabAnno.getFeatureValueAsString(rfPosFeat).equals("ITJ") || cabAnno.getFeatureValueAsString(rfPosFeat).equals("PTKANT") ||
-                                            deiktikaList.contains(cabAnno.getFeatureValueAsString(lemmaFeat)) || punctuationList.contains(cabAnno.getCoveredText()) || modalParticleList.contains(cabAnno.getFeatureValueAsString(lemmaFeat))
-                                            || (cabAnno.getFeatureValueAsString(lemmaFeat).equals("werden") && cabAnno.getFeatureValueAsString(rfPosFeat).contains("VFIN.Aux.") && cabAnno.getCoveredText().contains("ü"))
-                                            || ((cabAnno.getCoveredText().equals("Morgen") || cabAnno.getCoveredText().equals("morgen")) && cabAnno.getFeatureValueAsString(rfPosFeat).contains("ADV"))) {
-                                        if (!(CasUtil.selectPreceding(mainCas, dirType, sentenceAnno, 1).isEmpty() && CasUtil.selectFollowing(mainCas, dirType, sentenceAnno, 1).isEmpty())
-                                                && (!(CasUtil.selectPreceding(mainCas, frameType, sentenceAnno, 1).isEmpty() && CasUtil.selectFollowing(mainCas, frameType, sentenceAnno, 1).isEmpty()))) {
-                                            AnnotationFS freeIndirectIndicatorAnno = mainCas.createAnnotation(stwrType, sentenceAnno.getBegin(), sentenceAnno.getEnd());
-                                            freeIndirectIndicatorAnno.setFeatureValueFromString(mediumFeat, "thought");
-                                            freeIndirectIndicatorAnno.setFeatureValueFromString(rTypeFeat, "ruleFreeIndirect");
-                                            freeIndirectIndicatorAnno.setFeatureValueFromString(levelFeat, "1");
-                                            freeIndirectIndicatorAnno.setFeatureValueFromString(nonFactFeat, "");
-                                            freeIndirectIndicatorAnno.setFeatureValueFromString(borderFeat, "");
-                                            freeIndirectIndicatorAnno.setFeatureValueFromString(pragFeat, "");
-                                            freeIndirectIndicatorAnno.setFeatureValueFromString(metaphFeat, "");
-                                            freeIndirectIndicatorAnno.setFeatureValueFromString(stwrFeat, sentenceAnno.getCoveredText());
-                                            freeIndirectIndicatorAnno.setFeatureValueFromString(stwrNote, "");
-                                            freeIndirectIndicatorAnno.setFeatureValueFromString(stwrIDFeat, String.valueOf(stwrID));
-                                            mainCas.addFsToIndexes(freeIndirectIndicatorAnno);
-                                            stwrID++;
-                                            if (counter == 29) {
-                                                AnnotationFS markerAnno = mainCas.createAnnotation(markerType, sentenceAnno.getBegin(), sentenceAnno.getEnd());
-                                                mainCas.addFsToIndexes(markerAnno);
-                                            }
-                                            counter++;
-                                            break;
+                                    stwrID++;
+                                    cabIndicatorFlag = true;
+
+                                        /*
+                                        if (counter == 29) {
+                                            AnnotationFS markerAnno = mainCas.createAnnotation(markerType, sentenceAnno.getBegin(), sentenceAnno.getEnd());
+                                            mainCas.addFsToIndexes(markerAnno);
                                         }
-                                    }
+                                        counter++;
+                                        break;
+                                        */
                                 }
+                            } else if (cabIndicatorFlag == true){
+                                break;
                             }
                         }
                     }
-
                 }
             }
-        }
 
+            //}
+        }
+        //}
+
+        /*
         ArrayList<AnnotationFS> ruleFreeIndList = new ArrayList<>();
         AnnotationIndex<AnnotationFS> annoInd = mainCas.getAnnotationIndex(stwrType);
         FSIterator<AnnotationFS> itera = annoInd.iterator();
@@ -347,6 +368,7 @@ public class MarkFreeIndirectIndicators {
                     (ruleFreeIndList.size() - 1).getBegin(), ruleFreeIndList.get(ruleFreeIndList.size() - 1).getEnd());
             mainCas.addFsToIndexes(markerAnno);
         }
+        */
 
 
         /*
