@@ -58,6 +58,14 @@ public class RemoveFIOverlapDirect {
                     System.out.println(freeIndirectAnno.getCoveredText());
                     mainCas.removeFsFromIndexes(freeIndirectAnno);
                 }
+                if (ruleDirectAnno.getBegin() <= fiBegin && ruleDirectAnno.getEnd() >= fiEnd){
+                    System.out.println(freeIndirectAnno.getCoveredText());
+                    mainCas.removeFsFromIndexes(freeIndirectAnno);
+                }
+                if (ruleDirectAnno.getBegin() <= fiBegin && ruleDirectAnno.getEnd() >= fiBegin){
+                    System.out.println(freeIndirectAnno.getCoveredText());
+                    mainCas.removeFsFromIndexes(freeIndirectAnno);
+                }
             }
         }
         return mainCas;
